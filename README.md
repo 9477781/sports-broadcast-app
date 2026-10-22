@@ -19,6 +19,8 @@ node scripts/import-broadcast-sheet.mjs
 
 本番は既存GitHubリポジトリ `9477781/sports-broadcast-app` の `main` と、Vercelの同名プロジェクトを使用します。`vercel.json` でGit連携の自動デプロイを有効にし、Viteの出力 `dist` を配信します。GASが `main` の `public/data/broadcast.json` を更新すると、GitHub連携による本番ビルド・デプロイの完了後に新JSONが配信されます。即時のファイル転送ではなく、ビルド時間が必要です。
 
+本番URL: [スポーツ放映情報](https://sports-congestion-app.vercel.app/)。2026-10-22にUIと同梱JSONを `main` へ反映し、Git連携による自動本番デプロイの `READY` を確認しました（初回反映commit `40b1763`、deployment `dpl_GCh85auys5YG1gTzZXPNPYfjobGv`）。本番JSONのHTTP 200・`Cache-Control: no-store`、PC/スマホ表示、カード検索、言語切替を確認済みです。
+
 アプリはJSONを初回表示・再試行時に加え、表示中は1分ごと、タブ復帰時にも再取得します。取得時はブラウザーキャッシュを使わず、Vercel側も当該JSONに `Cache-Control: no-store` を設定します。更新時は言語・検索条件を維持し、一時的な取得エラーや不正JSONでは最後に取得できた正常な表示を保持します。初回の取得失敗時は再試行ボタンを表示します。
 
 現在の同梱JSONは上記snapshotです。スプレッドシート側GASの修正・認可・トークン設定・実送信は別作業で、まだ実施していません。GASから送るJSONは以下のfeed形式と出力pathに合わせてください。アプリのビルド・表示にAPIキーは不要です。

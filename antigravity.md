@@ -44,6 +44,8 @@ Vercelも既存プロジェクトID `prj_9i3JcNWMxLQwNlQbAnAnz6dcDcIe`（チー�
 
 2026-10-22にユーザーが現行UI・同梱放映JSONのGitHub反映と本番デプロイを許可しました。`vercel.json` は `main` 更新時のGit自動デプロイとViteの `dist` 配信を設定し、JSONのHTTPキャッシュを無効にします。GASが `main/public/data/broadcast.json` を更新すると、本番デプロイ完了後、開いている画面も1分以内の再取得で反映する構成です。外部GASの変更・認証・トークン設定・送信は今回の本番反映に含めません。
 
+初回本番反映はcommit `40b1763c8bbb5e32d7035503604e53fd25200495`、Vercel deployment `dpl_GCh85auys5YG1gTzZXPNPYfjobGv`（Git/mainからの自動作成、READY）で完了しました。本番URLは `https://sports-congestion-app.vercel.app/`。HTTP 200、115店舗のfeedと `Cache-Control: no-store`、画面上の106店舗・放映あり742件、カード検索、日本語/英語切替、390pxのスマホ表示を確認済みです。型チェック・本番ビルド・GAS同期mock検証19件・JSON自動更新の画面検証6項目も成功しています。次の作業はシート側GASの放映形式への移行・安全なプロパティ設定・実送信確認です。GASから送る先は `9477781/sports-broadcast-app` の `main/public/data/broadcast.json` です。
+
 `GAS_BROADCAST.gs` は新feed向けのreview可能なソースです。Apps Scriptへdeploy/実行はしておらず、Script Propertiesも未設定、自動triggerも作成していません。
 
 - `previewBroadcastFeed()` はシートを読んでfeedを生成し、件数集計のみ返す手動dry runです。
