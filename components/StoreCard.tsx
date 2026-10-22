@@ -1,155 +1,63 @@
-
-import React from 'react';
-import { StoreData } from '../types';
-import { STATUS_MAP, parseStatus } from '../constants';
+import React from "react";
+import { getMatchKey } from "../services/broadcastData";
+import { getMatchDateLabel, getMatchPresentation, getSportPresentation } from "../services/broadcastPresentation";
+import type { Language, StoreData } from "../types";
 
 interface StoreCardProps {
   data: StoreData;
-  language: 'ja' | 'en';
+  language: Language;
 }
 
 const StoreCard: React.FC<StoreCardProps> = ({ data, language }) => {
-  const { matches } = data;
-
-  const getDayColorClass = (dateStr: string) => {
-    if (dateStr.includes('(Sat)') || dateStr.includes('(土)')) return 'text-blue-600';
-    if (dateStr.includes('(Sun)') || dateStr.includes('(日)')) return 'text-red-600';
-    return 'text-slate-600';
-  };
-
-  const getStatusInfo = (rawStatus: string) => {
-    const statusKey = parseStatus(rawStatus);
-    return {
-      key: statusKey,
-      config: STATUS_MAP[statusKey]
-    };
-  };
-
-  // 代表的なステータスで背景色を決める（テーブル席優先）
-  const getRowBgClass = (tableStatus: string) => {
-    const key = parseStatus(tableStatus);
-    switch (key) {
-      case 'available': return 'bg-emerald-50/30';
-      case 'few': return 'bg-orange-50/30';
-      case 'full': return 'bg-rose-50/30';
-      default: return 'bg-white';
-    }
-  };
+  const storeName = language === "ja" ? data.name : data.name_en;
 
   return (
-    <div className="bg-white rounded-[16px] shadow-sm border border-slate-200 overflow-hidden mb-5">
-      {/* Card Header */}
-      <div className="p-4 flex flex-col gap-2">
-        <div className="flex items-start">
-          <span className="px-3 py-1 bg-slate-400 text-white text-[11px] font-bold rounded-md">
-            {language === 'ja' ? `${data.prefecture} ${data.city}` : data.prefecture_en || data.prefecture}
+    <article className="mb-5 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+      <header className="flex flex-col gap-2 p-4">
+        <div>
+          <span className="rounded-md bg-slate-400 px-3 py-1 text-[11px] font-bold text-white">
+            {language === "ja" ? `${data.prefecture} ${data.city}` : data.prefecture_en}
           </span>
         </div>
-        <h3 className="text-[20px] font-black text-slate-800 tracking-tight">
-          <a href={data.url} target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors">
-            {language === 'ja' ? data.name : data.name_en}
-          </a>
-        </h3>
-      </div>
+        <h2 className="text-xl font-black tracking-tight text-slate-800">
+          {data.url ? (
+            <a href={data.url} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-blue-500">
+              {storeName}
+            </a>
+          ) : storeName}
+        </h2>
+      </header>
 
-      {/* Events List */}
       <div className="border-t border-slate-100">
-        {matches && matches.map((match, idx) => {
-          const tableStatus = getStatusInfo(match.status.table);
-          const standingStatus = getStatusInfo(match.status.standing);
-          
-          const dateObj = new Date(match.date);
-          const dayMap = language === 'ja' ? ['日', '月', '火', '水', '木', '金', '土'] : ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-          const dayStr = dayMap[dateObj.getDay()];
-          const formattedDate = `${dateObj.getMonth() + 1}/${dateObj.getDate()}(${dayStr})`;
-
-          // スタンディングエリアが「未使用」または「未実施」の場合は表示しない
-          const isStandingHidden = match.status.standing.includes("未使用") || standingStatus.key === "none";
+        {data.matches.map(match => {
+          const { title, time } = getMatchPresentation(match, language);
+          const sport = getSportPresentation(match.sport, language);
+          const dayOfWeek = new Date(`${match.date}T00:00:00Z`).getUTCDay();
+          const isSaturday = dayOfWeek === 6;
+          const isSunday = dayOfWeek === 0;
+          const dateColor = isSaturday ? "text-blue-600" : isSunday ? "text-red-600" : "text-slate-600";
 
           return (
-            <div key={`${match.date}-${match.match}`} className={`flex flex-col px-4 py-4 border-b border-slate-100 last:border-b-0 ${getRowBgClass(match.status.table)}`}>
-              {/* Top Row: Date and Match Info */}
-              <div className="flex items-start">
-                {/* Date */}
-                <div className={`w-18 shrink-0 text-[15px] font-bold mt-1 ${getDayColorClass(`(${dayStr})`)}`}>
-                  {formattedDate}
-                </div>
-
-                {/* Match Up */}
-                <div className="flex-grow flex flex-col gap-1 px-2 overflow-hidden">
-                  <div className="flex items-center gap-1.5">
-                    <span className="shrink-0 scale-90 px-2 py-0.5 bg-[#1e293b] text-white text-[9px] font-black rounded tracking-tighter uppercase">
-                      {match.sport}
-                    </span>
-                  </div>
+            <section key={getMatchKey(match)} className="border-b border-slate-100 px-4 py-3 last:border-b-0">
+              <div className="flex items-start gap-2">
+                <div className={`w-20 shrink-0 pt-1 text-sm font-bold ${dateColor}`}>{getMatchDateLabel(match, language)}</div>
+                <div className="min-w-0 flex-grow">
+                  <span className={`mb-1 inline-block rounded border px-2 py-0.5 text-[10px] font-bold ${sport.badgeClass}`}>
+                    {sport.label}
+                  </span>
                   <div className="flex flex-col">
-                    {(() => {
-                      const timeRegex = /(.*)[(（]([0-9:：]+)[)）]\s*$/;
-                      const parts = match.match.match(timeRegex);
-                      const name = parts ? parts[1].trim() : match.match;
-                      const time = parts ? parts[2].trim() : null;
-
-                      if (language === 'ja') {
-                        return (
-                          <>
-                            <span className="text-[13px] font-bold text-slate-700 leading-tight">
-                              {name}
-                            </span>
-                            {time && <span className="text-[12px] font-black text-orange-600 my-0.5">{time}</span>}
-                            <span className="text-[11px] font-medium text-slate-500 leading-tight">
-                              {match.match_en}
-                            </span>
-                          </>
-                        );
-                      } else {
-                        return (
-                          <>
-                            <span className="text-[13px] font-bold text-slate-700 leading-tight">
-                              {match.match_en}
-                            </span>
-                            {time && <span className="text-[12px] font-black text-orange-600 mt-0.5">{time}</span>}
-                          </>
-                        );
-                      }
-                    })()}
+                    <span className="text-[13px] font-bold leading-tight text-slate-700">
+                      {title}
+                    </span>
+                    {time && <span className="my-0.5 text-xs font-black text-orange-600">{time}</span>}
                   </div>
                 </div>
               </div>
-
-              {/* Bottom Row: Status Indicator (One line underneath) */}
-              <div className="w-full mt-3 pt-2 border-t border-slate-50 flex items-center justify-start gap-4 text-[10px] font-black overflow-hidden min-h-[40px]">
-                {tableStatus.key === "none" ? (
-                  <div className="w-full flex items-center justify-center text-slate-300 py-1 text-sm tracking-widest font-bold">
-                    {language === 'ja' ? '未実施' : 'NONE'}
-                  </div>
-                ) : (
-                  <>
-                    {/* Table */}
-                    <div className={`flex items-center gap-1.5 ${tableStatus.config.color.split(' ')[0]}`}>
-                      <span className="text-slate-400 font-bold">{language === 'ja' ? 'テーブル' : 'Table'}</span>
-                      <span className="text-xl leading-none shrink-0">{tableStatus.config.icon}</span>
-                      <span className="whitespace-nowrap">
-                        {language === 'ja' ? tableStatus.config.label : tableStatus.key.charAt(0).toUpperCase() + tableStatus.key.slice(1)}
-                      </span>
-                    </div>
-                    {/* Standing Area */}
-                    {!isStandingHidden && (
-                      <div className={`flex items-center gap-1.5 ${standingStatus.config.color.split(' ')[0]}`}>
-                        <span className="text-slate-400 font-bold">{language === 'ja' ? 'スタンディングエリア' : 'Area'}</span>
-                        <span className="text-xl leading-none shrink-0">{standingStatus.config.icon}</span>
-                        <span className="whitespace-nowrap">
-                          {language === 'ja' ? standingStatus.config.label : standingStatus.key.charAt(0).toUpperCase() + standingStatus.key.slice(1)}
-                        </span>
-                      </div>
-                    )}
-                  </>
-                )}
-              </div>
-            </div>
+            </section>
           );
         })}
       </div>
-    </div>
+    </article>
   );
 };
 

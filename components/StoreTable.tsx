@@ -1,251 +1,126 @@
-
-import React, { useMemo } from "react";
-import { StoreData, ReservationStatus } from "../types";
-import { STATUS_MAP, parseStatus } from "../constants";
+import React, { useMemo, useRef } from "react";
+import { BROADCAST_STATUS_CONFIG } from "../constants";
+import { getMatchKey } from "../services/broadcastData";
+import { getMatchDateLabel, getMatchPresentation, getSportPresentation } from "../services/broadcastPresentation";
+import type { Language, SportsMatch, StoreData } from "../types";
 
 interface StoreTableProps {
   data: StoreData[];
-  language: "ja" | "en";
+  language: Language;
+}
+
+function getMatchSortKey(match: SportsMatch): string {
+  const timeMatch = /[(（]([0-9:：]+)[)）]\s*$/.exec(match.match);
+  const time = timeMatch ? timeMatch[1].replace("：", ":").padStart(5, "0") : "99:99";
+  return `${match.date} ${time}`;
 }
 
 const StoreTable: React.FC<StoreTableProps> = ({ data, language }) => {
-  const headerRef = React.useRef<HTMLDivElement>(null);
-  const bodyRef = React.useRef<HTMLDivElement>(null);
+  const headerRef = useRef<HTMLDivElement>(null);
+  const bodyRef = useRef<HTMLDivElement>(null);
 
-  if (!data || data.length === 0) return null;
-
-  // 横スクロールの同期
-  const handleBodyScroll = (e: React.UIEvent<HTMLDivElement>) => {
-    if (headerRef.current) {
-      headerRef.current.scrollLeft = e.currentTarget.scrollLeft;
-    }
-  };
-
-  // 表示すべき「列（イベント）」のユニークなリストを作成（日付と対戦カードで識別）
-  const visibleMatchKeys = useMemo(() => {
-    const keys = new Set<string>();
-    data.forEach(store => {
-      store.matches.forEach(m => {
-        keys.add(`${m.date}_${m.match}`);
-      });
-    });
-    return Array.from(keys);
-  }, [data]);
-
-  // 列ヘッダー用のデータを構築
   const headerMatches = useMemo(() => {
-    const matches: any[] = [];
-    const seen = new Set<string>();
-    
-    // ヘッダー用の並び替え文字列生成関数
-    const getSortKey = (m: any) => {
-      const timeRegex = /[(（]([0-9:：]+)[)）]\s*$/;
-      const parts = m.match.match(timeRegex);
-      const time = parts ? parts[1].replace('：', ':').padStart(5, '0') : "99:99";
-      return `${m.date} ${time}`;
-    };
-
+    const matchesByKey = new Map<string, SportsMatch>();
     data.forEach(store => {
-      store.matches.forEach(m => {
-        const key = `${m.date}_${m.match}`;
-        if (!seen.has(key)) {
-          matches.push(m);
-          seen.add(key);
-        }
-      });
+      store.matches.forEach(match => matchesByKey.set(getMatchKey(match), match));
     });
-
-    // 日付と時間の両方でソート
-    return matches.sort((a, b) => getSortKey(a).localeCompare(getSortKey(b)));
+    return Array.from(matchesByKey.values()).sort((left, right) => getMatchSortKey(left).localeCompare(getMatchSortKey(right)));
   }, [data]);
 
-  const getEventBadgeClass = (sport: string) => {
-    const name = sport.toLowerCase();
-    if (name.includes("soccer") || name.includes("サッカー")) {
-      return "bg-emerald-600 text-white border-emerald-400";
-    }
-    if (name.includes("baseball") || name.includes("野球")) {
-      return "bg-blue-600 text-white border-blue-400";
-    }
-    if (name.includes("rugby") || name.includes("ラグビー")) {
-      return "bg-rose-600 text-white border-rose-400";
-    }
-    if (name.includes("basket") || name.includes("バスケ") || name.includes("bリーグ")) {
-      return "bg-orange-600 text-white border-orange-400";
-    }
-    return "bg-slate-600 text-slate-100 border-slate-500";
+  if (data.length === 0) return null;
+
+  const handleBodyScroll = (event: React.UIEvent<HTMLDivElement>) => {
+    if (headerRef.current) headerRef.current.scrollLeft = event.currentTarget.scrollLeft;
   };
 
-  const getStatusItem = (type: string, rawStatus: string) => {
-    const statusKey = parseStatus(rawStatus);
-    const config = STATUS_MAP[statusKey];
-    
-    const textColorClass =
-      statusKey === "available"
-        ? "text-emerald-600"
-        : statusKey === "few"
-        ? "text-orange-500"
-        : statusKey === "full"
-        ? "text-rose-500"
-        : "text-slate-300";
-
-    const typeLabel = type === "table" 
-      ? (language === "ja" ? "テーブル" : "Table") 
-      : (language === "ja" ? "スタンディングエリア" : "Standing Area");
-
-    return (
-      <div className={`flex items-center gap-2 font-black ${textColorClass} shrink-0`}>
-        <span className="text-[10px] text-slate-400 text-left shrink-0 leading-tight">{typeLabel}：</span>
-        <span className="text-3xl leading-none shrink-0">{config.icon}</span>
-        <span className="text-[16px] whitespace-nowrap">
-          {language === "ja" ? config.label : statusKey.charAt(0).toUpperCase() + statusKey.slice(1)}
-        </span>
-      </div>
-    );
-  };
-
-  const formatDate = (dateStr: string) => {
-    const date = new Date(dateStr);
-    const m = date.getMonth() + 1;
-    const d = date.getDate();
-    const dayMapJa = ["日", "月", "火", "水", "木", "金", "土"];
-    const dayMapEn = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-    
-    if (language === "ja") {
-      return `${m}月${d}日(${dayMapJa[date.getDay()]})`;
-    } else {
-      return `${m}/${d} (${dayMapEn[date.getDay()]})`;
-    }
-  };
-
-  const tableWidth = headerMatches.length > 0 ? `calc(140px + 240px + ${headerMatches.length} * 300px)` : '100%';
+  const tableWidth = headerMatches.length > 0
+    ? `calc(140px + 240px + ${headerMatches.length} * 300px)`
+    : "100%";
 
   return (
-    <div className="rounded-xl border border-slate-200 shadow-sm overflow-hidden bg-white flex flex-col relative">
-      {/* 1. Header Portion (Horizontal scroll only, synced with body) */}
-      <div 
-        ref={headerRef}
-        className="overflow-hidden bg-[#f97316]"
-      >
-        <table 
-          className="border-separate border-spacing-0 table-fixed" 
-          style={{ width: tableWidth }}
-        >
+    <div className="relative flex flex-col overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
+      <div ref={headerRef} className="overflow-hidden bg-orange-500">
+        <table className="table-fixed border-separate border-spacing-0" style={{ width: tableWidth }}>
           <thead>
             <tr className="h-[210px]">
-              <th className="bg-[#f97316] text-white text-[15px] font-bold p-0 border-r border-b border-white/20 w-[140px] min-w-[140px] max-w-[140px] sticky left-0 z-40">
-                <div className="h-full flex items-center justify-center p-4">
-                  {language === "ja" ? "エリア" : "Area"}
-                </div>
+              <th scope="col" className="sticky left-0 z-40 w-[140px] min-w-[140px] max-w-[140px] border-b border-r border-white/20 bg-orange-500 p-0 text-[15px] font-bold text-white">
+                <div className="flex h-full items-center justify-center p-4">{language === "ja" ? "エリア" : "Area"}</div>
               </th>
-              <th className="bg-[#f97316] text-white text-[15px] font-bold p-0 border-r border-b border-white/20 w-[240px] min-w-[240px] max-w-[240px] sticky left-[140px] z-40">
-                <div className="h-full flex items-center justify-center p-4">
-                  {language === "ja" ? "店名" : "Shop Name"}
-                </div>
+              <th scope="col" className="sticky left-[140px] z-40 w-[240px] min-w-[240px] max-w-[240px] border-b border-r border-white/20 bg-orange-500 p-0 text-[15px] font-bold text-white">
+                <div className="flex h-full items-center justify-center p-4">{language === "ja" ? "店名" : "Store"}</div>
               </th>
-              {headerMatches.map((match, idx) => (
-                <th key={idx} className="bg-slate-800 text-white p-0 border-r border-b border-white/10 w-[300px] min-w-[300px] max-w-[300px]">
-                  <div className="flex flex-col h-full overflow-hidden">
-                    <div className={`p-3 h-[54px] min-h-[54px] flex items-center justify-center text-base font-bold border-b border-white/10 ${
-                      match.date.includes("Sun") || match.date.includes("Sat") || formatDate(match.date).includes("日") || formatDate(match.date).includes("土")
-                        ? "bg-rose-600" : "bg-slate-700"
-                    }`}>
-                      {formatDate(match.date)}
-                    </div>
-                    <div className="p-2 h-[42px] flex items-center justify-center bg-slate-800 border-b border-white/10">
-                      <span className={`text-sm px-3 py-1 rounded-full border font-black uppercase tracking-wider ${getEventBadgeClass(match.sport)}`}>
-                        {match.sport}
-                      </span>
-                    </div>
-                    <div className="p-4 text-slate-100 flex-1 flex flex-col items-center justify-center leading-tight text-center min-h-[100px]">
-                      {(() => {
-                        const timeRegex = /(.*)[(（]([0-9:：]+)[)）]\s*$/;
-                        const parts = match.match.match(timeRegex);
-                        const name = parts ? parts[1].trim() : match.match;
-                        const time = parts ? parts[2].trim() : null;
+              {headerMatches.map(match => {
+                const { title, time } = getMatchPresentation(match, language);
+                const sport = getSportPresentation(match.sport, language);
+                const dayOfWeek = new Date(`${match.date}T00:00:00Z`).getUTCDay();
+                const isWeekend = dayOfWeek === 0 || dayOfWeek === 6;
 
-                        if (language === "ja") {
-                          return (
-                            <>
-                              <span className="block text-[16px] font-black">{name}</span>
-                              {time && <span className="block text-orange-400 text-[14px] font-black mt-1">{time}</span>}
-                              <span className="block text-[10px] opacity-60 font-bold mt-1 uppercase tracking-widest line-clamp-2">{match.match_en}</span>
-                            </>
-                          );
-                        } else {
-                          return (
-                            <>
-                              <span className="block text-[17px] font-black">{match.match_en}</span>
-                              {time && <span className="block text-orange-400 text-[14px] font-black mt-1">{time}</span>}
-                            </>
-                          );
-                        }
-                      })()}
+                return (
+                  <th key={getMatchKey(match)} scope="col" className="w-[300px] min-w-[300px] max-w-[300px] border-b border-r border-white/10 bg-slate-800 p-0 text-white">
+                    <div className="flex h-full flex-col overflow-hidden">
+                      <div className={`flex h-[54px] min-h-[54px] items-center justify-center border-b border-white/10 p-3 text-base font-bold ${isWeekend ? "bg-rose-600" : "bg-slate-700"}`}>
+                        {getMatchDateLabel(match, language)}
+                      </div>
+                      <div className="flex h-[42px] items-center justify-center border-b border-white/10 bg-slate-800 p-2">
+                        <span className={`rounded-full border px-3 py-1 text-sm font-bold ${sport.badgeClass}`}>
+                          {sport.label}
+                        </span>
+                      </div>
+                      <div className="flex min-h-[100px] flex-1 flex-col items-center justify-center p-4 text-center leading-tight text-slate-100">
+                        <span className="text-base font-black">{title}</span>
+                        {time && <span className="mt-1 text-sm font-black text-orange-400">{time}</span>}
+                      </div>
                     </div>
-                  </div>
-                </th>
-              ))}
+                  </th>
+                );
+              })}
             </tr>
           </thead>
         </table>
       </div>
 
-      {/* 2. Body Portion (Vertical AND Horizontal scroll) */}
-      <div 
-        ref={bodyRef}
-        onScroll={handleBodyScroll}
-        className="overflow-auto max-h-[700px] custom-scrollbar bg-white"
-      >
-        <table 
-          className="border-separate border-spacing-0 table-fixed bg-white"
-          style={{ width: tableWidth }}
-        >
+      <div ref={bodyRef} onScroll={handleBodyScroll} className="custom-scrollbar max-h-[700px] overflow-auto bg-white">
+        <table className="table-fixed border-separate border-spacing-0 bg-white" style={{ width: tableWidth }}>
           <tbody>
-            {data.map((item, idx) => (
-              <tr 
-                key={item.id} 
-                className={`group transition-colors ${idx % 2 === 0 ? "bg-white" : "bg-slate-50/50"} hover:bg-orange-50/30`}
-              >
-                <td className={`p-5 text-[15px] font-bold text-slate-500 border-r border-b border-slate-200 sticky left-0 z-20 w-[140px] min-w-[140px] max-w-[140px] overflow-hidden ${idx % 2 === 0 ? "bg-white" : "bg-[#fcfdfe]"}`}>
-                  {language === "ja" ? `${item.prefecture} ${item.city}` : `${item.prefecture_en.split(',')[0]}`}
-                </td>
-                <td className={`p-5 border-r border-b border-slate-200 sticky left-[140px] z-20 w-[240px] min-w-[240px] max-w-[240px] overflow-hidden ${idx % 2 === 0 ? "bg-white" : "bg-[#fcfdfe]"}`}>
-                  <a
-                    href={item.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-lg font-black text-slate-900 group-hover:text-orange-600 transition-colors inline-block leading-tight"
-                  >
-                    {language === "ja" ? item.name : item.name_en}
-                  </a>
-                </td>
-                {headerMatches.map((hMatch, mIdx) => {
-                  const match = item.matches.find(m => m.date === hMatch.date && m.match === hMatch.match);
-                  
-                  if (!match) {
-                    return <td key={mIdx} className={`p-3 border-r border-b border-slate-200 bg-slate-50/30 w-[300px] min-w-[300px] max-w-[300px] ${idx % 2 === 0 ? "bg-white" : "bg-[#fcfdfe]"}`}></td>;
-                  }
+            {data.map((store, rowIndex) => {
+              const matchesByKey = new Map<string, SportsMatch>(store.matches.map(match => [getMatchKey(match), match]));
+              const rowColor = rowIndex % 2 === 0 ? "bg-white" : "bg-[#fcfdfe]";
 
-                  const isTableNone = parseStatus(match.status.table) === "none";
-                  const isStandingHidden = match.status.standing.includes("未使用") || parseStatus(match.status.standing) === "none";
-
-                  return (
-                    <td key={mIdx} className={`p-3 border-r border-b border-slate-200 align-middle w-[300px] min-w-[300px] max-w-[300px] ${idx % 2 === 0 ? "bg-white" : "bg-[#fcfdfe]"}`}>
-                      {isTableNone ? (
-                        <div className="flex items-center justify-center text-slate-300 font-black text-lg py-2">
-                          {language === "ja" ? "未実施" : "None"}
-                        </div>
-                      ) : (
-                        <div className="flex flex-row flex-wrap items-center justify-center gap-x-6 gap-y-2">
-                          {getStatusItem("table", match.status.table)}
-                          {!isStandingHidden && getStatusItem("standing", match.status.standing)}
-                        </div>
-                      )}
-                    </td>
-                  );
-                })}
-              </tr>
-            ))}
+              return (
+                <tr key={store.id} className={`group transition-colors ${rowColor} hover:bg-orange-50/30`}>
+                  <th scope="row" className={`sticky left-0 z-20 w-[140px] min-w-[140px] max-w-[140px] overflow-hidden border-b border-r border-slate-200 p-5 text-left text-[15px] font-bold text-slate-500 ${rowColor}`}>
+                    {language === "ja" ? `${store.prefecture} ${store.city}` : store.prefecture_en}
+                  </th>
+                  <td className={`sticky left-[140px] z-20 w-[240px] min-w-[240px] max-w-[240px] overflow-hidden border-b border-r border-slate-200 p-5 ${rowColor}`}>
+                    {store.url ? (
+                      <a href={store.url} target="_blank" rel="noopener noreferrer" className="inline-block text-lg font-black leading-tight text-slate-900 transition-colors group-hover:text-orange-600">
+                        {language === "ja" ? store.name : store.name_en}
+                      </a>
+                    ) : (
+                      <span className="text-lg font-black leading-tight text-slate-900">{language === "ja" ? store.name : store.name_en}</span>
+                    )}
+                  </td>
+                  {headerMatches.map(matchHeader => {
+                    const match = matchesByKey.get(getMatchKey(matchHeader));
+                    if (!match || match.broadcastStatus !== "showing") {
+                      return (
+                        <td key={getMatchKey(matchHeader)} aria-label={language === "ja" ? "放映予定の記載なし" : "No broadcast listed"} className={`w-[300px] min-w-[300px] max-w-[300px] border-b border-r border-slate-200 p-3 text-center align-middle text-sm text-slate-400 ${rowColor}`}>
+                          —
+                        </td>
+                      );
+                    }
+                    const status = BROADCAST_STATUS_CONFIG.showing;
+                    return (
+                      <td key={getMatchKey(matchHeader)} className={`w-[300px] min-w-[300px] max-w-[300px] border-b border-r border-slate-200 p-3 text-center align-middle ${rowColor}`}>
+                        <span className={`inline-flex items-center rounded-full border px-3 py-1.5 text-sm font-bold ${status.badgeClass}`}>
+                          {status.label[language]}
+                        </span>
+                      </td>
+                    );
+                  })}
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </div>

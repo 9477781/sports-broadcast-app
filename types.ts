@@ -1,18 +1,6 @@
-
-export type ReservationStatus = 'available' | 'few' | 'full' | 'none';
-
-export interface StatusConfig {
-  label: string;
-  icon: string;
-  color: string;
-  bg: string;
-  border: string;
-}
-
-export interface MatchStatus {
-  table: string;
-  standing: string;
-}
+export type BroadcastStatus = "showing" | "not_showing" | "unconfirmed";
+export type Language = "ja" | "en";
+export type FilterValue = "all" | BroadcastStatus;
 
 export interface SportsMatch {
   date: string;
@@ -20,19 +8,7 @@ export interface SportsMatch {
   sport: string;
   match: string;
   match_en: string;
-  status: MatchStatus;
-}
-
-export interface StoreInfo {
-  id: string;
-  url: string;
-  name: string;
-  name_en: string;
-  address: string;
-  region: string;
-  prefecture: string;
-  prefecture_en: string;
-  city: string;
+  broadcastStatus: BroadcastStatus;
 }
 
 export interface StoreData {
@@ -46,10 +22,14 @@ export interface StoreData {
   prefecture_en: string;
   city: string;
   matches: SportsMatch[];
-  updatedAt?: string; // This might be moved to top level in App.tsx
 }
 
 export interface ApiResponse {
-  updatedAt: string;
+  updatedAt: string | null;
   data: StoreData[];
+}
+
+export interface FilterOption {
+  value: string;
+  label: string;
 }

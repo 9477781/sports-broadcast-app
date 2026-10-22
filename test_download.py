@@ -1,7 +1,7 @@
 import urllib.request
 import os
 
-url = "https://raw.githubusercontent.com/9477781/sports-reservation-app/main/public/data/status.json"
+url = "https://raw.githubusercontent.com/9477781/sports-broadcast-app/main/public/data/status.json"
 try:
     with urllib.request.urlopen(url) as response:
         content = response.read()

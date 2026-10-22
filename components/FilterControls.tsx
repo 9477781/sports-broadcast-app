@@ -1,104 +1,68 @@
+import React, { useEffect, useId, useRef, useState } from "react";
+import { formatBroadcastDate, type BroadcastDateWindow } from "../services/broadcastVisibility";
+import { geoDisplayLabel } from "../services/broadcastSearch";
+import type { FilterOption, Language } from "../types";
 
-import React, { useState, useRef, useEffect } from "react";
-import { STATUS_MAP } from "../constants";
-import { ReservationStatus } from "../types";
-
-interface FilterControlsProps {
-  language: "ja" | "en";
-  searchQuery: string;
-  onSearchChange: (val: string) => void;
-  selectedRegion: string[];
-  onRegionChange: (val: string[]) => void;
-  selectedPrefecture: string[];
-  onPrefectureChange: (val: string[]) => void;
-  selectedCity: string[];
-  onCityChange: (val: string[]) => void;
-  regions: string[];
-  prefectures: string[];
-  cities: string[];
-  selectedStoreName: string[];
-  onStoreNameChange: (val: string[]) => void;
-  storeNames: string[];
-  selectedDate: string[];
-  onDateChange: (val: string[]) => void;
-  dates: string[];
-  selectedSport: string[];
-  onSportChange: (val: string[]) => void;
-  sports: string[];
-  selectedMatch: string[];
-  onMatchChange: (val: string[]) => void;
-  matches: string[];
-  selectedTableStatus: ReservationStatus | "ALL";
-  onTableStatusChange: (status: ReservationStatus | "ALL") => void;
-  selectedStandingStatus: ReservationStatus | "ALL";
-  onStandingStatusChange: (status: ReservationStatus | "ALL") => void;
-  onReset: () => void;
+interface MultiSelectProps {
+  language: Language;
+  label: string;
+  options: FilterOption[];
+  selectedValues: string[];
+  onChange: (values: string[]) => void;
 }
 
-const MultiSelect: React.FC<{
-  label: string;
-  options: string[];
-  selectedValues: string[];
-  onChange: (vals: string[]) => void;
-  formatOption?: (val: string) => string;
-  disabled?: boolean;
-}> = ({ label, options, selectedValues, onChange, formatOption, disabled }) => {
+const MultiSelect: React.FC<MultiSelectProps> = ({ language, label, options, selectedValues, onChange }) => {
   const [isOpen, setIsOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
+  const listId = useId();
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (containerRef.current && !containerRef.current.contains(event.target as Node)) {
-        setIsOpen(false);
-      }
+      if (containerRef.current && !containerRef.current.contains(event.target as Node)) setIsOpen(false);
     };
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  const toggleOption = (val: string) => {
-    if (selectedValues.includes(val)) {
-      onChange(selectedValues.filter(v => v !== val));
-    } else {
-      onChange([...selectedValues, val]);
-    }
+  const toggleOption = (value: string) => {
+    onChange(selectedValues.includes(value)
+      ? selectedValues.filter(selected => selected !== value)
+      : [...selectedValues, value]);
   };
-
-  const currentLabel = selectedValues.length > 0 
-    ? `${label} (${selectedValues.length})` 
-    : label;
+  const currentLabel = selectedValues.length > 0 ? `${label} (${selectedValues.length})` : label;
 
   return (
-    <div className="relative w-full" ref={containerRef}>
+    <div className="relative min-w-0 w-full" ref={containerRef}>
       <button
         type="button"
-        onClick={() => !disabled && setIsOpen(!isOpen)}
-        disabled={disabled}
-        className={`w-full px-3 py-2.5 bg-white border border-slate-200 rounded-lg text-sm font-bold text-left flex justify-between items-center shadow-sm transition-all ${disabled ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer hover:border-slate-300'}`}
+        aria-expanded={isOpen}
+        aria-controls={listId}
+        onClick={() => setIsOpen(open => !open)}
+        className="flex min-h-11 w-full items-center justify-between gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2.5 text-left text-xs font-bold shadow-sm transition-colors hover:border-slate-300 sm:text-sm"
       >
-        <span className={selectedValues.length > 0 ? "text-blue-600" : "text-slate-600"}>{currentLabel}</span>
-        <svg className={`w-4 h-4 text-slate-400 transition-transform ${isOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <span className={`truncate ${selectedValues.length > 0 ? "text-blue-700" : "text-slate-600"}`}>{currentLabel}</span>
+        <svg className={`h-4 w-4 shrink-0 text-slate-400 transition-transform ${isOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
         </svg>
       </button>
 
       {isOpen && (
-        <div className="absolute z-[100] mt-1 w-full bg-white border border-slate-200 rounded-lg shadow-xl max-h-60 overflow-y-auto p-2 space-y-1">
-          {options.filter(opt => opt !== "ALL").map(opt => (
-            <label key={opt} className="flex items-center gap-3 px-2 py-1.5 hover:bg-slate-50 rounded cursor-pointer transition-colors">
+        <div id={listId} className="absolute z-[100] mt-1 max-h-60 w-full space-y-1 overflow-y-auto rounded-lg border border-slate-200 bg-white p-2 shadow-xl">
+          {options.map(option => (
+            <label key={option.value} className="flex cursor-pointer items-center gap-3 rounded px-2 py-1.5 transition-colors hover:bg-slate-50">
               <input
                 type="checkbox"
-                checked={selectedValues.includes(opt)}
-                onChange={() => toggleOption(opt)}
-                className="w-4 h-4 rounded border-slate-300 text-blue-600 focus:ring-blue-500 shrink-0"
+                checked={selectedValues.includes(option.value)}
+                onChange={() => toggleOption(option.value)}
+                className="h-4 w-4 shrink-0 rounded border-slate-300 text-blue-600 focus:ring-blue-500"
               />
-              <span className="text-sm font-medium text-slate-700 whitespace-normal leading-tight">
-                {formatOption ? formatOption(opt) : opt}
-              </span>
+              <span className="whitespace-normal text-sm font-medium leading-tight text-slate-700">{option.label}</span>
             </label>
           ))}
-          {options.length <= 1 && (
-            <div className="text-xs text-slate-400 p-2 italic text-center">選択肢がありません</div>
+          {options.length === 0 && (
+            <div role="status" className="p-2 text-center text-xs italic text-slate-400">
+              {language === "ja" ? "選択肢がありません" : "No options"}
+            </div>
           )}
         </div>
       )}
@@ -106,235 +70,177 @@ const MultiSelect: React.FC<{
   );
 };
 
+interface FilterControlsProps {
+  language: Language;
+  draftSearchQuery: string;
+  onSearchChange: (value: string) => void;
+  onSearchSubmit: () => void;
+  selectedRegion: string;
+  onRegionChange: (value: string) => void;
+  regions: FilterOption[];
+  selectedPrefecture: string;
+  onPrefectureChange: (value: string) => void;
+  prefectures: FilterOption[];
+  selectedStoreIds: string[];
+  onStoreIdsChange: (values: string[]) => void;
+  stores: FilterOption[];
+  selectedDates: string[];
+  onDatesChange: (values: string[]) => void;
+  dates: FilterOption[];
+  selectedSports: string[];
+  onSportsChange: (values: string[]) => void;
+  sports: FilterOption[];
+  selectedMatchKeys: string[];
+  onMatchKeysChange: (values: string[]) => void;
+  matches: FilterOption[];
+  dateWindow: BroadcastDateWindow;
+  onReset: () => void;
+}
+
 const FilterControls: React.FC<FilterControlsProps> = ({
   language,
-  searchQuery,
+  draftSearchQuery,
   onSearchChange,
+  onSearchSubmit,
   selectedRegion,
   onRegionChange,
+  regions,
   selectedPrefecture,
   onPrefectureChange,
-  selectedCity,
-  onCityChange,
-  regions,
   prefectures,
-  cities,
-  selectedStoreName,
-  onStoreNameChange,
-  storeNames,
-  selectedDate,
-  onDateChange,
+  selectedStoreIds,
+  onStoreIdsChange,
+  stores,
+  selectedDates,
+  onDatesChange,
   dates,
-  selectedSport,
-  onSportChange,
+  selectedSports,
+  onSportsChange,
   sports,
-  selectedMatch,
-  onMatchChange,
+  selectedMatchKeys,
+  onMatchKeysChange,
   matches,
-  selectedTableStatus,
-  onTableStatusChange,
-  selectedStandingStatus,
-  onStandingStatusChange,
+  dateWindow,
   onReset,
 }) => {
-  const allLabel = language === "ja" ? "すべて" : "All";
-
-  const translate = (val: string) => {
-    if (language === "ja") return val;
-    const mapping: Record<string, string> = {
-      "関東": "Kanto", "中部": "Chubu", "関西": "Kansai", "九州": "Kyushu", "北海道": "Hokkaido", "東北": "Tohoku",
-      "東京都": "Tokyo", "神奈川県": "Kanagawa", "愛知県": "Aichi", "大阪府": "Osaka", "福岡県": "Fukuoka"
-    };
-    return mapping[val] || val;
-  };
-
-  const formatDate = (date: string) => {
-    const d = new Date(date);
-    if (isNaN(d.getTime())) return date;
-    const month = d.getMonth() + 1;
-    const day = d.getDate();
-    const dayMapJa = ["日", "月", "火", "水", "木", "金", "土"];
-    const dayMapEn = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-    return language === "ja" 
-      ? `${month}月${day}日（${dayMapJa[d.getDay()]}）`
-      : `${month}/${day} (${dayMapEn[d.getDay()]})`;
-  };
+  const dateRange = `${formatBroadcastDate(dateWindow.startDate)}〜${formatBroadcastDate(dateWindow.endDate)}`;
+  const regionButtonClass = (selected: boolean) => selected
+    ? "bg-slate-800 text-white shadow-sm"
+    : "bg-slate-200 text-slate-700 hover:bg-slate-300";
+  const prefectureButtonClass = (selected: boolean) => selected
+    ? "bg-blue-600 text-white shadow-sm"
+    : "bg-slate-200 text-slate-700 hover:bg-blue-50 hover:text-blue-800";
 
   return (
-    <div className="space-y-4 mb-8 px-4">
-      {/* 検索・地域・都道府県・市区町村・店舗・リセット */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-3">
-        <div className="flex gap-2 w-full">
-          <div className="relative flex-grow">
-            <input
-              type="text"
-              placeholder={language === "ja" ? "店舗名・住所で検索..." : "Search..."}
-              value={searchQuery}
-              onChange={(e) => onSearchChange(e.target.value)}
-              className="w-full pl-10 pr-4 py-2.5 bg-white border border-slate-200 rounded-lg text-sm focus:ring-2 focus:ring-blue-500/20 focus:border-blue-400 outline-none transition-all shadow-sm"
-            />
-            <svg className="w-5 h-5 text-slate-400 absolute left-3 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
-          </div>
-          <button
-            onClick={onReset}
-            className="lg:hidden shrink-0 flex flex-col items-center justify-center px-3 py-1 bg-white border border-slate-200 rounded-lg text-[10px] font-bold text-slate-400 hover:text-blue-500 transition-all shadow-sm"
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-            </svg>
-            <span>{language === "ja" ? "クリア" : "Clear"}</span>
+    <section className="mb-5 rounded-2xl border border-slate-200 bg-white p-3 shadow-sm sm:p-5" aria-label={language === "ja" ? "検索と絞り込み" : "Search and filters"}>
+      <div className="space-y-2.5">
+        <form
+          className="flex min-w-0"
+          onSubmit={event => {
+            event.preventDefault();
+            onSearchSubmit();
+          }}
+        >
+          <label className="sr-only" htmlFor="broadcast-keyword-search">
+            {language === "ja" ? "店舗名・住所・試合名で検索" : "Search stores, addresses, or matches"}
+          </label>
+          <input
+            id="broadcast-keyword-search"
+            type="search"
+            placeholder={language === "ja" ? "店舗名・住所・試合名などで検索..." : "Search stores, addresses, matches..."}
+            value={draftSearchQuery}
+            onChange={event => onSearchChange(event.target.value)}
+            className="h-11 min-w-0 flex-1 rounded-l-lg border border-r-0 border-slate-200 bg-white px-3 text-sm shadow-sm outline-none transition-colors placeholder:text-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20"
+          />
+          <button type="submit" className="h-11 shrink-0 rounded-r-lg bg-slate-800 px-5 text-sm font-bold text-white shadow-sm transition-colors hover:bg-slate-700">
+            {language === "ja" ? "検索" : "Search"}
           </button>
+        </form>
+
+        <div className="grid grid-cols-2 gap-2.5" aria-label={language === "ja" ? "店舗・日付・競技・カードの選択" : "Store, date, sport and match selection"}>
+        <MultiSelect
+          language={language}
+          label={language === "ja" ? "店名で絞り込み" : "Filter by store"}
+          options={stores}
+          selectedValues={selectedStoreIds}
+          onChange={onStoreIdsChange}
+        />
+        <MultiSelect
+          language={language}
+          label={language === "ja" ? "日付で絞り込み" : "Filter by date"}
+          options={dates}
+          selectedValues={selectedDates}
+          onChange={onDatesChange}
+        />
+        <MultiSelect
+          language={language}
+          label={language === "ja" ? "競技で絞り込み" : "Filter by sport"}
+          options={sports}
+          selectedValues={selectedSports}
+          onChange={onSportsChange}
+        />
+        <MultiSelect
+          language={language}
+          label={language === "ja" ? "カードで絞り込み" : "Filter by match"}
+          options={matches}
+          selectedValues={selectedMatchKeys}
+          onChange={onMatchKeysChange}
+        />
+        </div>
+      </div>
+
+      <div className="mt-3 space-y-2.5">
+        <div className="flex items-start gap-2">
+          <span className="w-14 shrink-0 pt-1.5 text-xs font-bold text-slate-500">{language === "ja" ? "地域" : "Region"}</span>
+          <div className="flex min-w-0 flex-1 gap-1.5 overflow-x-auto py-0.5 sm:flex-wrap sm:overflow-visible" role="group" aria-label={language === "ja" ? "地域を選択" : "Choose a region"}>
+            {regions.map(option => {
+              const active = selectedRegion === option.value;
+              return (
+                <button
+                  key={option.value}
+                  type="button"
+                  aria-pressed={active}
+                  onClick={() => onRegionChange(option.value)}
+                  className={`min-h-10 shrink-0 rounded-md px-4 py-2 text-sm font-bold transition-colors ${regionButtonClass(active)}`}
+                >
+                  {option.value === "__all__" ? (language === "ja" ? "すべて" : "All") : geoDisplayLabel(option.value, language)}
+                </button>
+              );
+            })}
+          </div>
         </div>
 
-        <MultiSelect
-          label={language === "ja" ? "エリア" : "Region"}
-          options={regions}
-          selectedValues={selectedRegion}
-          onChange={onRegionChange}
-          formatOption={translate}
-        />
+        <div className="flex items-start gap-2">
+          <span className="w-14 shrink-0 pt-1.5 text-xs font-bold text-slate-500">{language === "ja" ? "都道府県" : "Prefecture"}</span>
+          <div className="flex min-w-0 flex-1 gap-1.5 overflow-x-auto py-0.5 sm:flex-wrap sm:overflow-visible" role="group" aria-label={language === "ja" ? "都道府県を選択" : "Choose a prefecture"}>
+            {prefectures.map(option => {
+              const active = selectedPrefecture === option.value;
+              return (
+                <button
+                  key={option.value}
+                  type="button"
+                  aria-pressed={active}
+                  onClick={() => onPrefectureChange(option.value)}
+                  className={`min-h-10 shrink-0 rounded-md px-4 py-2 text-sm font-bold transition-colors ${prefectureButtonClass(active)}`}
+                >
+                  {option.value === "__all__" ? (language === "ja" ? "すべて" : "All") : geoDisplayLabel(option.value, language)}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      </div>
 
-        <MultiSelect
-          label={language === "ja" ? "都道府県" : "Prefecture"}
-          options={prefectures}
-          selectedValues={selectedPrefecture}
-          onChange={onPrefectureChange}
-          formatOption={translate}
-        />
-
-        <MultiSelect
-          label={language === "ja" ? "区市町村" : "City"}
-          options={cities}
-          selectedValues={selectedCity}
-          onChange={onCityChange}
-          formatOption={translate}
-        />
-
-        <MultiSelect
-          label={language === "ja" ? "店舗選択" : "Store Name"}
-          options={storeNames}
-          selectedValues={selectedStoreName}
-          onChange={onStoreNameChange}
-        />
-
-        {/* PC Reset Button */}
-        <button
-          onClick={onReset}
-          className="hidden lg:flex items-center justify-center gap-2 w-full py-2 bg-slate-800 hover:bg-slate-900 text-white rounded-lg text-xs font-bold transition-all shadow-md active:scale-95"
-        >
-          <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-          </svg>
-          {language === "ja" ? "条件をリセット" : "Reset Filters"}
+      <div className="mt-3 flex flex-wrap items-center justify-between gap-2 border-t border-slate-100 pt-3">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+          <p className="text-xs font-bold text-slate-700">{language === "ja" ? "放映ありのみ表示" : "Showing broadcasts only"}</p>
+          <p className="text-xs font-medium text-slate-500">{language === "ja" ? `表示期間（日本時間）：${dateRange}` : `Display period (JST): ${dateRange}`}</p>
+        </div>
+        <button type="button" onClick={onReset} className="rounded-md px-2 py-1 text-xs font-bold text-slate-500 underline decoration-slate-300 underline-offset-2 hover:text-slate-800">
+          {language === "ja" ? "条件をリセット" : "Reset filters"}
         </button>
       </div>
-
-      {/* 日付・競技・カードフィルター */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-        <MultiSelect
-          label={language === "ja" ? "日付" : "Date"}
-          options={dates}
-          selectedValues={selectedDate}
-          onChange={onDateChange}
-          formatOption={formatDate}
-        />
-
-        <MultiSelect
-          label={language === "ja" ? "競技" : "Sport Type"}
-          options={sports}
-          selectedValues={selectedSport}
-          onChange={onSportChange}
-        />
-
-        <MultiSelect
-          label={language === "ja" ? "カード" : "Match Card"}
-          options={matches}
-          selectedValues={selectedMatch}
-          onChange={onMatchChange}
-        />
-      </div>
-
-      {/* 混雑状況で絞り込むセクション */}
-      <div className="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm space-y-6">
-        <div className="flex items-center justify-between">
-          <h4 className="text-[17px] font-black text-slate-800">
-            {language === "ja" ? "混雑状況で絞り込む" : "Filter by Status"}
-          </h4>
-        </div>
-
-        <div className="space-y-4">
-          {/* テーブル席 */}
-          <div className="flex flex-col gap-2">
-            <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">
-              {language === "ja" ? "テーブル席" : "Table Seats"}
-            </span>
-            <div className="flex flex-wrap items-center gap-2">
-              <button
-                onClick={() => onTableStatusChange("ALL")}
-                className={`px-5 py-2 rounded-lg text-[13px] font-black transition-all shadow-sm border ${
-                  selectedTableStatus === "ALL"
-                    ? "bg-[#1e293b] text-white border-[#1e293b]"
-                    : "bg-white text-slate-400 border-slate-100"
-                }`}
-              >
-                {allLabel}
-              </button>
-              {(Object.keys(STATUS_MAP) as ReservationStatus[]).map((status) => (
-                <button
-                  key={status}
-                  onClick={() => onTableStatusChange(selectedTableStatus === status ? "ALL" : status)}
-                  className={`px-4 py-2 rounded-lg text-[13px] font-bold border transition-all flex items-center gap-2 shadow-sm ${
-                    selectedTableStatus === status
-                      ? `${STATUS_MAP[status].bg} ${STATUS_MAP[status].color} ${STATUS_MAP[status].border} ring-2 ring-slate-100`
-                      : `bg-white text-slate-400 border-slate-100`
-                  }`}
-                >
-                  <span className="text-lg leading-none opacity-60">{STATUS_MAP[status].icon}</span>
-                  {language === "ja" ? STATUS_MAP[status].label : status.charAt(0).toUpperCase() + status.slice(1)}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {/* スタンディングエリア */}
-          <div className="flex flex-col gap-2">
-            <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">
-              {language === "ja" ? "スタンディングエリア" : "Standing Area"}
-            </span>
-            <div className="flex flex-wrap items-center gap-2">
-              <button
-                onClick={() => onStandingStatusChange("ALL")}
-                className={`px-5 py-2 rounded-lg text-[13px] font-black transition-all shadow-sm border ${
-                  selectedStandingStatus === "ALL"
-                    ? "bg-[#1e293b] text-white border-[#1e293b]"
-                    : "bg-white text-slate-400 border-slate-100"
-                }`}
-              >
-                {allLabel}
-              </button>
-              {(Object.keys(STATUS_MAP) as ReservationStatus[])
-                .filter(status => status !== 'none') // スタンディングエリアの「未実施」フィルターを削除
-                .map((status) => (
-                <button
-                  key={status}
-                  onClick={() => onStandingStatusChange(selectedStandingStatus === status ? "ALL" : status)}
-                  className={`px-4 py-2 rounded-lg text-[13px] font-bold border transition-all flex items-center gap-2 shadow-sm ${
-                    selectedStandingStatus === status
-                      ? `${STATUS_MAP[status].bg} ${STATUS_MAP[status].color} ${STATUS_MAP[status].border} ring-2 ring-slate-100`
-                      : `bg-white text-slate-400 border-slate-100`
-                  }`}
-                >
-                  <span className="text-lg leading-none opacity-60">{STATUS_MAP[status].icon}</span>
-                  {language === "ja" ? STATUS_MAP[status].label : status.charAt(0).toUpperCase() + status.slice(1)}
-                </button>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    </section>
   );
 };
 

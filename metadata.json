@@ -1,5 +1,5 @@
 {
-  "name": "Sports Hub: Real-time Status Dashboard",
-  "description": "A high-performance dashboard for tracking sports broadcast crowd status across multiple store locations, featuring real-time data sync via GitHub and Google Sheets.",
+  "name": "Sports Broadcast Information",
+  "description": "A bilingual viewer for sports broadcast availability at participating stores.",
   "requestFramePermissions": []
 }
