@@ -1,6 +1,6 @@
 # Sports Broadcast Information
 
-参加店舗ごとに、各試合の放映予定を日英で確認する React + Vite アプリです。予約・混雑状況から放映有無へのフロントエンド移行は完了しています。画面にはAsia/Tokyoの今日から9日後までの「放映あり」の試合だけを表示し、元feedは全状態を保持します。Gemini API key は不要です。
+参加店舗ごとに、各試合の放映予定を日英で確認する React + Vite アプリです。予約・混雑状況から放映有無へのフロントエンド移行は完了しています。公開JSONには「放映あり」の試合と、その試合がある店舗だけを含め、画面はAsia/Tokyoの今日から9日後までの10日間を表示します。Gemini API key は不要です。
 
 ## ローカル起動・feed生成
 
@@ -13,7 +13,7 @@ node scripts/import-broadcast-sheet.mjs
 
 ## 現在のfeedと状態の意味
 
-今回のローカルsnapshotから `public/data/broadcast.json` を生成しています。115店舗・91試合列（10,465店舗×試合セル）、2026-10-23〜2026-10-31、放映あり742件・放映なし9,723件・確認中0件です。この生成成功は、外部スプレッドシート、GAS、GitHub同期や自動更新の稼働を意味しません。
+今回の入力snapshotは115店舗・91試合列（10,465店舗×試合セル）、2026-10-23〜2026-10-31、放映あり742件・放映なし9,723件・確認中0件です。`public/data/broadcast.json` には放映ありの106店舗・742件だけを出力しています。JSONは2,898,122 bytesから241,566 bytesへ約91.7%削減しました。入力snapshotの全状態はシート・非公開のローカル入力に残し、公開JSONには含めません。この生成成功はGASからの実送信の稼働を意味しません。
 
 ## 本番配信とデータ更新
 
@@ -27,13 +27,15 @@ node scripts/import-broadcast-sheet.mjs
 
 スプレッドシート「スポーツ放映データ」の「放映情報」タブでは、各イベント列の状態セルを次のように変換します。
 
-| シートの値 | feedの値 | 表示 |
+| シートの値 | 内部判定 | 公開JSONへの出力 |
 | --- | --- | --- |
-| 前後空白をtrimした厳密値 `〇：放映する` | `showing` | 放映あり / Showing |
-| 空欄、null、正規イベント列内で省略された末尾セル | `not_showing` | 放映なし / Not showing |
-| 予期しない非空値 | `unconfirmed` | 確認中 / Unconfirmed |
+| 前後空白をtrimした厳密値 `〇：放映する` | `showing` | 試合を含める |
+| 空欄、null、正規イベント列内で省略された末尾セル | `not_showing` | 含めない |
+| 予期しない非空値 | `unconfirmed` | 含めない |
 
 放映を取り消す場合はセルを消去します。部分文字列一致はしません。feed decoderではwire値の欠落・未知値も `unconfirmed` として扱います。
+
+放映ありの試合が0件の店舗は店舗情報ごと出力しません。全店舗の放映ありを取り消した場合は、正常な `{ updatedAt, data: [] }` を送って旧予定を消し、画面に「現在、放映予定がありません。」と表示します。入力シート自体に店舗行がない場合は読取異常として送信を止めます。
 
 ## feed形式
 
@@ -62,7 +64,7 @@ JSONルートは `updatedAt`（ISO日時または `null`）と `data` 配列を�
           "sport": "サンプル競技",
           "match": "架空チームA vs 架空チームB",
           "match_en": "Fictional Team A vs Fictional Team B",
-          "broadcastStatus": "unconfirmed"
+          "broadcastStatus": "showing"
         }
       ]
     }
@@ -78,7 +80,7 @@ JSONルートは `updatedAt`（ISO日時または `null`）と `data` 配列を�
 
 ## 画面の固定表示条件
 
-AppはAsia/Tokyo基準で当日と翌9日分の10暦日を計算し、その期間内で `broadcastStatus === "showing"` の試合だけを表示します。時計のタイムゾーンではなくAsia/Tokyoを使い、1分ごと、およびタブ復帰時に期間を更新します。検索・地域・都道府県・店舗・日付・競技・カードの選択肢と表示はこの固定条件に該当する試合だけを対象にします。リセットしても期間と放映あり条件は解除されません。元feedの `not_showing` / `unconfirmed` と期間外データは保持されますが、画面には表示しません。
+AppはAsia/Tokyo基準で当日と翌9日分の10暦日を計算し、その期間内で `broadcastStatus === "showing"` の試合だけを表示します。時計のタイムゾーンではなくAsia/Tokyoを使い、1分ごと、およびタブ復帰時に期間を更新します。検索・地域・都道府県・店舗・日付・競技・カードの選択肢と表示はこの固定条件に該当する試合だけを対象にします。リセットしても期間と放映あり条件は解除されません。公開feedは放映ありだけですが、旧形式等で `not_showing` / `unconfirmed` が届いた場合も画面では除外します。期間外の放映あり試合も画面には表示しません。
 
 ## 検索と選択UI
 
@@ -108,7 +110,7 @@ Vercelも同じ既存プロジェクトの名称を `sports-broadcast-app` に�
 | `BROADCAST_GITHUB_PATH` | `public/data/broadcast.json` |
 | `BROADCAST_GITHUB_TOKEN` | 当該リポジトリへのContents書込権限を持つトークン（未設定） |
 
-ローカルGASの送信先許可リストも既存リポジトリに限定しています。出力先は `public/data/broadcast.json` のみで、旧 `status.json` を上書きしません。`diagnoseBroadcastSync()` はシート読取とGitHubのリポジトリ・ブランチ・ファイルのGETだけを行い、書込権限は未検証として報告します。`syncBroadcastFeed()` は既存ファイルのSHA取得に成功した場合のみ更新します。初回はアプリの確認済み変更と一緒にJSONを配置するか、別途承認した `initializeBroadcastFeed()` の手動実行で作成します。通常同期・診断から初回作成処理は呼びません。認証値やGitHubレスポンス本文はログ出力せず、リダイレクト追従・同時同期・空店舗feedの送信を防止します。1MBを超える内容のSHA取得には `application/vnd.github.object+json` を使います（[GitHub Contents API](https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28)）。
+ローカルGASの送信先許可リストも既存リポジトリに限定しています。出力先は `public/data/broadcast.json` のみで、旧 `status.json` を上書きしません。`diagnoseBroadcastSync()` はシート読取とGitHubのリポジトリ・ブランチ・ファイルのGETだけを行い、書込権限は未検証として報告します。`syncBroadcastFeed()` は既存ファイルのSHA取得に成功した場合のみ更新します。初回はアプリの確認済み変更と一緒にJSONを配置するか、別途承認した `initializeBroadcastFeed()` の手動実行で作成します。通常同期・診断から初回作成処理は呼びません。認証値やGitHubレスポンス本文はログ出力せず、リダイレクト追従・同時同期・入力店舗行の欠落を防止します。全件取消時の正常な空feedは送信できます。1MBを超える内容のSHA取得には `application/vnd.github.object+json` を使います（[GitHub Contents API](https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28)）。
 
 2026-10-22の読み取り確認では、シートに紐づく実際のGASは旧予約形式を `public/data/status.json` へ送るコードのままです。スクリプトプロパティは未登録で、確認アカウントの登録トリガーは0件でした。ローカルの修正版はまだこのGASやGitHubに反映していません。
 

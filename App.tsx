@@ -310,7 +310,7 @@ const App: React.FC = () => {
 
         {loadState === "ready" && data.length === 0 && (
           <div role="status" className="rounded-xl border border-slate-200 bg-white px-6 py-16 text-center text-lg font-bold text-slate-600 shadow-sm">
-            {language === "ja" ? "放映情報を準備中です" : "Broadcast information is being prepared"}
+            {language === "ja" ? "現在、放映予定がありません。" : "No broadcasts are currently scheduled."}
           </div>
         )}
 

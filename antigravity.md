@@ -4,9 +4,9 @@
 
 参加店舗ごとに各スポーツ試合の放映予定を確認する日英対応viewerです。React 19、Vite 6、TypeScript 5.8で動作し、地域/都道府県ボタン、店舗/日付/競技/カード選択、試合情報も対象とするキーワード検索を備えています。画面にはAsia/Tokyoの今日から9日後までの「放映あり」の試合だけを表示します。Gemini API keyは不要です。
 
-予約混雑viewerから放映有無viewerへのフロントエンド移行は完了しています。Appは `/data/broadcast.json` を初回表示・retry時、表示中の1分ごと、タブ復帰時にキャッシュなしで読み込みます。更新時に一時的な取得失敗があっても最後の正常な表示と言語・検索条件を保持します。今回のローカルsnapshotから実feed JSONを生成済みです（115店舗、91イベント列、10,465 match records、2026-10-23〜31、showing 742、not_showing 9,723、unconfirmed 0）。今回のsnapshotでは115店舗すべての店舗メタデータが揃っています。これはローカル変換の結果であり、GASからの同期が稼働中であることを意味しません。
+予約混雑viewerから放映有無viewerへのフロントエンド移行は完了しています。Appは `/data/broadcast.json` を初回表示・retry時、表示中の1分ごと、タブ復帰時にキャッシュなしで読み込みます。更新時に一時的な取得失敗があっても最後の正常な表示と言語・検索条件を保持します。入力snapshotは115店舗、91イベント列、10,465セル、2026-10-23〜31、showing 742、not_showing 9,723、unconfirmed 0です。公開feedは放映ありの106店舗・742件だけで、241,566 bytes（全状態版から約91.7%削減）です。入力の全状態はシート・非公開snapshotに残します。これはローカル変換の結果であり、GASからの実送信が稼働中であることを意味しません。
 
-画面はAsia/Tokyoの今日〜+9日までの10暦日を対象にします。範囲内の `showing` だけを、他の選択肢計算・検索より先に絞り込みます。元feedには `not_showing` / `unconfirmed` と期間外試合も保持しますが、画面には表示しません。時計のタイムゾーンは使わず、1分ごと・タブ復帰時にJST期間を更新します。Resetはキーワード・地域・都道府県・店舗・日付・競技・カードの一時条件だけを消し、この固定表示条件は解除しません。
+画面はAsia/Tokyoの今日〜+9日までの10暦日を対象にします。公開feedには `showing` と放映ありの試合がある店舗だけを含め、`not_showing` / `unconfirmed` は送信しません。UIでも防御的に状態・期間を確認します。時計のタイムゾーンは使わず、1分ごと・タブ復帰時にJST期間を更新します。Resetはキーワード・地域・都道府県・店舗・日付・競技・カードの一時条件だけを消し、この固定表示条件は解除しません。
 
 ## 検索・表示UI
 
@@ -22,7 +22,7 @@
 
 日付は年を補完・推測せず、Apps Script wrapperはDate値を `Utilities.formatDate(value, 'Asia/Tokyo', 'yyyy-MM-dd')` で正規化します。ローカルsnapshotのGoogle Sheets serial dateは純builderが1899-12-30基準で処理します。
 
-状態セルはtrim後に厳密に `〇：放映する` の場合だけ `showing`。空文字、null、または有効イベント列内の省略セルは `not_showing`（放映取消はセル消去）。予期しない非空値は `unconfirmed` です。部分文字列一致は禁止です。wire JSONの状態欠落・未知値はfrontend decoderが `unconfirmed` にします。
+状態セルはtrim後に厳密に `〇：放映する` の場合だけ `showing` として出力します。空文字、null、または有効イベント列内の省略セルは内部的に `not_showing`（放映取消はセル消去）、予期しない非空値は `unconfirmed` と判定し、どちらも公開feedから除外します。放映ありが0件の店舗も除外します。部分文字列一致は禁止です。wire JSONの状態欠落・未知値はfrontend decoderが `unconfirmed` にします。全件取消は正常な `data: []` を送って旧予定を消し、UIは予定なしを表示します。入力店舗行がない異常はbuilderで拒否します。
 
 変換処理は欠損項目を旧データや名前から推定しません。今回snapshotに店舗メタデータ欠損はありません。A/B列の社員・担当者情報は読み込み・公開しません。文字列IDは先頭ゼロを保ち、数値化しません。
 
@@ -45,6 +45,8 @@ Vercelも既存プロジェクトID `prj_9i3JcNWMxLQwNlQbAnAnz6dcDcIe`（チー�
 2026-10-22にユーザーが現行UI・同梱放映JSONのGitHub反映と本番デプロイを許可しました。`vercel.json` は `main` 更新時のGit自動デプロイとViteの `dist` 配信を設定し、JSONのHTTPキャッシュを無効にします。GASが `main/public/data/broadcast.json` を更新すると、本番デプロイ完了後、開いている画面も1分以内の再取得で反映する構成です。外部GASの変更・認証・トークン設定・送信は今回の本番反映に含めません。
 
 初回本番反映はcommit `40b1763c8bbb5e32d7035503604e53fd25200495`、Vercel deployment `dpl_GCh85auys5YG1gTzZXPNPYfjobGv`（Git/mainからの自動作成、READY）で完了しました。本番URLは `https://sports-congestion-app.vercel.app/`。HTTP 200、115店舗のfeedと `Cache-Control: no-store`、画面上の106店舗・放映あり742件、カード検索、日本語/英語切替、390pxのスマホ表示を確認済みです。型チェック・本番ビルド・GAS同期mock検証19件・JSON自動更新の画面検証6項目も成功しています。次の作業はシート側GASの放映形式への移行・安全なプロパティ設定・実送信確認です。GASから送る先は `9477781/sports-broadcast-app` の `main/public/data/broadcast.json` です。
+
+その後、ユーザーが非放映データの送信不要を指定したため、公開JSONとGAS修正版を「放映ありの店舗・試合のみ」に軽量化しました。106店舗・742件の表示内容は全状態版の放映あり部分と完全一致します。全件取消は `data: []` で反映し、入力店舗行の欠落とは区別します。GAS同期mock検証はこの条件を含む21件へ更新済みです。外部のシート側GASは引き続き未変更です。
 
 `GAS_BROADCAST.gs` は新feed向けのreview可能なソースです。Apps Scriptへdeploy/実行はしておらず、Script Propertiesも未設定、自動triggerも作成していません。
 

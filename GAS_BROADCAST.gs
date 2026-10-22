@@ -55,6 +55,7 @@ function buildBroadcastFeed(snapshot) {
     if (!Array.isArray(storeRow) || !Array.isArray(statusRow)) throw new Error('Store/status rows must be arrays at row ' + rowIndex + '.');
     if (broadcastRowHasContent_(storeRow) || broadcastRowHasContent_(statusRow)) lastNonemptyRow = rowIndex;
   }
+  if (lastNonemptyRow < 0) throw new Error('No source store rows were found. Refusing to replace the public feed.');
 
   var storeIds = Object.create(null);
   var stores = [];
@@ -93,16 +94,17 @@ function buildBroadcastFeed(snapshot) {
     for (var matchIndex = 0; matchIndex < matches.length; matchIndex += 1) {
       var event = matches[matchIndex];
       var statusValue = matchIndex < statusValues.length ? statusValues[matchIndex] : undefined;
+      if (broadcastStatus_(statusValue) !== 'showing') continue;
       store.matches.push({
         date: event.date,
         display_date: event.display_date,
         sport: event.sport,
         match: event.match,
         match_en: event.match_en,
-        broadcastStatus: broadcastStatus_(statusValue)
+        broadcastStatus: 'showing'
       });
     }
-    stores.push(store);
+    if (store.matches.length > 0) stores.push(store);
   }
 
   return { updatedAt: sourceUpdatedAt, data: stores };
@@ -224,7 +226,8 @@ function writeBroadcastFeed_(initialize) {
   if (!lock.tryLock(10000)) throw new Error('Another broadcast sync is running. Try again after it finishes.');
   try {
     var feed = readBroadcastFeed_();
-    if (!feed.data.length) throw new Error('Refusing to publish an empty store feed. Check the sheet first.');
+    // A validated sheet with no showing matches must publish data: [] to clear cancellations.
+    // Missing source store rows are rejected by buildBroadcastFeed before reaching this point.
     var config = broadcastGithubConfig_();
     var target = inspectBroadcastGithub_(config);
     if (initialize && target.exists) throw new Error('The broadcast feed already exists. Use syncBroadcastFeed instead.');

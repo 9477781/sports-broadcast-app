@@ -123,9 +123,28 @@ test('malformed GitHub response is rejected without writing', () => {
   const h = harness({ invalidJsonAt: 2 }); assert.throws(() => h.context.syncBroadcastFeed(), /invalid JSON/);
   assert.equal(h.requests.length, 3); assert.equal(h.releases(), 1);
 });
-test('empty feed is never published', () => {
-  const h = harness({ empty: true }); assert.throws(() => h.context.syncBroadcastFeed(), /empty store feed/);
-  assert.equal(h.requests.length, 0); assert.equal(h.releases(), 1);
+test('validated zero-broadcast feed clears the previous public schedule', () => {
+  const h = harness({ empty: true }); assert.equal(h.context.syncBroadcastFeed().operation, 'updated');
+  const payload = JSON.parse(h.requests.at(-1).payload);
+  assert.deepEqual(JSON.parse(Buffer.from(payload.content,'base64').toString('utf8')).data, []);
+  assert.equal(h.requests.length, 4); assert.equal(h.releases(), 1);
+});
+test('only showing matches and stores with showing matches are exported', () => {
+  const h = harness(); const input = structuredClone(snapshot);
+  input.headers = [['2026-10-23','2026-10-24','2026-10-25'],['Soccer','Soccer','Soccer'],['A vs B','C vs D','E vs F'],['A vs B','C vs D','E vs F']];
+  input.displayDates = ['10/23','10/24','10/25'];
+  input.storeRows.push(['002','https://example.com/other','放映なし店舗']);
+  input.statusRows = [['〇：放映する','','unexpected'],['',null,'‐：未実施']];
+  const feed = h.context.buildBroadcastFeed(input);
+  assert.equal(feed.data.length, 1); assert.equal(feed.data[0].id, '001');
+  assert.equal(feed.data[0].matches.length, 1); assert.equal(feed.data[0].matches[0].broadcastStatus,'showing');
+  input.statusRows[0][0] = '';
+  assert.equal(h.context.buildBroadcastFeed(input).data.length, 0);
+});
+test('missing source stores cannot produce a clearing feed', () => {
+  const h = harness(); const input = structuredClone(snapshot);
+  input.storeRows=[]; input.statusRows=[];
+  assert.throws(()=>h.context.buildBroadcastFeed(input), /No source store rows/);
 });
 test('lock contention performs no network access', () => {
   const h = harness({ locked: true }); assert.throws(() => h.context.syncBroadcastFeed(), /Another broadcast sync/);
