@@ -48,9 +48,9 @@ Vercelも既存プロジェクトID `prj_9i3JcNWMxLQwNlQbAnAnz6dcDcIe`（チー�
 
 その後、ユーザーが非放映データの送信不要を指定したため、公開JSONとGAS修正版を「放映ありの店舗・試合のみ」に軽量化しました。106店舗・742件の表示内容は全状態版の放映あり部分と完全一致します。全件取消は `data: []` で反映し、入力店舗行の欠落とは区別します。GAS同期mock検証はこの条件を含む21件へ更新済みです。外部のシート側GASは引き続き未変更です。
 
-続いて、ユーザーがシート側GASの自動同期を毎日8時〜9時（日本時間）に設定し、失敗時だけ `ogawa@pub-hub.com` に通知するよう依頼しました（最初の宛先指定をユーザーが訂正済み）。実プロジェクトへ `Broadcast.gs` を追加し、既存 `コード.gs` をローカル `GAS_MENU.gs` と一致する内容へ保存しました。既存の翻訳処理は維持し、手動更新を新しい `syncBroadcastFeed()` へ接続しています。`configureBroadcastSchedule()` は `scheduledBroadcastSync` の毎日8時台のトリガーを登録し、同一同期の古い時間トリガーだけを置換します。設定時にはJSON・メールを送信しません。成功時メールはなく、失敗時のみ日時・同期先・認証値を除いたエラー概要を通知します。ローカルmock検証26件・メニューとの結合構文検証は成功。現在はGoogleが追加のメール送信権限を要求しており、ユーザーの認可承認待ちです。トリガー登録完了・GitHubトークン設定・GAS実送信はまだ確認できていません。
+続いて、ユーザーがシート側GASの自動同期を毎日8時〜9時（日本時間）に設定し、失敗時だけ `ogawa@pub-hub.com` に通知するよう依頼しました（最初の宛先指定をユーザーが訂正済み）。実プロジェクトへ `Broadcast.gs` を追加し、既存 `コード.gs` をローカル `GAS_MENU.gs` と一致する内容へ保存しました。既存の翻訳処理は維持し、手動更新を新しい `syncBroadcastFeed()` へ接続しています。`configureBroadcastSchedule()` は `scheduledBroadcastSync` の毎日8時台のトリガーを登録し、同一同期の古い時間トリガーだけを置換します。設定時にはJSON・メールを送信しません。成功時メールはなく、失敗時のみ日時・同期先・認証値を除いたエラー概要を通知します。ローカルmock検証26件・メニューとの結合構文検証は成功。日次トリガー登録とユーザー承認によるメール送信の追加認可は完了し、GitHubトークン設定・GAS実送信確認が残っています。
 
-`GAS_BROADCAST.gs` は実Apps Scriptの `Broadcast.gs` と一致する新feed用ソースです。コード保存は完了し、設定関数の実行はGoogleの追加認可画面で停止しています。Script Propertiesと自動トリガーの登録はまだ確認できていません。
+`GAS_BROADCAST.gs` は実Apps Scriptの `Broadcast.gs` と一致する新feed用ソースです。設定関数は実行完了し、`scheduledBroadcastSync` の日次トリガー1件を登録済みです。実編集画面でも「午前8時〜9時」「GMT+09:00」を確認しました。実行ログは `githubTokenConfigured:false` のため、トークン設定と実送信確認は残っています。ユーザーからメール送信権限追加の明示承認を受け、Google認可画面の「次へ」を確定し認可画面の終了を確認しました。JSON送信・メール実送信は行っていません。
 
 - `previewBroadcastFeed()` はシートを読んでfeedを生成し、件数集計のみ返す手動dry runです。
 - `syncBroadcastFeed()` は手動更新と `scheduledBroadcastSync()` からの自動実行でGitHubを更新し、他pathを拒否します。
@@ -58,7 +58,7 @@ Vercelも既存プロジェクトID `prj_9i3JcNWMxLQwNlQbAnAnz6dcDcIe`（チー�
 - `initializeBroadcastFeed()` は承認済みの初回手動実行専用です。リポジトリ・ブランチ読取成功と対象ファイルの不存在を確認した場合だけ作成し、既存ファイルの上書きは拒否します。
 - Script Properties: `BROADCAST_GITHUB_OWNER=9477781`、`BROADCAST_GITHUB_REPO=sports-broadcast-app`、`BROADCAST_GITHUB_BRANCH=main`（運用開始時）、`BROADCAST_GITHUB_PATH=public/data/broadcast.json`、`BROADCAST_GITHUB_TOKEN`（未設定）。送信先許可リストも既存リポジトリに限定しています。
 - 同期はContents APIで既存SHAをGETし、base64 JSONをPUTします。容量対応のためGETは `application/vnd.github.object+json` を要求し、PUT失敗時はHTTP statusだけを報告します。tokenはsourceに置かず、ログにも出しません。
-- 実運用前にPropertiesを安全に設定し、手動preview件数と診断結果を照合してから同期関数を使います。GASのtoken設定・トリガー登録・実送信確認は未完了です。アプリの本番反映は完了しています。
+- 実運用前にトークンを安全に設定し、手動preview件数と診断結果を照合してから同期関数を使います。日次トリガーとアプリの本番反映は完了しています。トークン未設定のまま次回の自動実行を迎えると、GitHub送信は失敗し通知対象になります。
 
 2026-10-22の当初の実GAS確認では、指定シートに紐づくプロジェクトは旧予約形式を `public/data/status.json` へ送るコードで、スクリプトプロパティは未登録、確認アカウントの登録triggerは0件でした。その後、上記の放映用コードへ更新済みです。GASからのGitHub送信は未実施です。
 
