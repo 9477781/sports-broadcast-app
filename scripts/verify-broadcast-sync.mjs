@@ -19,17 +19,27 @@ const snapshot = {
   storeRows: [['001', 'https://example.com/store', '店舗', '住所', '関東', '東京都', '新宿区', 'Store', 'Tokyo']],
   statusRows: [['〇：放映する']],
 };
-function harness({ properties = {}, statuses = [200, 200, 200, 200], invalidJsonAt = -1, fetchError = false, locked = false, empty = false } = {}) {
-  const requests = [], logs = [];
+function harness({ properties = {}, statuses = [200, 200, 200, 200], invalidJsonAt = -1, fetchError = false, locked = false, empty = false, mailError = false } = {}) {
+  const requests = [], logs = [], emails = [], triggers = [], schedule = [];
   let releases = 0;
   const props = { ...config, ...properties };
   const context = vm.createContext({
-    console: { log: text => logs.push(text) },
-    PropertiesService: { getScriptProperties: () => ({ getProperty: key => props[key] ?? null }) },
+    console: { log: text => logs.push(text), error: text => logs.push(text) },
+    PropertiesService: { getScriptProperties: () => ({ getProperty: key => props[key] ?? null, setProperties: values => Object.assign(props,values) }) },
     LockService: { getScriptLock: () => ({ tryLock: () => !locked, releaseLock: () => { releases++; } }) },
     Utilities: {
       newBlob: text => ({ getBytes: () => Buffer.from(text, 'utf8') }),
       base64Encode: bytes => Buffer.from(bytes).toString('base64'),
+      formatDate: () => '2026-10-22 23:00:00',
+    },
+    MailApp: { sendEmail: message => { if(mailError) throw new Error('Mail unavailable'); emails.push(message); } },
+    ScriptApp: {
+      EventType: { CLOCK: 'CLOCK' }, getProjectTriggers: () => [...triggers],
+      deleteTrigger: trigger => { const i=triggers.indexOf(trigger); if(i>=0)triggers.splice(i,1); },
+      newTrigger: handler => {
+        const builder={timeBased:()=>builder,inTimezone:v=>{schedule.push(['timezone',v]);return builder;},atHour:v=>{schedule.push(['hour',v]);return builder;},everyDays:v=>{schedule.push(['days',v]);return builder;},create:()=>{const t={getEventType:()=> 'CLOCK',getHandlerFunction:()=>handler};triggers.push(t);return t;}};
+        return builder;
+      },
     },
     UrlFetchApp: { fetch: (url, options) => {
       requests.push({ url, ...options });
@@ -46,7 +56,7 @@ function harness({ properties = {}, statuses = [200, 200, 200, 200], invalidJson
   const feed = context.buildBroadcastFeed(snapshot);
   if (empty) feed.data = [];
   context.readBroadcastFeed_ = () => feed;
-  return { context, requests, logs, releases: () => releases };
+  return { context, requests, logs, emails, triggers, schedule, releases: () => releases };
 }
 let passed = 0;
 function test(name, run) { run(); passed++; console.log(`PASS ${name}`); }
@@ -149,5 +159,33 @@ test('missing source stores cannot produce a clearing feed', () => {
 test('lock contention performs no network access', () => {
   const h = harness({ locked: true }); assert.throws(() => h.context.syncBroadcastFeed(), /Another broadcast sync/);
   assert.equal(h.requests.length, 0); assert.equal(h.releases(), 0);
+});
+test('schedule is daily 08:00-09:00 JST, replaces old sync triggers, and sends nothing', () => {
+  const h=harness();const unrelated={getEventType:()=> 'CLOCK',getHandlerFunction:()=> 'unrelated'};
+  h.triggers.push(unrelated,{getEventType:()=> 'CLOCK',getHandlerFunction:()=> 'pushToGitHub'});
+  const report=h.context.configureBroadcastSchedule();
+  assert.equal(report.timeWindow,'08:00-09:00');assert.equal(report.timeZone,'Asia/Tokyo');
+  assert.equal(report.failureEmail,'ogawa@pub-hub.com');
+  assert.deepEqual(h.schedule,[['timezone','Asia/Tokyo'],['hour',8],['days',1]]);
+  h.context.configureBroadcastSchedule();
+  assert.equal(h.triggers.length,2);assert.ok(h.triggers.includes(unrelated));
+  assert.equal(h.triggers.filter(t=>t.getHandlerFunction()==='scheduledBroadcastSync').length,1);
+  assert.equal(h.requests.length,0);assert.equal(h.emails.length,0);
+});
+test('successful scheduled sync never emails',()=>{
+  const h=harness();assert.equal(h.context.scheduledBroadcastSync().operation,'updated');assert.equal(h.emails.length,0);
+});
+test('failed scheduled sync emails the requested recipient once and still fails',()=>{
+  const h=harness({statuses:[401]});assert.throws(()=>h.context.scheduledBroadcastSync(),/HTTP 401/);
+  assert.equal(h.emails.length,1);assert.equal(h.emails[0].to,'ogawa@pub-hub.com');
+  assert.ok(!JSON.stringify(h.emails).includes(token));
+});
+test('mail failure cannot hide the sync failure or leak credentials',()=>{
+  const h=harness({statuses:[403],mailError:true});assert.throws(()=>h.context.scheduledBroadcastSync(),/HTTP 403/);
+  assert.ok(!h.logs.join('\n').includes(token));
+});
+test('failure email redacts configured credentials',()=>{
+  const h=harness();h.context.notifyBroadcastSyncFailure_(new Error('Failure '+token));
+  assert.equal(h.emails.length,1);assert.ok(!h.emails[0].body.includes(token));
 });
 console.log(`${passed} broadcast sync checks passed. No real GitHub writes were performed.`);

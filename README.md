@@ -23,7 +23,7 @@ node scripts/import-broadcast-sheet.mjs
 
 アプリはJSONを初回表示・再試行時に加え、表示中は1分ごと、タブ復帰時にも再取得します。取得時はブラウザーキャッシュを使わず、Vercel側も当該JSONに `Cache-Control: no-store` を設定します。更新時は言語・検索条件を維持し、一時的な取得エラーや不正JSONでは最後に取得できた正常な表示を保持します。初回の取得失敗時は再試行ボタンを表示します。
 
-現在の同梱JSONは上記snapshotです。スプレッドシート側GASの修正・認可・トークン設定・実送信は別作業で、まだ実施していません。GASから送るJSONは以下のfeed形式と出力pathに合わせてください。アプリのビルド・表示にAPIキーは不要です。
+現在の同梱JSONは上記snapshotです。スプレッドシート側GASには放映用の同期処理を保存済みです。追加のメール送信認可・トリガー登録・GitHubトークン設定・GASからの実送信確認は未完了です。GASから送るJSONは以下のfeed形式と出力pathに合わせます。アプリのビルド・表示にAPIキーは不要です。
 
 スプレッドシート「スポーツ放映データ」の「放映情報」タブでは、各イベント列の状態セルを次のように変換します。
 
@@ -98,7 +98,9 @@ GitHubは既存リポジトリを継続利用し、2026-10-22に放映用途に�
 
 Vercelも同じ既存プロジェクトの名称を `sports-broadcast-app` に変更しました（チーム `daigo-ogawas-projects`、プロジェクトID `prj_9i3JcNWMxLQwNlQbAnAnz6dcDcIe`）。リポジトリIDによる連携と既存公開ドメイン `sports-congestion-app.vercel.app` は保持されています。この名称変更に伴うアプリの再デプロイは行っていません。
 
-`GAS_BROADCAST.gs` は新feed用の未実行ソースです。スプレッドシートを読む `previewBroadcastFeed()` は生成件数のみ返し、GitHubを書き換えません。`syncBroadcastFeed()` は明示的な手動実行関数で、自動トリガーは設定していません。今回はApps Scriptへdeployせず、関数も実行していません。
+スプレッドシートに紐づくApps Scriptへ、`GAS_BROADCAST.gs` を `Broadcast.gs` として保存し、既存 `コード.gs` を `GAS_MENU.gs` の内容へ更新しました。手動更新・翻訳メニューを保持し、手動更新と時間トリガーの両方を放映用JSONの同期に接続しています。`previewBroadcastFeed()` は生成件数のみ返し、GitHubを書き換えません。
+
+`configureBroadcastSchedule()` は、現在の実行アカウントで毎日8時〜9時（`Asia/Tokyo`）に `scheduledBroadcastSync()` を1回実行する時間トリガーを登録します。同じ同期処理の古い時間トリガーだけを置き換え、他のトリガーは保持します。設定時にJSON送信・メール送信は行いません。手動更新と自動同期で失敗したときだけ `ogawa@pub-hub.com` へ通知し、成功時は通知しません。メール本文には日時・同期先・認証値を除いたエラー概要だけを含めます。Googleのメール送信追加認可とトリガー登録の最終確認は進行中です。
 
 運用時のApps ScriptのScript Propertiesは次の設定とします。トークンはコード・リポジトリに保存しません。
 
@@ -108,11 +110,11 @@ Vercelも同じ既存プロジェクトの名称を `sports-broadcast-app` に�
 | `BROADCAST_GITHUB_REPO` | `sports-broadcast-app` |
 | `BROADCAST_GITHUB_BRANCH` | `main`（運用開始時） |
 | `BROADCAST_GITHUB_PATH` | `public/data/broadcast.json` |
-| `BROADCAST_GITHUB_TOKEN` | 当該リポジトリへのContents書込権限を持つトークン（未設定） |
+| `BROADCAST_GITHUB_TOKEN` | 当該リポジトリへのContents書込権限を持つトークン（未設定。既存 `GITHUB_TOKEN` も参照可能） |
 
 ローカルGASの送信先許可リストも既存リポジトリに限定しています。出力先は `public/data/broadcast.json` のみで、旧 `status.json` を上書きしません。`diagnoseBroadcastSync()` はシート読取とGitHubのリポジトリ・ブランチ・ファイルのGETだけを行い、書込権限は未検証として報告します。`syncBroadcastFeed()` は既存ファイルのSHA取得に成功した場合のみ更新します。初回はアプリの確認済み変更と一緒にJSONを配置するか、別途承認した `initializeBroadcastFeed()` の手動実行で作成します。通常同期・診断から初回作成処理は呼びません。認証値やGitHubレスポンス本文はログ出力せず、リダイレクト追従・同時同期・入力店舗行の欠落を防止します。全件取消時の正常な空feedは送信できます。1MBを超える内容のSHA取得には `application/vnd.github.object+json` を使います（[GitHub Contents API](https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28)）。
 
-2026-10-22の読み取り確認では、シートに紐づく実際のGASは旧予約形式を `public/data/status.json` へ送るコードのままです。スクリプトプロパティは未登録で、確認アカウントの登録トリガーは0件でした。ローカルの修正版はまだこのGASやGitHubに反映していません。
+2026-10-22の当初の読み取り確認では、実GASは旧予約形式を `public/data/status.json` へ送るコードで、プロパティ未登録・確認アカウントの登録トリガー0件でした。その後のユーザーの依頼で、放映用送信処理と8時台の自動同期・失敗通知コードを上記の実GASへ保存しています。GitHubトークンの設定とGASからの実送信は未確認です。
 
 `GAS.txt`、`appscriptjson.txt`、既存sync/download/debug/delete helpers、`public/data/status.json` は旧予約状況向けで未変更です。新broadcast feedに対して実行・転用しないでください。
 

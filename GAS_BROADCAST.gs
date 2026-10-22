@@ -5,6 +5,8 @@ var BROADCAST_FEED_PATH = 'public/data/broadcast.json';
 var BROADCAST_YES_CELL = '〇：放映する';
 // Public destination allowlist. Changing repositories requires reviewing this value too.
 var BROADCAST_GITHUB_REPOSITORY = '9477781/sports-broadcast-app';
+var BROADCAST_FAILURE_EMAIL = 'ogawa@pub-hub.com';
+var BROADCAST_DAILY_HOUR = 8;
 
 /** Pure sheet-snapshot to public-feed mapping. This function performs no I/O. */
 function buildBroadcastFeed(snapshot) {
@@ -190,7 +192,83 @@ function previewBroadcastFeed() {
 }
 
 function syncBroadcastFeed() {
-  return writeBroadcastFeed_(false);
+  try {
+    return writeBroadcastFeed_(false);
+  } catch (error) {
+    notifyBroadcastSyncFailure_(error);
+    throw error;
+  }
+}
+
+/** Time trigger entry point. It does not call SpreadsheetApp.getUi(). */
+function scheduledBroadcastSync() {
+  return syncBroadcastFeed();
+}
+
+/** Run once to install the requested daily 08:00-09:00 JST schedule. No feed or email is sent. */
+function configureBroadcastSchedule() {
+  var lock = LockService.getScriptLock();
+  if (!lock.tryLock(10000)) throw new Error('Another broadcast operation is running.');
+  try {
+    var properties = PropertiesService.getScriptProperties();
+    properties.setProperties({
+      BROADCAST_GITHUB_OWNER: '9477781',
+      BROADCAST_GITHUB_REPO: 'sports-broadcast-app',
+      BROADCAST_GITHUB_BRANCH: 'main',
+      BROADCAST_GITHUB_PATH: BROADCAST_FEED_PATH
+    }, false);
+    var oldTriggers = ScriptApp.getProjectTriggers().filter(function(trigger) {
+      return trigger.getEventType() === ScriptApp.EventType.CLOCK
+        && ['scheduledBroadcastSync', 'syncBroadcastFeed', 'pushToGitHub'].indexOf(trigger.getHandlerFunction()) >= 0;
+    });
+    var trigger = ScriptApp.newTrigger('scheduledBroadcastSync').timeBased()
+      .inTimezone(BROADCAST_TIME_ZONE).atHour(BROADCAST_DAILY_HOUR).everyDays(1).create();
+    try {
+      oldTriggers.forEach(function(oldTrigger) { ScriptApp.deleteTrigger(oldTrigger); });
+    } catch (error) {
+      ScriptApp.deleteTrigger(trigger);
+      throw new Error('Old sync triggers could not be replaced. Check the trigger list before retrying.');
+    }
+    var summary = {
+      handler: 'scheduledBroadcastSync', frequency: 'daily',
+      timeZone: BROADCAST_TIME_ZONE, timeWindow: '08:00-09:00',
+      failureEmail: BROADCAST_FAILURE_EMAIL,
+      githubTokenConfigured: Boolean(properties.getProperty('BROADCAST_GITHUB_TOKEN') || properties.getProperty('GITHUB_TOKEN'))
+    };
+    console.log(JSON.stringify(summary));
+    return summary;
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function notifyBroadcastSyncFailure_(error) {
+  try {
+    var message = error && typeof error.message === 'string' ? error.message : 'Unknown synchronization error.';
+    var properties = PropertiesService.getScriptProperties();
+    ['BROADCAST_GITHUB_TOKEN', 'GITHUB_TOKEN'].forEach(function(key) {
+      var token = properties.getProperty(key);
+      if (token) message = message.split(token).join('[redacted]');
+    });
+    message = message.replace(/(?:github_pat_|gh[pousr]_)[A-Za-z0-9_]+/g, '[redacted]').slice(0, 1000);
+    MailApp.sendEmail({
+      to: BROADCAST_FAILURE_EMAIL,
+      subject: '[放映情報] GitHubへの同期に失敗しました',
+      body: [
+        'スポーツ放映情報のGitHub同期に失敗しました。',
+        '日時（日本時間）: ' + Utilities.formatDate(new Date(), BROADCAST_TIME_ZONE, 'yyyy-MM-dd HH:mm:ss'),
+        '同期先: https://github.com/' + BROADCAST_GITHUB_REPOSITORY + '/blob/main/' + BROADCAST_FEED_PATH,
+        'エラー: ' + message,
+        '',
+        'スプレッドシートの「拡張機能 → Apps Script」から設定と実行履歴を確認してください。',
+        'https://docs.google.com/spreadsheets/d/' + BROADCAST_SPREADSHEET_ID + '/edit',
+        '認証情報やシートの明細データはこのメールに含めていません。'
+      ].join('\n')
+    });
+  } catch (notificationError) {
+    // Preserve the original synchronization failure, without logging mail or credential details.
+    console.error('Failure notification could not be sent. Check MailApp authorization and mail quota.');
+  }
 }
 
 /** Explicit, one-time creation. Never called by the normal sync or diagnosis. */
@@ -374,7 +452,7 @@ function broadcastGithubConfig_() {
     repo: properties.getProperty('BROADCAST_GITHUB_REPO'),
     branch: properties.getProperty('BROADCAST_GITHUB_BRANCH'),
     path: properties.getProperty('BROADCAST_GITHUB_PATH'),
-    token: properties.getProperty('BROADCAST_GITHUB_TOKEN')
+    token: properties.getProperty('BROADCAST_GITHUB_TOKEN') || properties.getProperty('GITHUB_TOKEN')
   };
   var missing = [];
   Object.keys(config).forEach(function(key) {
