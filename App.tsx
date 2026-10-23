@@ -209,12 +209,12 @@ const App: React.FC = () => {
     ...availablePrefectures.map(value => ({ value, label: geoDisplayLabel(value, "ja") })),
   ];
 
-  const availableTokyoCities = sortedUnique(visibleData
-    .filter(store => store.prefecture === "東京都")
+  const availableMunicipalities = sortedUnique(visibleData
+    .filter(store => store.prefecture === selectedPrefecture)
     .map(store => store.city));
-  const tokyoCities = [
+  const municipalities = [
     { value: ALL_FILTER_VALUE, label: "すべて" },
-    ...availableTokyoCities.map(value => ({ value, label: value })),
+    ...availableMunicipalities.map(value => ({ value, label: value })),
   ];
 
   const storeOptionData = searchedData.filter(store =>
@@ -292,7 +292,7 @@ const App: React.FC = () => {
               prefectures={prefectures}
               selectedCity={selectedCity}
               onCityChange={handleCityChange}
-              tokyoCities={tokyoCities}
+              municipalities={municipalities}
               selectedStoreIds={selectedStoreIds}
               onStoreIdsChange={setSelectedStoreIds}
               stores={stores}

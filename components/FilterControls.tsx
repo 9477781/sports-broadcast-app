@@ -88,7 +88,7 @@ interface FilterControlsProps {
   prefectures: FilterOption[];
   selectedCity: string;
   onCityChange: (value: string) => void;
-  tokyoCities: FilterOption[];
+  municipalities: FilterOption[];
   selectedStoreIds: string[];
   onStoreIdsChange: (values: string[]) => void;
   stores: FilterOption[];
@@ -118,7 +118,7 @@ const FilterControls: React.FC<FilterControlsProps> = ({
   prefectures,
   selectedCity,
   onCityChange,
-  tokyoCities,
+  municipalities,
   selectedStoreIds,
   onStoreIdsChange,
   stores,
@@ -257,13 +257,13 @@ const FilterControls: React.FC<FilterControlsProps> = ({
           </div>
         </div>
 
-        {selectedPrefecture === "東京都" && (
+        {selectedPrefecture !== "__all__" && (
           <div className="border-t border-slate-200 pt-3 md:pt-4">
             <p className="mb-2.5 text-base font-bold text-slate-800 md:mb-3 md:text-lg">
-              {language === "ja" ? "東京都 —" : "Tokyo —"}
+              {geoDisplayLabel(selectedPrefecture, language)} —
             </p>
-            <div className="flex min-w-0 flex-wrap gap-1.5 md:gap-2" role="group" aria-label={language === "ja" ? "東京都内の区・市を選択" : "Choose a Tokyo ward or city"}>
-              {tokyoCities.map(option => {
+            <div className="flex min-w-0 flex-wrap gap-1.5 md:gap-2" role="group" aria-label={language === "ja" ? `${selectedPrefecture}の市区町村を選択` : "Choose a city or district"}>
+              {municipalities.map(option => {
                 const active = selectedCity === option.value;
                 return (
                   <button
