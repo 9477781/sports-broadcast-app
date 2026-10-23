@@ -70,7 +70,7 @@ const StoreTable: React.FC<StoreTableProps> = ({ data, language }) => {
                       </div>
                       <div className="flex min-h-[100px] flex-1 flex-col items-center justify-center p-4 text-center leading-tight text-slate-100">
                         <span className="text-base font-black">{title}</span>
-                        {time && <span className="mt-1 text-base font-black text-orange-300">{time}</span>}
+                        {time && <span className="mt-1 text-xl font-black text-orange-300">{time}</span>}
                       </div>
                     </div>
                   </th>

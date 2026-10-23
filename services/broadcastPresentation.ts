@@ -25,12 +25,12 @@ export function getSportPresentation(sport: string, language: Language) {
 
 /** Formatting is display-only: source match strings remain canonical filter keys. */
 export function formatMatchTitle(title: string): string {
-  return title.replace(/vs|ｖｓ/giu, (token: string, offset: number) => {
+  return title.replace(/vs\.?|ｖｓ\.?/giu, (token: string, offset: number) => {
     const before = title.slice(0, offset);
     const after = title.slice(offset + token.length);
-    if (!before.trim() || !after.trim()) return token;
-    // Do not split a club abbreviation such as "AVS vs Porto".
-    if (/[A-Za-z]$/.test(before) && !/^[^\x00-\x7F]/u.test(after)) return token;
+    // Preserve the VS suffix in an acronym such as "AVS", but normalize actual separators.
+    if (token === "VS" && /[A-Z]$/.test(before) && !after.startsWith(".")) return token;
+    if (!before.trim() || !after.trim()) return token.replace(/\.$/u, "");
     return " vs ";
   }).replace(/[\t \u3000]+/gu, " ").trim();
 }
@@ -52,4 +52,3 @@ export function getMatchDateLabel(match: Pick<SportsMatch, "date" | "display_dat
   const weekday = new Intl.DateTimeFormat("en-US", { weekday: "short", timeZone: "UTC" }).format(date);
   return (date.getUTCMonth() + 1) + "/" + date.getUTCDate() + " (" + weekday + ")";
 }
-
