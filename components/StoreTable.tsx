@@ -95,7 +95,7 @@ const StoreTable: React.FC<StoreTableProps> = ({ data, language }) => {
                   </th>
                   <td className={`sticky left-[140px] z-20 w-[240px] min-w-[240px] max-w-[240px] overflow-hidden border-b border-r border-slate-200 p-5 ${rowColor}`}>
                     {store.url ? (
-                      <a href={store.url} target="_blank" rel="noopener noreferrer" className="inline-block text-lg font-black leading-tight text-slate-900 transition-colors group-hover:text-orange-600">
+                      <a href={store.url} target="_blank" rel="noopener noreferrer" className="inline-block text-lg font-black leading-tight text-slate-900 underline decoration-1 decoration-slate-400 underline-offset-4 transition-colors group-hover:text-orange-600 group-hover:decoration-orange-600 focus-visible:rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2">
                         {language === "ja" ? store.name : store.name_en}
                       </a>
                     ) : (

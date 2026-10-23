@@ -21,7 +21,7 @@ const StoreCard: React.FC<StoreCardProps> = ({ data, language }) => {
         </div>
         <h2 className="text-lg font-black tracking-tight text-slate-800">
           {data.url ? (
-            <a href={data.url} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-blue-500">
+            <a href={data.url} target="_blank" rel="noopener noreferrer" className="underline decoration-1 decoration-slate-400 underline-offset-4 transition-colors hover:text-blue-500 hover:decoration-blue-500 focus-visible:rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
               {storeName}
             </a>
           ) : storeName}
