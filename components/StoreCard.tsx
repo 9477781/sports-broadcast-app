@@ -19,12 +19,9 @@ const StoreCard: React.FC<StoreCardProps> = ({ data, language }) => {
             {language === "ja" ? `${data.prefecture} ${data.city}` : data.prefecture_en}
           </span>
         </div>
-        <h2 className="text-xl font-black tracking-tight text-slate-800">
-          {data.url ? (
-            <a href={data.url} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-blue-500">
-              {storeName}
-            </a>
-          ) : storeName}
+        <h2 className="text-lg font-black tracking-tight text-slate-800">
+          {/* Keep data.url available for future links; store names are plain text for now. */}
+          {storeName}
         </h2>
       </header>
 
@@ -46,10 +43,10 @@ const StoreCard: React.FC<StoreCardProps> = ({ data, language }) => {
                     {sport.label}
                   </span>
                   <div className="flex flex-col">
-                    <span className="text-[13px] font-bold leading-tight text-slate-700">
+                    <span className="text-base font-bold leading-tight text-slate-700">
                       {title}
                     </span>
-                    {time && <span className="my-0.5 text-xs font-black text-orange-600">{time}</span>}
+                    {time && <span className="my-1 text-base font-black text-orange-600">{time}</span>}
                   </div>
                 </div>
               </div>

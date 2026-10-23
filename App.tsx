@@ -175,6 +175,7 @@ const App: React.FC = () => {
         return {
           value: getMatchKey(match),
           label: getMatchDateLabel(match, language) + " · " + presentation.title + (presentation.time ? " (" + presentation.time + ")" : ""),
+          date: match.date,
         };
       });
   };
@@ -347,4 +348,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-

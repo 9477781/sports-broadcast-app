@@ -11,9 +11,10 @@ interface MultiSelectProps {
   selectedValues: string[];
   onChange: (values: string[]) => void;
   optionLabelClassName?: (option: FilterOption) => string;
+  renderOptionLabel?: (option: FilterOption) => React.ReactNode;
 }
 
-const MultiSelect: React.FC<MultiSelectProps> = ({ language, label, options, selectedValues, onChange, optionLabelClassName }) => {
+const MultiSelect: React.FC<MultiSelectProps> = ({ language, label, options, selectedValues, onChange, optionLabelClassName, renderOptionLabel }) => {
   const [isOpen, setIsOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const listId = useId();
@@ -58,7 +59,9 @@ const MultiSelect: React.FC<MultiSelectProps> = ({ language, label, options, sel
                 onChange={() => toggleOption(option.value)}
                 className="h-4 w-4 shrink-0 rounded border-slate-300 text-blue-600 focus:ring-blue-500"
               />
-              <span className={`whitespace-normal text-sm font-medium leading-tight ${optionLabelClassName?.(option) ?? "text-slate-700"}`}>{option.label}</span>
+              <span className={`whitespace-normal text-sm font-medium leading-tight ${optionLabelClassName?.(option) ?? "text-slate-700"}`}>
+                {renderOptionLabel ? renderOptionLabel(option) : option.label}
+              </span>
             </label>
           ))}
           {options.length === 0 && (
@@ -193,6 +196,16 @@ const FilterControls: React.FC<FilterControlsProps> = ({
           options={matches}
           selectedValues={selectedMatchKeys}
           onChange={onMatchKeysChange}
+          renderOptionLabel={option => {
+            if (!option.date) return option.label;
+            const separatorIndex = option.label.indexOf(" · ");
+            if (separatorIndex < 0) return option.label;
+            const weekday = new Date(`${option.date}T00:00:00Z`).getUTCDay();
+            const dateClass = weekday === 0 || isJapanesePublicHoliday(option.date)
+              ? "text-rose-700"
+              : weekday === 6 ? "text-blue-700" : "text-slate-700";
+            return <><span className={`font-bold ${dateClass}`}>{option.label.slice(0, separatorIndex)}</span>{option.label.slice(separatorIndex)}</>;
+          }}
         />
         </div>
       </div>
@@ -244,7 +257,10 @@ const FilterControls: React.FC<FilterControlsProps> = ({
           <p className="text-xs font-bold text-slate-700">{language === "ja" ? "放映ありのみ表示" : "Showing broadcasts only"}</p>
           <p className="text-xs font-medium text-slate-500">{language === "ja" ? `表示期間（日本時間）：${dateRange}` : `Display period (JST): ${dateRange}`}</p>
         </div>
-        <button type="button" onClick={onReset} className="rounded-md px-2 py-1 text-xs font-bold text-slate-500 underline decoration-slate-300 underline-offset-2 hover:text-slate-800">
+        <button type="button" onClick={onReset} className="inline-flex min-h-10 items-center gap-2 rounded-lg border border-orange-300 bg-orange-50 px-4 py-2 text-sm font-bold text-orange-800 shadow-sm transition-colors hover:border-orange-500 hover:bg-orange-100 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2">
+          <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v6h6M5.6 15a7 7 0 1 0 .4-6" />
+          </svg>
           {language === "ja" ? "条件をリセット" : "Reset filters"}
         </button>
       </div>
@@ -253,4 +269,3 @@ const FilterControls: React.FC<FilterControlsProps> = ({
 };
 
 export default FilterControls;
-

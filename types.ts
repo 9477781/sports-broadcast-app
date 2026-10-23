@@ -32,4 +32,5 @@ export interface ApiResponse {
 export interface FilterOption {
   value: string;
   label: string;
+  date?: string;
 }

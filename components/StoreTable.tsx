@@ -2,6 +2,7 @@ import React, { useMemo, useRef } from "react";
 import { BROADCAST_STATUS_CONFIG } from "../constants";
 import { getMatchKey } from "../services/broadcastData";
 import { getMatchDateLabel, getMatchPresentation, getSportPresentation } from "../services/broadcastPresentation";
+import { isJapanesePublicHoliday } from "../services/japaneseHolidays";
 import type { Language, SportsMatch, StoreData } from "../types";
 
 interface StoreTableProps {
@@ -46,19 +47,20 @@ const StoreTable: React.FC<StoreTableProps> = ({ data, language }) => {
               <th scope="col" className="sticky left-0 z-40 w-[140px] min-w-[140px] max-w-[140px] border-b border-r border-white/20 bg-orange-500 p-0 text-[15px] font-bold text-white">
                 <div className="flex h-full items-center justify-center p-4">{language === "ja" ? "エリア" : "Area"}</div>
               </th>
-              <th scope="col" className="sticky left-[140px] z-40 w-[240px] min-w-[240px] max-w-[240px] border-b border-r border-white/20 bg-orange-500 p-0 text-[15px] font-bold text-white">
+              <th scope="col" className="sticky left-[140px] z-40 w-[240px] min-w-[240px] max-w-[240px] border-b border-r border-white/20 bg-orange-500 p-0 text-lg font-bold text-white">
                 <div className="flex h-full items-center justify-center p-4">{language === "ja" ? "店名" : "Store"}</div>
               </th>
               {headerMatches.map(match => {
                 const { title, time } = getMatchPresentation(match, language);
                 const sport = getSportPresentation(match.sport, language);
                 const dayOfWeek = new Date(`${match.date}T00:00:00Z`).getUTCDay();
-                const isWeekend = dayOfWeek === 0 || dayOfWeek === 6;
+                const isHoliday = dayOfWeek === 0 || isJapanesePublicHoliday(match.date);
+                const dateHeaderClass = isHoliday ? "bg-red-500" : dayOfWeek === 6 ? "bg-blue-600" : "bg-orange-500";
 
                 return (
                   <th key={getMatchKey(match)} scope="col" className="w-[300px] min-w-[300px] max-w-[300px] border-b border-r border-white/10 bg-slate-800 p-0 text-white">
                     <div className="flex h-full flex-col overflow-hidden">
-                      <div className={`flex h-[54px] min-h-[54px] items-center justify-center border-b border-white/10 p-3 text-base font-bold ${isWeekend ? "bg-rose-600" : "bg-slate-700"}`}>
+                      <div className={`flex h-[54px] min-h-[54px] items-center justify-center border-b border-white/10 p-3 text-lg font-bold ${dateHeaderClass}`}>
                         {getMatchDateLabel(match, language)}
                       </div>
                       <div className="flex h-[42px] items-center justify-center border-b border-white/10 bg-slate-800 p-2">
@@ -92,13 +94,8 @@ const StoreTable: React.FC<StoreTableProps> = ({ data, language }) => {
                     {language === "ja" ? `${store.prefecture} ${store.city}` : store.prefecture_en}
                   </th>
                   <td className={`sticky left-[140px] z-20 w-[240px] min-w-[240px] max-w-[240px] overflow-hidden border-b border-r border-slate-200 p-5 ${rowColor}`}>
-                    {store.url ? (
-                      <a href={store.url} target="_blank" rel="noopener noreferrer" className="inline-block text-lg font-black leading-tight text-slate-900 transition-colors group-hover:text-orange-600">
-                        {language === "ja" ? store.name : store.name_en}
-                      </a>
-                    ) : (
-                      <span className="text-lg font-black leading-tight text-slate-900">{language === "ja" ? store.name : store.name_en}</span>
-                    )}
+                    {/* Keep store.url in the data model for future link display; names are plain text for now. */}
+                    <span className="text-lg font-black leading-tight text-slate-900">{language === "ja" ? store.name : store.name_en}</span>
                   </td>
                   {headerMatches.map(matchHeader => {
                     const match = matchesByKey.get(getMatchKey(matchHeader));
@@ -129,4 +126,3 @@ const StoreTable: React.FC<StoreTableProps> = ({ data, language }) => {
 };
 
 export default StoreTable;
-
