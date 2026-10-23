@@ -86,6 +86,9 @@ interface FilterControlsProps {
   selectedPrefecture: string;
   onPrefectureChange: (value: string) => void;
   prefectures: FilterOption[];
+  selectedCity: string;
+  onCityChange: (value: string) => void;
+  tokyoCities: FilterOption[];
   selectedStoreIds: string[];
   onStoreIdsChange: (values: string[]) => void;
   stores: FilterOption[];
@@ -113,6 +116,9 @@ const FilterControls: React.FC<FilterControlsProps> = ({
   selectedPrefecture,
   onPrefectureChange,
   prefectures,
+  selectedCity,
+  onCityChange,
+  tokyoCities,
   selectedStoreIds,
   onStoreIdsChange,
   stores,
@@ -250,6 +256,30 @@ const FilterControls: React.FC<FilterControlsProps> = ({
             })}
           </div>
         </div>
+
+        {selectedPrefecture === "東京都" && (
+          <div className="border-t border-slate-200 pt-3 md:pt-4">
+            <p className="mb-2.5 text-base font-bold text-slate-800 md:mb-3 md:text-lg">
+              {language === "ja" ? "東京都 —" : "Tokyo —"}
+            </p>
+            <div className="flex min-w-0 flex-wrap gap-1.5 md:gap-2" role="group" aria-label={language === "ja" ? "東京都内の区・市を選択" : "Choose a Tokyo ward or city"}>
+              {tokyoCities.map(option => {
+                const active = selectedCity === option.value;
+                return (
+                  <button
+                    key={option.value}
+                    type="button"
+                    aria-pressed={active}
+                    onClick={() => onCityChange(option.value)}
+                    className={`min-h-10 shrink-0 rounded-md px-4 py-2 text-sm font-bold transition-colors md:min-h-12 md:px-6 md:py-3 md:text-base ${active ? "bg-slate-800 text-white shadow-sm" : "bg-slate-100 text-slate-700 hover:bg-blue-50 hover:text-blue-800"}`}
+                  >
+                    {option.value === "__all__" ? (language === "ja" ? "すべて" : "All") : option.label}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
       </div>
 
       <div className="mt-3 flex flex-wrap items-center justify-between gap-2 border-t border-slate-100 pt-3">

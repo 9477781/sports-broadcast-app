@@ -16,7 +16,7 @@ const ALL_FILTER_VALUE = "__all__";
 const REGION_ORDER = ["関東", "関西", "中部", "東北", "九州", "北海道"];
 const KANTO_PREFECTURE_ORDER = ["東京都", "埼玉県", "千葉県", "神奈川県"];
 
-type StoreFilterDimension = "region" | "prefecture" | "store";
+type StoreFilterDimension = "region" | "prefecture" | "city" | "store";
 type MatchFilterDimension = "date" | "sport" | "match";
 type LoadState = "loading" | "ready" | "error";
 
@@ -48,6 +48,7 @@ const App: React.FC = () => {
   const [appliedSearchQuery, setAppliedSearchQuery] = useState("");
   const [selectedRegion, setSelectedRegion] = useState(ALL_FILTER_VALUE);
   const [selectedPrefecture, setSelectedPrefecture] = useState(ALL_FILTER_VALUE);
+  const [selectedCity, setSelectedCity] = useState(ALL_FILTER_VALUE);
   const [selectedStoreIds, setSelectedStoreIds] = useState<string[]>([]);
   const [selectedDates, setSelectedDates] = useState<string[]>([]);
   const [selectedSports, setSelectedSports] = useState<string[]>([]);
@@ -128,6 +129,7 @@ const App: React.FC = () => {
   const matchesStoreFilters = (store: StoreData, excluded?: StoreFilterDimension): boolean => {
     if (excluded !== "region" && selectedRegion !== ALL_FILTER_VALUE && store.region !== selectedRegion) return false;
     if (excluded !== "prefecture" && selectedPrefecture !== ALL_FILTER_VALUE && store.prefecture !== selectedPrefecture) return false;
+    if (excluded !== "city" && selectedCity !== ALL_FILTER_VALUE && store.city !== selectedCity) return false;
     if (excluded !== "store" && selectedStoreIds.length > 0 && !selectedStoreIds.includes(store.id)) return false;
     return true;
   };
@@ -207,6 +209,14 @@ const App: React.FC = () => {
     ...availablePrefectures.map(value => ({ value, label: geoDisplayLabel(value, "ja") })),
   ];
 
+  const availableTokyoCities = sortedUnique(visibleData
+    .filter(store => store.prefecture === "東京都")
+    .map(store => store.city));
+  const tokyoCities = [
+    { value: ALL_FILTER_VALUE, label: "すべて" },
+    ...availableTokyoCities.map(value => ({ value, label: value })),
+  ];
+
   const storeOptionData = searchedData.filter(store =>
     matchesStoreFilters(store, "store") && store.matches.some(match => matchesEventFilters(match)),
   );
@@ -233,6 +243,7 @@ const App: React.FC = () => {
     setAppliedSearchQuery("");
     setSelectedRegion(ALL_FILTER_VALUE);
     setSelectedPrefecture(ALL_FILTER_VALUE);
+    setSelectedCity(ALL_FILTER_VALUE);
     setSelectedStoreIds([]);
     setSelectedDates([]);
     setSelectedSports([]);
@@ -242,11 +253,18 @@ const App: React.FC = () => {
   const handleRegionChange = (value: string) => {
     setSelectedRegion(value);
     setSelectedPrefecture(ALL_FILTER_VALUE);
+    setSelectedCity(ALL_FILTER_VALUE);
     setSelectedStoreIds([]);
   };
 
   const handlePrefectureChange = (value: string) => {
     setSelectedPrefecture(value);
+    setSelectedCity(ALL_FILTER_VALUE);
+    setSelectedStoreIds([]);
+  };
+
+  const handleCityChange = (value: string) => {
+    setSelectedCity(value);
     setSelectedStoreIds([]);
   };
 
@@ -272,6 +290,9 @@ const App: React.FC = () => {
               selectedPrefecture={selectedPrefecture}
               onPrefectureChange={handlePrefectureChange}
               prefectures={prefectures}
+              selectedCity={selectedCity}
+              onCityChange={handleCityChange}
+              tokyoCities={tokyoCities}
               selectedStoreIds={selectedStoreIds}
               onStoreIdsChange={setSelectedStoreIds}
               stores={stores}
