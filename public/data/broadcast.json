@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T01:51:25.471Z",
+  "updatedAt": "2026-10-23T02:55:21.100Z",
   "data": [
     {
       "id": "5506",
@@ -34,6 +34,14 @@
           "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-30",
+          "display_date": "10月30日(金)",
+          "sport": "Sports Event",
+          "match": "ジーロングvsウェスタン・ブルドッグス （17:15）",
+          "match_en": "Geelong vs. Western Bulldogs",
           "broadcastStatus": "showing"
         },
         {
