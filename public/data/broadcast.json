@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T04:17:00.767Z",
+  "updatedAt": "2026-10-23T05:18:56.064Z",
   "data": [
     {
       "id": "5506",
@@ -1714,6 +1714,14 @@
         {
           "date": "2026-10-24",
           "display_date": "10月24日(土)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:30）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-24",
+          "display_date": "10月24日(土)",
           "sport": "Soccer",
           "match": "アストン・ヴィラvsマンチェスター・シティ （20:30）",
           "match_en": "Aston Villa vs Manchester City",
@@ -1730,6 +1738,14 @@
         {
           "date": "2026-10-25",
           "display_date": "10月25日(日)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:00）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-25",
+          "display_date": "10月25日(日)",
           "sport": "Soccer",
           "match": "リヴァプールvsブライトン&ホーヴ・アルビオン （23:00）",
           "match_en": "Liverpool vs Brighton & Hove Albion",
@@ -1741,6 +1757,22 @@
           "sport": "Basketball",
           "match": "長崎vs琉球 （19:05）",
           "match_en": "Nagasaki vs Ryukyu",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
           "broadcastStatus": "showing"
         },
         {
