@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-23T05:18:56.064Z",
+  "updatedAt": "2026-10-23T07:30:07.740Z",
   "data": [
     {
       "id": "5506",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/5",
+      "url": "https://fansta.jp/shops/UE1lPFCkEhND?utm_source=hub_hp",
       "name": "HUB新宿南口店 B1F",
       "name_en": "HUB Shinjuku south branch",
       "address": "東京都 新宿区",
@@ -31,6 +31,14 @@
         {
           "date": "2026-10-27",
           "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
           "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
@@ -128,7 +136,7 @@
     },
     {
       "id": "55066",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/5",
+      "url": "https://fansta.jp/shops/UE1lPFCkEhND?utm_source=hub_hp",
       "name": "HUB新宿南口店 6F",
       "name_en": "HUB Shinjuku south branch",
       "address": "東京都 新宿区",
@@ -196,8 +204,53 @@
       ]
     },
     {
+      "id": "5521",
+      "url": "https://fansta.jp/shops/EJSLI98cpBLf?utm_source=hub_hp",
+      "name": "HUB東京オペラシティ店",
+      "name_en": "HUB Tokyo Opera City branch",
+      "address": "東京都 新宿区",
+      "region": "関東",
+      "prefecture": "東京都",
+      "prefecture_en": "Shinjuku-ku, Tokyo",
+      "city": "新宿区",
+      "matches": [
+        {
+          "date": "2026-10-24",
+          "display_date": "10月24日(土)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:30）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-25",
+          "display_date": "10月25日(日)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:00）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        }
+      ]
+    },
+    {
       "id": "5522",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/17",
+      "url": "https://fansta.jp/shops/kyEjqxabIpMf?utm_source=hub_hp",
       "name": "HUB高田馬場店",
       "name_en": "HUB Takadanobaba branch",
       "address": "東京都 新宿区",
@@ -306,7 +359,7 @@
     },
     {
       "id": "5603",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/88",
+      "url": "https://fansta.jp/shops/cs42hLLnPMeo?utm_source=hub_hp",
       "name": "HUB新宿区役所通り店",
       "name_en": "HUB Shinjuku Kuyakusho st. branch",
       "address": "東京都 新宿区",
@@ -575,7 +628,7 @@
     },
     {
       "id": "5606",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/32",
+      "url": "https://fansta.jp/shops/Utk6O7g2l0c2?utm_source=hub_hp",
       "name": "HUB新宿西口大ガード店",
       "name_en": "HUB Shinjuku west branch",
       "address": "東京都 新宿区",
@@ -652,7 +705,7 @@
     },
     {
       "id": "5614",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/101",
+      "url": "https://fansta.jp/shops/K8qUbGiqjRp7?utm_source=hub_hp",
       "name": "HUB高田馬場駅西店",
       "name_en": "HUB Takadanobaba west branch",
       "address": "東京都 新宿区",
@@ -721,7 +774,7 @@
     },
     {
       "id": "5621",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/104",
+      "url": "https://fansta.jp/shops/XJLo3bcr1s1t?utm_source=hub_hp",
       "name": "HUB新宿靖国通り店",
       "name_en": "HUB Shinjuku Yasukuni st. branch",
       "address": "東京都 新宿区",
@@ -846,7 +899,7 @@
     },
     {
       "id": "5625",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/112",
+      "url": "https://fansta.jp/shops/rjWABEPRfrFQ?utm_source=hub_hp",
       "name": "HUB西武新宿駅前店",
       "name_en": "HUB Seibu Shinjuku Ekimae branch",
       "address": "東京都 新宿区",
@@ -907,7 +960,7 @@
     },
     {
       "id": "5539",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/33",
+      "url": "https://fansta.jp/shops/jt2JH0eeY77G?utm_source=hub_hp",
       "name": "８２神田店",
       "name_en": "82 Kanda branch",
       "address": "東京都 千代田区",
@@ -952,7 +1005,7 @@
     },
     {
       "id": "5548",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/42",
+      "url": "https://fansta.jp/shops/JAUnmbXm4CSl?utm_source=hub_hp",
       "name": "HUB秋葉原店",
       "name_en": "HUB Akihabara branch",
       "address": "東京都 千代田区",
@@ -1109,7 +1162,7 @@
     },
     {
       "id": "5553",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/47",
+      "url": "https://fansta.jp/shops/dLoj5MeNdKJF?utm_source=hub_hp",
       "name": "８２AKIBA TOLIM店",
       "name_en": "82 Akiba Tolim branch",
       "address": "東京都 千代田区",
@@ -1218,7 +1271,7 @@
     },
     {
       "id": "5567",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/61",
+      "url": "https://fansta.jp/shops/xNZxTqqBiBWR?utm_source=hub_hp",
       "name": "HUBロッテシティホテル錦糸町店",
       "name_en": "HUB Lotte City Hotel Kinshicho branch",
       "address": "東京都 墨田区",
@@ -1391,7 +1444,7 @@
     },
     {
       "id": "5568",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/62",
+      "url": "https://fansta.jp/shops/3VK8ml6jQZqo?utm_source=hub_hp",
       "name": "８２ロッテシティホテル錦糸町店",
       "name_en": "82 Lotte City Hotel Kinshicho branch",
       "address": "東京都 墨田区",
@@ -1540,7 +1593,7 @@
     },
     {
       "id": "5583",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/77",
+      "url": "https://fansta.jp/shops/2MZ0E3UlPyld?utm_source=hub_hp",
       "name": "HUB神田東口店",
       "name_en": "HUB Kanda east branch",
       "address": "東京都 千代田区",
@@ -1609,7 +1662,7 @@
     },
     {
       "id": "5624",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/111",
+      "url": "https://fansta.jp/shops/TcfSDsXxaCSU?utm_source=hub_hp",
       "name": "HUBチョムチョム秋葉原店",
       "name_en": "HUB chomp chomp AKIHABARA branch",
       "address": "東京都 千代田区",
@@ -1678,7 +1731,7 @@
     },
     {
       "id": "5605",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/90",
+      "url": "https://fansta.jp/shops/FtSqiDpETGhp?utm_source=hub_hp",
       "name": "HUB渋谷センター街店",
       "name_en": "HUB Shibuya Center-Gai branch",
       "address": "東京都 渋谷区",
@@ -1827,7 +1880,7 @@
     },
     {
       "id": "5544",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/38",
+      "url": "https://fansta.jp/shops/aEek7uf70BsF?utm_source=hub_hp",
       "name": "８２赤坂店",
       "name_en": "82 Akasaka branch",
       "address": "東京都 港区",
@@ -1864,7 +1917,7 @@
     },
     {
       "id": "5546",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/40",
+      "url": "https://fansta.jp/shops/oZnZXsCQx1S5?utm_source=hub_hp",
       "name": "HUB東京ドームシティ ラクーア店",
       "name_en": "HUB Tokyo Dome City LaQua branch",
       "address": "東京都 文京区",
@@ -1949,7 +2002,7 @@
     },
     {
       "id": "5550",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/44",
+      "url": "https://fansta.jp/shops/Bsu3dejChLSN?utm_source=hub_hp",
       "name": "８２新宿三丁目店",
       "name_en": "82 Shinjuku-Sanchome branch",
       "address": "東京都 新宿区",
@@ -2026,7 +2079,7 @@
     },
     {
       "id": "5559",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/53",
+      "url": "https://fansta.jp/shops/OKAbUSm3PaDq?utm_source=hub_hp",
       "name": "８２築地店",
       "name_en": "82 Tsukiji branch",
       "address": "東京都 中央区",
@@ -2071,7 +2124,7 @@
     },
     {
       "id": "5566",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/60",
+      "url": "https://fansta.jp/shops/aEek7uf70BsF?utm_source=hub_hp",
       "name": "８２東銀座店",
       "name_en": "82 Higashi-ginza branch",
       "address": "東京都 中央区",
@@ -2188,7 +2241,7 @@
     },
     {
       "id": "5620",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/108",
+      "url": "https://fansta.jp/shops/Nlrxe8UL0vF3?utm_source=hub_hp",
       "name": "HUB四谷しんみち通り店",
       "name_en": "HUB Yotsuya Shimmichi st. branch",
       "address": "東京都 新宿区",
@@ -2297,7 +2350,7 @@
     },
     {
       "id": "5628",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/115",
+      "url": "https://fansta.jp/shops/WAR3uiiAeGnn?utm_source=hub_hp",
       "name": "HUB飯田橋東口店",
       "name_en": "HUB Iidabashi east branch",
       "address": "東京都 千代田区",
@@ -2366,7 +2419,7 @@
     },
     {
       "id": "5502",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/2",
+      "url": "https://fansta.jp/shops/Mz3mi2fG9nT2?utm_source=hub_hp",
       "name": "HUB渋谷店",
       "name_en": "HUB ShibuyaⅠbranch",
       "address": "東京都 渋谷区",
@@ -2427,7 +2480,7 @@
     },
     {
       "id": "5570",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/64",
+      "url": "https://fansta.jp/shops/OWdS9R6l8E8W?utm_source=hub_hp",
       "name": "HUB代々木西口店",
       "name_en": "HUB Yoyogi west branch",
       "address": "東京都 渋谷区",
@@ -2496,7 +2549,7 @@
     },
     {
       "id": "5572",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/66",
+      "url": "https://fansta.jp/shops/oSFCVzzPc8Ao?utm_source=hub_hp",
       "name": "８２渋谷宮益坂店",
       "name_en": "82 Shibuya Miyamasuzaka branch",
       "address": "東京都 渋谷区",
@@ -2549,7 +2602,7 @@
     },
     {
       "id": "5573",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/67",
+      "url": "https://fansta.jp/shops/RwUamp3aJ6fh?utm_source=hub_hp",
       "name": "８２五反田西口店",
       "name_en": "82 Gotanda west branch",
       "address": "東京都 品川区",
@@ -2626,7 +2679,7 @@
     },
     {
       "id": "5609",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/96",
+      "url": "https://fansta.jp/shops/1FBip7c4WIjT?utm_source=hub_hp",
       "name": "HUB渋谷道玄坂店",
       "name_en": "HUB Shibuya Dogenzaka branch",
       "address": "東京都 渋谷区",
@@ -2727,7 +2780,7 @@
     },
     {
       "id": "5622",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/109",
+      "url": "https://fansta.jp/shops/SklXlGSDPy8W?utm_source=hub_hp",
       "name": "HUB渋谷2号店",
       "name_en": "HUB ShibuyaⅡ branch",
       "address": "東京都 渋谷区",
@@ -2948,7 +3001,7 @@
     },
     {
       "id": "5633",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/123",
+      "url": "https://fansta.jp/shops/8iV23eVO7uoW?utm_source=hub_hp",
       "name": "HUB渋谷3号店",
       "name_en": "HUB ShibuyaⅢ branch",
       "address": "東京都 渋谷区",
@@ -3057,7 +3110,7 @@
     },
     {
       "id": "5501",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/1",
+      "url": "",
       "name": "HUB六本木店",
       "name_en": "HUB RoppongiⅠbranch",
       "address": "東京都 港区",
@@ -3078,7 +3131,7 @@
     },
     {
       "id": "5513",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/10",
+      "url": "https://fansta.jp/shops/WqhrSFGafF87?utm_source=hub_hp",
       "name": "HUB銀座コリドー店",
       "name_en": "HUB Ginza branch",
       "address": "東京都 中央区",
@@ -3195,7 +3248,7 @@
     },
     {
       "id": "5520",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/15",
+      "url": "https://fansta.jp/shops/n3uvA2JhwPlL?utm_source=hub_hp",
       "name": "HUB日比谷店",
       "name_en": "HUB Hibiya branch",
       "address": "東京都 千代田区",
@@ -3328,7 +3381,7 @@
     },
     {
       "id": "5537",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/31",
+      "url": "https://fansta.jp/shops/q095K9yUz7ee?utm_source=hub_hp",
       "name": "HUB恵比寿店",
       "name_en": "HUB Ebisu branch",
       "address": "東京都 渋谷区",
@@ -3453,7 +3506,7 @@
     },
     {
       "id": "5571",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/65",
+      "url": "https://fansta.jp/shops/3JRwOf6hn9Ew?utm_source=hub_hp",
       "name": "HUB外苑前店",
       "name_en": "HUB Gaiemmae branch",
       "address": "東京都 港区",
@@ -3514,7 +3567,7 @@
     },
     {
       "id": "5580",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/74",
+      "url": "https://fansta.jp/shops/IRrHSWDMQPUI?utm_source=hub_hp",
       "name": "HUB神谷町店",
       "name_en": "HUB Kamiyacho branch",
       "address": "東京都 港区",
@@ -3559,7 +3612,7 @@
     },
     {
       "id": "5541",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/35",
+      "url": "https://fansta.jp/shops/i27PWi68XYmt?utm_source=hub_hp",
       "name": "８２品川店",
       "name_en": "82 Shinagawa branch",
       "address": "東京都 港区",
@@ -3628,7 +3681,7 @@
     },
     {
       "id": "5547",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/41",
+      "url": "https://fansta.jp/shops/z6oDzOPtBN58?utm_source=hub_hp",
       "name": "８２三田店",
       "name_en": "82 Mita branch",
       "address": "東京都 港区",
@@ -3697,7 +3750,7 @@
     },
     {
       "id": "5549",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/43",
+      "url": "https://fansta.jp/shops/alsIDU0DzhaP?utm_source=hub_hp",
       "name": "８２浜松町店",
       "name_en": "82 Hamamatsucho branch",
       "address": "東京都 港区",
@@ -3790,7 +3843,7 @@
     },
     {
       "id": "5577",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/71",
+      "url": "https://fansta.jp/shops/QX9Wy1e83Zv4?utm_source=hub_hp",
       "name": "HUB新橋店",
       "name_en": "HUB Shimbashi branch",
       "address": "東京都 港区",
@@ -3987,7 +4040,7 @@
     },
     {
       "id": "5613",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/100",
+      "url": "https://fansta.jp/shops/ZqjrvnpySSDj?utm_source=hub_hp",
       "name": "HUB新橋銀座口店",
       "name_en": "HUB Shimbashi Ginza Exit branch",
       "address": "東京都 港区",
@@ -4144,7 +4197,7 @@
     },
     {
       "id": "5630",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/117",
+      "url": "https://fansta.jp/shops/oDkEeF49JKo0?utm_source=hub_hp",
       "name": "HUB浜松町店",
       "name_en": "HUB Hamamatsucho branch",
       "address": "東京都 港区",
@@ -4237,7 +4290,7 @@
     },
     {
       "id": "5518",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/13",
+      "url": "https://fansta.jp/shops/dTaEJl31OsJS?utm_source=hub_hp",
       "name": "HUB池袋東口店",
       "name_en": "HUB Ikebukuro east branch",
       "address": "東京都 豊島区",
@@ -4282,7 +4335,7 @@
     },
     {
       "id": "5529",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/23",
+      "url": "https://fansta.jp/shops/Y5PFib5q2sWk?utm_source=hub_hp",
       "name": "HUB池袋西口公園店",
       "name_en": "HUB Ikebukuro west park branch",
       "address": "東京都 豊島区",
@@ -4423,7 +4476,7 @@
     },
     {
       "id": "5532",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/26",
+      "url": "https://fansta.jp/shops/yqaMt2c0L7Ao?utm_source=hub_hp",
       "name": "HUB池袋東口店ANNEX",
       "name_en": "HUB Ikebukuro east branch annex",
       "address": "東京都 豊島区",
@@ -4500,7 +4553,7 @@
     },
     {
       "id": "5540",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/34",
+      "url": "https://fansta.jp/shops/OPo9wlnZ1Pdp?utm_source=hub_hp",
       "name": "HUB池袋西口店",
       "name_en": "HUB Ikebukuro west branch",
       "address": "東京都 豊島区",
@@ -4617,7 +4670,7 @@
     },
     {
       "id": "5578",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/93",
+      "url": "https://fansta.jp/shops/g3kPmRnbzBIO?utm_source=hub_hp",
       "name": "HUB池袋サンシャイン通り店",
       "name_en": "HUB Ikebukuro Sunshine st. branch",
       "address": "東京都 豊島区",
@@ -4718,7 +4771,7 @@
     },
     {
       "id": "5601",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/85",
+      "url": "https://fansta.jp/shops/qe6M1Xn4Q8Hz?utm_source=hub_hp",
       "name": "HUB仙台名掛丁店",
       "name_en": "HUB Sendai Nakakecho branch",
       "address": "宮城県 仙台市",
@@ -4963,7 +5016,7 @@
     },
     {
       "id": "5604",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/89",
+      "url": "https://fansta.jp/shops/dw9RiX6DBCHt?utm_source=hub_hp",
       "name": "HUB仙台一番町四丁目店",
       "name_en": "HUB SendaiIchibancho-Yonchome branch",
       "address": "宮城県 仙台市",
@@ -5176,7 +5229,7 @@
     },
     {
       "id": "5632",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/122",
+      "url": "https://fansta.jp/shops/cveHSjajfOBf?utm_source=hub_hp",
       "name": "HUB+８２池袋ＷＡＣＣＡ店",
       "name_en": "HUB+82 Ikebukuro WACCA branch",
       "address": "東京都 豊島区",
@@ -5317,7 +5370,7 @@
     },
     {
       "id": "5514",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/11",
+      "url": "https://fansta.jp/shops/p8F2PPxJ44IL?utm_source=hub_hp",
       "name": "HUB新浦安店",
       "name_en": "HUB Shin-urayasu branch",
       "address": "千葉県 浦安市",
@@ -5402,7 +5455,7 @@
     },
     {
       "id": "5534",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/28",
+      "url": "https://fansta.jp/shops/AIQWCxZv34O3?utm_source=hub_hp",
       "name": "HUB柏西口店",
       "name_en": "HUB Kashiwa west branch",
       "address": "千葉県 柏市",
@@ -5599,7 +5652,7 @@
     },
     {
       "id": "5565",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/59",
+      "url": "https://fansta.jp/shops/rAgvPy7ahnoE?utm_source=hub_hp",
       "name": "HUB千葉富士見店",
       "name_en": "HUB Chiba Fujimi branch",
       "address": "千葉県 千葉市",
@@ -5740,7 +5793,7 @@
     },
     {
       "id": "5581",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/75",
+      "url": "https://fansta.jp/shops/CKFDIqG4Nj6Y?utm_source=hub_hp",
       "name": "HUB船橋店",
       "name_en": "HUB Funabashi branch",
       "address": "千葉県 船橋市",
@@ -5961,7 +6014,7 @@
     },
     {
       "id": "5584",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/78",
+      "url": "https://fansta.jp/shops/6JWtuctXW8MW?utm_source=hub_hp",
       "name": "HUB海浜幕張店",
       "name_en": "HUB Kaihinmakuhari branch",
       "address": "千葉県 千葉市",
@@ -6070,7 +6123,7 @@
     },
     {
       "id": "5612",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/99",
+      "url": "https://fansta.jp/shops/1J3HESoWcrEi?utm_source=hub_hp",
       "name": "HUB津田沼店",
       "name_en": "HUB Tsudanuma branch",
       "address": "千葉県 船橋市",
@@ -6147,7 +6200,7 @@
     },
     {
       "id": "5645",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/136",
+      "url": "https://fansta.jp/shops/faQkc0t2pJBv?utm_source=hub_hp",
       "name": "HUB JEF UNITED PUB ペリエ千葉エキナカ店",
       "name_en": "HUB JEF UNITED PUB Perie Chiba Ekinaka branch",
       "address": "千葉県 千葉市",
@@ -6272,7 +6325,7 @@
     },
     {
       "id": "5640",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/131",
+      "url": "https://fansta.jp/shops/5j3lTDP4EjmM?utm_source=hub_hp",
       "name": "HUB羽田空港第2ターミナル店",
       "name_en": "HUB Haneda Airport Terminal 2 branch",
       "address": "東京都 大田区",
@@ -6341,7 +6394,7 @@
     },
     {
       "id": "5528",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/22",
+      "url": "https://fansta.jp/shops/unuQ6NNbCFi4?utm_source=hub_hp",
       "name": "HUB吉祥寺南口店",
       "name_en": "HUB Kichijoji south branch",
       "address": "東京都 武蔵野市",
@@ -6434,7 +6487,7 @@
     },
     {
       "id": "5530",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/24",
+      "url": "https://fansta.jp/shops/flEM1aCkD8Xp?utm_source=hub_hp",
       "name": "HUB八王子店",
       "name_en": "HUB Hachioji branch",
       "address": "東京都 八王子市",
@@ -6655,7 +6708,7 @@
     },
     {
       "id": "5535",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/29",
+      "url": "https://fansta.jp/shops/T6vG6qkyjDpN?utm_source=hub_hp",
       "name": "HUB所沢プロペ通り店",
       "name_en": "HUB Tokorozawa Prope st.branch",
       "address": "埼玉県 所沢市",
@@ -6876,7 +6929,7 @@
     },
     {
       "id": "5647",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/137",
+      "url": "https://fansta.jp/shops/nY1FZqdMivYp?utm_source=hub_hp",
       "name": "HUB アミュプラザみやざき店",
       "name_en": "HUB AMU PLAZA MIYAZAKI branch",
       "address": "宮崎県 宮崎市",
@@ -6977,7 +7030,7 @@
     },
     {
       "id": "5654",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/144",
+      "url": "https://fansta.jp/shops/JeVpXVPkZ61p",
       "name": "HUB アミュプラザおおいた店",
       "name_en": "HUB AMU PLAZA OITA  branch",
       "address": "大分県 大分市",
@@ -7054,7 +7107,7 @@
     },
     {
       "id": "5639",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/130",
+      "url": "https://fansta.jp/shops/xv8I8PUyfH27?utm_source=hub_hp",
       "name": "HUB桜木町クロスゲート店",
       "name_en": "HUB Sakuragicho CROSS GATE branch",
       "address": "神奈川県 横浜市",
@@ -7235,7 +7288,7 @@
     },
     {
       "id": "5533",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/27",
+      "url": "https://fansta.jp/shops/8d2bQXJuaP0u?utm_source=hub_hp",
       "name": "HUB川崎店",
       "name_en": "HUB Kawasaki branch",
       "address": "神奈川県 川崎市",
@@ -7312,7 +7365,7 @@
     },
     {
       "id": "5557",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/51",
+      "url": "https://fansta.jp/shops/m9v9UTzX6uys?utm_source=hub_hp",
       "name": "HUB慶應日吉店",
       "name_en": "HUB KEIO Hiyoshi branch",
       "address": "神奈川県 横浜市",
@@ -7469,7 +7522,7 @@
     },
     {
       "id": "5558",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/52",
+      "url": "https://fansta.jp/shops/ntDZ0bJBRrAb?utm_source=hub_hp",
       "name": "HUB町田店",
       "name_en": "HUB Machida branch",
       "address": "東京都 町田市",
@@ -7484,6 +7537,38 @@
           "sport": "Soccer",
           "match": "神戸vs町田 （15:00）",
           "match_en": "Kobe vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-24",
+          "display_date": "10月24日(土)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:30）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-25",
+          "display_date": "10月25日(日)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:00）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
           "broadcastStatus": "showing"
         },
         {
@@ -7570,7 +7655,7 @@
     },
     {
       "id": "5576",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/70",
+      "url": "https://fansta.jp/shops/7aM0oE7SOrON?utm_source=hub_hp",
       "name": "HUB蒲田西口店",
       "name_en": "HUB Kamata west branch",
       "address": "東京都 大田区",
@@ -7695,7 +7780,7 @@
     },
     {
       "id": "5585",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/79",
+      "url": "https://fansta.jp/shops/EePsOrByOzjB?utm_source=hub_hp",
       "name": "HUB相模大野店",
       "name_en": "HUB Sagamiono branch",
       "address": "神奈川県 相模原市",
@@ -7964,7 +8049,7 @@
     },
     {
       "id": "5608",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/95",
+      "url": "https://fansta.jp/shops/Xv4omhxAY5tg?utm_source=hub_hp",
       "name": "HUB新横浜店",
       "name_en": "HUB Shin-Yokohama branch",
       "address": "神奈川県 横浜市",
@@ -8105,7 +8190,7 @@
     },
     {
       "id": "5531",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/25",
+      "url": "https://fansta.jp/shops/5vJAldBMdPEd?utm_source=hub_hp",
       "name": "HUB上野しのばず通り店",
       "name_en": "HUB Ueno Shinobazu st.branch",
       "address": "東京都 台東区",
@@ -8398,7 +8483,7 @@
     },
     {
       "id": "5552",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/46",
+      "url": "https://fansta.jp/shops/ZN6fVyPOXK7J?utm_source=hub_hp",
       "name": "HUB北千住店",
       "name_en": "HUB Kita-Senju branch",
       "address": "東京都 足立区",
@@ -8547,7 +8632,7 @@
     },
     {
       "id": "5563",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/57",
+      "url": "https://fansta.jp/shops/YGFlPRzaagjM?utm_source=hub_hp",
       "name": "HUB八重洲店",
       "name_en": "HUB Yaesu branch",
       "address": "東京都 中央区",
@@ -8632,7 +8717,7 @@
     },
     {
       "id": "5602",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/86",
+      "url": "https://fansta.jp/shops/1ZNlpc61CuEY?utm_source=hub_hp",
       "name": "HUB上野昭和通り店",
       "name_en": "HUB Ueno Showa st. branch",
       "address": "東京都 台東区",
@@ -8781,7 +8866,7 @@
     },
     {
       "id": "5623",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/110",
+      "url": "https://fansta.jp/shops/rSZXd2Zbrqy6?utm_source=hub_hp",
       "name": "HUB上野店",
       "name_en": "HUB Ueno branch",
       "address": "東京都 台東区",
@@ -8954,7 +9039,7 @@
     },
     {
       "id": "5618",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/106",
+      "url": "https://fansta.jp/shops/KRfRJ6gZHGgj?utm_source=hub_hp",
       "name": "HUB立川南口店",
       "name_en": "HUB Tachikawa south branch",
       "address": "東京都 立川市",
@@ -9119,7 +9204,7 @@
     },
     {
       "id": "5543",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/37",
+      "url": "https://fansta.jp/shops/qOfaIDdcX8Zl?utm_source=hub_hp",
       "name": "HUB大宮東口店",
       "name_en": "HUB Omiya east branch",
       "address": "埼玉県 さいたま市",
@@ -9364,7 +9449,7 @@
     },
     {
       "id": "5617",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/105",
+      "url": "https://fansta.jp/shops/LA1saSCuVz8f?utm_source=hub_hp",
       "name": "HUB川口店",
       "name_en": "HUB Kawaguchi branch",
       "address": "埼玉県 川口市",
@@ -9419,6 +9504,14 @@
           "sport": "Baseball",
           "match": "DeNAvsソフトバンク （18:00）",
           "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
           "broadcastStatus": "showing"
         },
         {
@@ -9529,7 +9622,7 @@
     },
     {
       "id": "5643",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/134",
+      "url": "https://fansta.jp/shops/wBdkGqME7nEk?utm_source=hub_hp",
       "name": "HUB Echigo Beer PUB CoCoLo新潟店",
       "name_en": "HUB Echigo Beer PUB CoCoLo Niigata branch",
       "address": "新潟県 新潟市",
@@ -9694,7 +9787,7 @@
     },
     {
       "id": "5648",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/140",
+      "url": "https://fansta.jp/shops/x0ryn1jcxdb4?utm_source=hub_hp",
       "name": "HUB富山MAROOT店",
       "name_en": "HUB Toyama MAROOT Branch",
       "address": "富山県 富山市",
@@ -9851,7 +9944,7 @@
     },
     {
       "id": "5545",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/39",
+      "url": "https://fansta.jp/shops/IxoEaKvy1XOB?utm_source=hub_hp",
       "name": "８２関内店",
       "name_en": "82 Kannai branch",
       "address": "神奈川県 横浜市",
@@ -9928,7 +10021,7 @@
     },
     {
       "id": "5560",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/54",
+      "url": "https://fansta.jp/shops/r4VT18kYdYJR?utm_source=hub_hp",
       "name": "HUB横浜鶴屋町店",
       "name_en": "HUB Yokohama Tsuruyacho branch",
       "address": "神奈川県 横浜市",
@@ -10149,7 +10242,7 @@
     },
     {
       "id": "5562",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/56",
+      "url": "https://fansta.jp/shops/2xBxgZoj9MX9?utm_source=hub_hp",
       "name": "HUB横浜西口店",
       "name_en": "HUB Yokohama west branch",
       "address": "神奈川県 横浜市",
@@ -10354,7 +10447,7 @@
     },
     {
       "id": "5579",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/73",
+      "url": "https://fansta.jp/shops/9n7crsEu14Cv?utm_source=hub_hp",
       "name": "８２横浜西口店",
       "name_en": "82 Yokohama west branch",
       "address": "神奈川県 横浜市",
@@ -10543,7 +10636,7 @@
     },
     {
       "id": "5616",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/103",
+      "url": "https://fansta.jp/shops/YdOlGcajYcqa?utm_source=hub_hp",
       "name": "HUB藤沢店",
       "name_en": "HUB Fujisawa branch",
       "address": "神奈川県 藤沢市",
@@ -10700,7 +10793,7 @@
     },
     {
       "id": "5626",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/113",
+      "url": "https://fansta.jp/shops/aFiCDDjQfsdW?utm_source=hub_hp",
       "name": "HUBリッチモンドホテル横浜駅前店",
       "name_en": "HUB Richmond Hotel Yokohama Ekimae branch",
       "address": "神奈川県 横浜市",
@@ -10777,7 +10870,7 @@
     },
     {
       "id": "5589",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/84",
+      "url": "https://fansta.jp/shops/NZWgSec0OvhT?utm_source=hub_hp",
       "name": "HUB京都ヨドバシ店",
       "name_en": "HUB Kyoto Yodobashi branch",
       "address": "京都府 京都市",
@@ -11006,7 +11099,7 @@
     },
     {
       "id": "5653",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/142",
+      "url": "https://fansta.jp/shops/X567rgu5gkAq",
       "name": "HUBアスティ静岡店",
       "name_en": "HUB ASTY Shizuoka Branch",
       "address": "静岡県 静岡市",
@@ -11099,7 +11192,7 @@
     },
     {
       "id": "5505",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/4",
+      "url": "https://fansta.jp/shops/25xqGUOphrQp?utm_source=hub_hp",
       "name": "HUB三宮ムーンライトビル店",
       "name_en": "HUB Sannomiya branch",
       "address": "兵庫県 神戸市",
@@ -11288,7 +11381,7 @@
     },
     {
       "id": "5525",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/20",
+      "url": "https://fansta.jp/shops/XQCpK4DdelFv?utm_source=hub_hp",
       "name": "HUBなんば戎橋店",
       "name_en": "HUB Namba Ebisubashi branch",
       "address": "大阪府 大阪市",
@@ -11397,7 +11490,7 @@
     },
     {
       "id": "5556",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/50",
+      "url": "https://fansta.jp/shops/rgPGOPEagIko?utm_source=hub_hp",
       "name": "HUB心斎橋店",
       "name_en": "HUB Shinsaibashi branch",
       "address": "大阪府 大阪市",
@@ -11562,7 +11655,7 @@
     },
     {
       "id": "5575",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/69",
+      "url": "https://fansta.jp/shops/oiWy4KSMsiZf?utm_source=hub_hp",
       "name": "HUBあべのキューズモール店",
       "name_en": "HUB Abeno Q'sMall branch",
       "address": "大阪府 大阪市",
@@ -11735,7 +11828,7 @@
     },
     {
       "id": "5582",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/76",
+      "url": "https://fansta.jp/shops/Y7l4tW98NRSY?utm_source=hub_hp",
       "name": "HUB中之島フェスティバルプラザ店",
       "name_en": "HUB Nakanoshima Festival Plaza branch",
       "address": "大阪府 大阪市",
@@ -11892,7 +11985,7 @@
     },
     {
       "id": "5652",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/143",
+      "url": "https://fansta.jp/shops/iNeOIhO481tf",
       "name": "HUB道頓堀中座くいだおれビル店",
       "name_en": "HUB Dotonbori NAKAZA KUIDAORE branch",
       "address": "大阪府 大阪市",
@@ -12073,7 +12166,7 @@
     },
     {
       "id": "5637",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/127",
+      "url": "https://fansta.jp/shops/rwGTdz9BXAw1?utm_source=hub_hp",
       "name": "HUB福岡大名店",
       "name_en": "HUB Fukuoka Daimyo branch",
       "address": "福岡県 福岡市",
@@ -12142,7 +12235,7 @@
     },
     {
       "id": "5642",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/133",
+      "url": "https://fansta.jp/shops/M6SnK7yQn6Ry?utm_source=hub_hp",
       "name": "HUB博多筑紫口デイトスアネックス店",
       "name_en": "HUB HAKATA ChikushiGate DEITOS ANNEX branch",
       "address": "福岡県 福岡市",
@@ -12179,7 +12272,7 @@
     },
     {
       "id": "5536",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/30",
+      "url": "https://fansta.jp/shops/Pg8xxJE06vfg?utm_source=hub_hp",
       "name": "HUB四条烏丸店",
       "name_en": "HUB Shijokarasuma branch",
       "address": "京都府 京都市",
@@ -12312,7 +12405,7 @@
     },
     {
       "id": "5542",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/36",
+      "url": "https://fansta.jp/shops/3XS33rRRFP9g?utm_source=hub_hp",
       "name": "HUB名古屋栄錦通り店",
       "name_en": "HUB Nagoya Sakae Nishiki st. branch",
       "address": "愛知県 名古屋市",
@@ -12381,7 +12474,7 @@
     },
     {
       "id": "5561",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/55",
+      "url": "https://fansta.jp/shops/hZIBRufpkBRp?utm_source=hub_hp",
       "name": "HUB名駅店",
       "name_en": "HUB Meieki branch",
       "address": "愛知県 名古屋市",
@@ -12514,7 +12607,7 @@
     },
     {
       "id": "5610",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/97",
+      "url": "https://fansta.jp/shops/DrTw2YvyFKBu?utm_source=hub_hp",
       "name": "HUB名駅四丁目店",
       "name_en": "HUB Meieki-Yonchome branch",
       "address": "愛知県 名古屋市",
@@ -12607,7 +12700,7 @@
     },
     {
       "id": "5619",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/107",
+      "url": "https://fansta.jp/shops/X5YPt2ddiPla?utm_source=hub_hp",
       "name": "HUB三条木屋町店",
       "name_en": "HUB Sanjo kiyamachi branch",
       "address": "京都府 京都市",
@@ -12884,7 +12977,7 @@
     },
     {
       "id": "5638",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/128",
+      "url": "https://fansta.jp/shops/uQeyt1aNMolX?utm_source=hub_hp",
       "name": "HUB GRAMPUS PUB MIRAI TOWER店",
       "name_en": "HUB GRAMPUS PUB MIRAI TOWER branch",
       "address": "愛知県 名古屋市",
@@ -12993,7 +13086,7 @@
     },
     {
       "id": "5555",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/49",
+      "url": "https://fansta.jp/shops/Saq87HZMza0D?utm_source=hub_hp",
       "name": "HUB梅田茶屋町店",
       "name_en": "HUB Umeda Chayamachi branch",
       "address": "大阪府 大阪市",
@@ -13086,7 +13179,7 @@
     },
     {
       "id": "5588",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/82",
+      "url": "https://fansta.jp/shops/vLxyo2JGzMwV?utm_source=hub_hp",
       "name": "HUB京阪京橋店",
       "name_en": "HUB Keihankyobashi branch",
       "address": "大阪府 大阪市",
@@ -13355,7 +13448,7 @@
     },
     {
       "id": "5607",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/94",
+      "url": "https://fansta.jp/shops/Zxtrpjxeiukh?utm_source=hub_hp",
       "name": "HUB梅田茶屋町アプローズ店",
       "name_en": "HUB Umeda Chayamachi Applause branch",
       "address": "大阪府 大阪市",
@@ -13536,7 +13629,7 @@
     },
     {
       "id": "5615",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/102",
+      "url": "https://fansta.jp/shops/BmjU4JThhehV?utm_source=hub_hp",
       "name": "HUB東梅田店",
       "name_en": "HUB Higashi-Umeda branch",
       "address": "大阪府 大阪市",
@@ -13629,7 +13722,7 @@
     },
     {
       "id": "5635",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/126",
+      "url": "https://fansta.jp/shops/H0Opp8rMbNu3?utm_source=hub_hp",
       "name": "HUB梅田東通り店",
       "name_en": "HUB Umeda Higashi Dori branch",
       "address": "大阪府 大阪市",
@@ -13714,7 +13807,7 @@
     },
     {
       "id": "5636",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/125",
+      "url": "https://fansta.jp/shops/XYZ4duCzxvXG?utm_source=hub_hp",
       "name": "HUB LINKS UMEDA店",
       "name_en": "HUB LINKS UMEDA branch",
       "address": "大阪府 大阪市",
@@ -13745,6 +13838,22 @@
           "sport": "Horse Racing",
           "match": "菊花賞 （15:00）",
           "match_en": "Kikuka Sho (Japanese St. Leger)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-25",
+          "display_date": "10月25日(日)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:00）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
           "broadcastStatus": "showing"
         },
         {
@@ -13847,7 +13956,7 @@
     },
     {
       "id": "5644",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/135",
+      "url": "https://fansta.jp/shops/RoZx28V6ogmc?utm_source=hub_hp",
       "name": "HUBエキマルシェ大阪ウメスト店",
       "name_en": "HUB EKI MARCHÉ OSAKA UMEST branch",
       "address": "大阪府 大阪市",
@@ -13996,7 +14105,7 @@
     },
     {
       "id": "5641",
-      "url": "https://www.pub-hub.com/index.php/shop/detail/132",
+      "url": "https://fansta.jp/shops/J2nqWXP4ESLy?utm_source=hub_hp",
       "name": "HUB COCONO SUSUKINO店",
       "name_en": "HUB COCONO SUSUKINO branch",
       "address": "北海道 札幌市",
