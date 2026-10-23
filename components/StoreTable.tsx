@@ -94,8 +94,13 @@ const StoreTable: React.FC<StoreTableProps> = ({ data, language }) => {
                     {language === "ja" ? `${store.prefecture} ${store.city}` : store.prefecture_en}
                   </th>
                   <td className={`sticky left-[140px] z-20 w-[240px] min-w-[240px] max-w-[240px] overflow-hidden border-b border-r border-slate-200 p-5 ${rowColor}`}>
-                    {/* Keep store.url in the data model for future link display; names are plain text for now. */}
-                    <span className="text-lg font-black leading-tight text-slate-900">{language === "ja" ? store.name : store.name_en}</span>
+                    {store.url ? (
+                      <a href={store.url} target="_blank" rel="noopener noreferrer" className="inline-block text-lg font-black leading-tight text-slate-900 transition-colors group-hover:text-orange-600">
+                        {language === "ja" ? store.name : store.name_en}
+                      </a>
+                    ) : (
+                      <span className="text-lg font-black leading-tight text-slate-900">{language === "ja" ? store.name : store.name_en}</span>
+                    )}
                   </td>
                   {headerMatches.map(matchHeader => {
                     const match = matchesByKey.get(getMatchKey(matchHeader));

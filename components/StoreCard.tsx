@@ -20,8 +20,11 @@ const StoreCard: React.FC<StoreCardProps> = ({ data, language }) => {
           </span>
         </div>
         <h2 className="text-lg font-black tracking-tight text-slate-800">
-          {/* Keep data.url available for future links; store names are plain text for now. */}
-          {storeName}
+          {data.url ? (
+            <a href={data.url} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-blue-500">
+              {storeName}
+            </a>
+          ) : storeName}
         </h2>
       </header>
 
