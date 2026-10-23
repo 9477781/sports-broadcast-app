@@ -68,7 +68,7 @@ const StoreTable: React.FC<StoreTableProps> = ({ data, language }) => {
                       </div>
                       <div className="flex min-h-[100px] flex-1 flex-col items-center justify-center p-4 text-center leading-tight text-slate-100">
                         <span className="text-base font-black">{title}</span>
-                        {time && <span className="mt-1 text-sm font-black text-orange-400">{time}</span>}
+                        {time && <span className="mt-1 text-base font-black text-orange-300">{time}</span>}
                       </div>
                     </div>
                   </th>
@@ -112,7 +112,7 @@ const StoreTable: React.FC<StoreTableProps> = ({ data, language }) => {
                     const status = BROADCAST_STATUS_CONFIG.showing;
                     return (
                       <td key={getMatchKey(matchHeader)} className={`w-[300px] min-w-[300px] max-w-[300px] border-b border-r border-slate-200 p-3 text-center align-middle ${rowColor}`}>
-                        <span className={`inline-flex items-center rounded-full border px-3 py-1.5 text-sm font-bold ${status.badgeClass}`}>
+                        <span className={`inline-flex items-center rounded-full border px-4 py-2 text-base font-bold ${status.badgeClass}`}>
                           {status.label[language]}
                         </span>
                       </td>
@@ -129,3 +129,4 @@ const StoreTable: React.FC<StoreTableProps> = ({ data, language }) => {
 };
 
 export default StoreTable;
+

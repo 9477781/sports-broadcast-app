@@ -5,7 +5,7 @@ import StoreTable from "./components/StoreTable";
 import StoreCard from "./components/StoreCard";
 import { SHOW_STORE_LINK_NOTICE, STORE_LINK_NOTICE } from "./constants";
 import { decodeBroadcastData, getMatchKey } from "./services/broadcastData";
-import { getMatchDateLabel, getMatchPresentation, getSportPresentation } from "./services/broadcastPresentation";
+import { getMatchDateLabel, getMatchPresentation, getSportFilterValue, getSportPresentation } from "./services/broadcastPresentation";
 import { getBroadcastDateWindow, isBroadcastVisible } from "./services/broadcastVisibility";
 import { geoDisplayLabel, searchStoreMatches } from "./services/broadcastSearch";
 import type { FilterOption, Language, SportsMatch, StoreData } from "./types";
@@ -134,7 +134,7 @@ const App: React.FC = () => {
 
   const matchesEventFilters = (match: SportsMatch, excluded?: MatchFilterDimension): boolean => {
     if (excluded !== "date" && selectedDates.length > 0 && !selectedDates.includes(match.date)) return false;
-    if (excluded !== "sport" && selectedSports.length > 0 && !selectedSports.includes(match.sport)) return false;
+    if (excluded !== "sport" && selectedSports.length > 0 && !selectedSports.includes(getSportFilterValue(match.sport))) return false;
     if (excluded !== "match" && selectedMatchKeys.length > 0 && !selectedMatchKeys.includes(getMatchKey(match))) return false;
     return true;
   };
@@ -157,8 +157,14 @@ const App: React.FC = () => {
     return Array.from(labels, ([value, label]) => ({ value, label })).sort((left, right) => left.value.localeCompare(right.value));
   };
 
-  const makeSportOptions = (input: SportsMatch[]): FilterOption[] => sortedUnique(input.map(match => match.sport))
-    .map(value => ({ value, label: getSportPresentation(value, language).label }));
+  const makeSportOptions = (input: SportsMatch[]): FilterOption[] => {
+    const optionsBySport = new Map<string, SportsMatch>();
+    input.forEach(match => optionsBySport.set(getSportFilterValue(match.sport), match));
+    return Array.from(optionsBySport, ([value, match]) => ({
+      value,
+      label: getSportPresentation(match.sport, language).label,
+    })).sort((left, right) => left.label.localeCompare(right.label));
+  };
 
   const makeMatchOptions = (input: SportsMatch[]): FilterOption[] => {
     const uniqueMatches = new Map(input.map(match => [getMatchKey(match), match]));
@@ -341,3 +347,4 @@ const App: React.FC = () => {
 };
 
 export default App;
+

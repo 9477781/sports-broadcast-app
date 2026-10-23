@@ -1,5 +1,6 @@
 import React, { useEffect, useId, useRef, useState } from "react";
 import { formatBroadcastDate, type BroadcastDateWindow } from "../services/broadcastVisibility";
+import { isJapanesePublicHoliday } from "../services/japaneseHolidays";
 import { geoDisplayLabel } from "../services/broadcastSearch";
 import type { FilterOption, Language } from "../types";
 
@@ -9,9 +10,10 @@ interface MultiSelectProps {
   options: FilterOption[];
   selectedValues: string[];
   onChange: (values: string[]) => void;
+  optionLabelClassName?: (option: FilterOption) => string;
 }
 
-const MultiSelect: React.FC<MultiSelectProps> = ({ language, label, options, selectedValues, onChange }) => {
+const MultiSelect: React.FC<MultiSelectProps> = ({ language, label, options, selectedValues, onChange, optionLabelClassName }) => {
   const [isOpen, setIsOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const listId = useId();
@@ -56,7 +58,7 @@ const MultiSelect: React.FC<MultiSelectProps> = ({ language, label, options, sel
                 onChange={() => toggleOption(option.value)}
                 className="h-4 w-4 shrink-0 rounded border-slate-300 text-blue-600 focus:ring-blue-500"
               />
-              <span className="whitespace-normal text-sm font-medium leading-tight text-slate-700">{option.label}</span>
+              <span className={`whitespace-normal text-sm font-medium leading-tight ${optionLabelClassName?.(option) ?? "text-slate-700"}`}>{option.label}</span>
             </label>
           ))}
           {options.length === 0 && (
@@ -171,6 +173,12 @@ const FilterControls: React.FC<FilterControlsProps> = ({
           options={dates}
           selectedValues={selectedDates}
           onChange={onDatesChange}
+          optionLabelClassName={option => {
+            const weekday = new Date(`${option.value}T00:00:00Z`).getUTCDay();
+            if (weekday === 0 || isJapanesePublicHoliday(option.value)) return "text-rose-700";
+            if (weekday === 6) return "text-blue-700";
+            return "text-slate-700";
+          }}
         />
         <MultiSelect
           language={language}
@@ -245,3 +253,4 @@ const FilterControls: React.FC<FilterControlsProps> = ({
 };
 
 export default FilterControls;
+

@@ -16,8 +16,34 @@
   background: #94a3b8;
 }
 
+.custom-scrollbar {
+  scrollbar-color: #64748b #e2e8f0;
+  scrollbar-width: auto;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #e2e8f0;
+  border-radius: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #64748b;
+  border: 3px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
 body {
   margin: 0;
   padding: 0;
   overflow-y: scroll; /* Force vertical scrollbar for layout stability */
 }
+

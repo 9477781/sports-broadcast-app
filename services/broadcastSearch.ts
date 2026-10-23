@@ -12,7 +12,7 @@ export const GEO_EN_LABELS: Record<string, string> = {
 };
 
 const SPORT_ALIASES = [
-  ["サッカー", "soccer"],
+  ["サッカー", "soccer", "football"],
   ["野球", "baseball"],
   ["バスケ", "バスケットボール", "basketball"],
   ["ラグビー", "rugby"],
@@ -84,3 +84,4 @@ export function searchStoreMatches(store: StoreData, matches: SportsMatch[], que
     return tokens.every(token => storeText.includes(token) || eventText.includes(token));
   });
 }
+
