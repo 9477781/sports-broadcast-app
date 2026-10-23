@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T07:33:34.840Z",
+  "updatedAt": "2026-10-23T23:44:39.234Z",
   "data": [
     {
       "id": "5506",
@@ -199,6 +199,14 @@
           "sport": "Soccer",
           "match": "鹿島vsC大阪 （15:00）",
           "match_en": "Kashima vs Cerezo Osaka",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-01",
+          "display_date": "11月1日(日)",
+          "sport": "Horse Racing",
+          "match": "天皇賞(秋) (15:00)",
+          "match_en": "天皇賞(秋) (15:00)",
           "broadcastStatus": "showing"
         }
       ]
@@ -1028,6 +1036,14 @@
           "sport": "Baseball",
           "match": "DeNAvsソフトバンク （18:30）",
           "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-25",
+          "display_date": "10月25日(日)",
+          "sport": "Soccer",
+          "match": "浦和vs長崎 （15:00）",
+          "match_en": "Urawa vs Nagasaki",
           "broadcastStatus": "showing"
         },
         {
@@ -1898,6 +1914,38 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-24",
+          "display_date": "10月24日(土)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:30）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日(日)",
+          "sport": "Rugby",
+          "match": "ウェールズvs.日本 (01:10)",
+          "match_en": "ウェールズvs.日本 (01:10)",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-13",
           "display_date": "11月13日(金)",
           "sport": "Baseball",
@@ -1911,6 +1959,14 @@
           "sport": "Football",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "日本vs.ブラジル (19:15)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Rugby",
+          "match": "イングランドvs.日本 (01:10)",
+          "match_en": "イングランドvs.日本 (01:10)",
           "broadcastStatus": "showing"
         }
       ]
@@ -2437,6 +2493,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-24",
+          "display_date": "10月24日(土)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:30）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-25",
           "display_date": "10月25日(日)",
           "sport": "Soccer",
@@ -2445,11 +2509,27 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-25",
+          "display_date": "10月25日(日)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:00）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-28",
           "display_date": "10月28日(水)",
-          "sport": "Soccer",
-          "match": "鹿島vs浦須S （19:00）",
-          "match_en": "Kashima vs Urasu S",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
           "broadcastStatus": "showing"
         },
         {
@@ -2461,6 +2541,38 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-03",
+          "display_date": "11月3日(火)",
+          "sport": "Football",
+          "match": "山形vs.徳島 (14:00)",
+          "match_en": "山形vs.徳島 (14:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-04",
+          "display_date": "11月4日(水)",
+          "sport": "Football",
+          "match": "ブリーラムvs.鹿島 (21:15)",
+          "match_en": "ブリーラムvs.鹿島 (21:15)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-04",
+          "display_date": "11月4日(水)",
+          "sport": "Football",
+          "match": "浦項Svs.G大阪 (19:00)",
+          "match_en": "浦項Svs.G大阪 (19:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-05",
+          "display_date": "11月5日(木)",
+          "sport": "Football",
+          "match": "町田vs.上海申花 (19:00)",
+          "match_en": "町田vs.上海申花 (19:00)",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-07",
           "display_date": "11月7日(土)",
           "sport": "Football",
@@ -2469,11 +2581,59 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-07",
+          "display_date": "11月7日(土)",
+          "sport": "Rugby",
+          "match": "イタリアvs.南アフリカ (20:25)",
+          "match_en": "イタリアvs.南アフリカ (20:25)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日(日)",
+          "sport": "Football",
+          "match": "神戸vs.浦和 (14:00)",
+          "match_en": "神戸vs.浦和 (14:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日(日)",
+          "sport": "Football",
+          "match": "千葉vs.水戸 (17:00)",
+          "match_en": "千葉vs.水戸 (17:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-13",
+          "display_date": "11月13日(金)",
+          "sport": "Baseball",
+          "match": "日本vs.韓国 (19:00)",
+          "match_en": "日本vs.韓国 (19:00)",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-14",
           "display_date": "11月14日(土)",
           "sport": "Football",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "日本vs.ブラジル (19:15)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日(土)",
+          "sport": "Baseball",
+          "match": "日本vs.オーストラリア (12:00)",
+          "match_en": "日本vs.オーストラリア (12:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Baseball",
+          "match": "決勝戦※日本出場時のみ放送 (19:00)",
+          "match_en": "決勝戦※日本出場時のみ放送 (19:00)",
           "broadcastStatus": "showing"
         }
       ]
@@ -8551,9 +8711,25 @@
         {
           "date": "2026-10-25",
           "display_date": "10月25日(日)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:00）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-25",
+          "display_date": "10月25日(日)",
           "sport": "Soccer",
           "match": "リヴァプールvsブライトン&ホーヴ・アルビオン （23:00）",
           "match_en": "Liverpool vs Brighton & Hove Albion",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
           "broadcastStatus": "showing"
         },
         {
@@ -14115,6 +14291,22 @@
       "city": "札幌市",
       "matches": [
         {
+          "date": "2026-10-24",
+          "display_date": "10月24日(土)",
+          "sport": "Rugby",
+          "match": "日本vsフィジー （14:50）",
+          "match_en": "Japan vs Fiji",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-24",
+          "display_date": "10月24日(土)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:30）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-25",
           "display_date": "10月25日(日)",
           "sport": "Soccer",
@@ -14123,11 +14315,43 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-25",
+          "display_date": "10月25日(日)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:00）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-31",
           "display_date": "10月31日(土)",
           "sport": "Soccer",
           "match": "札幌vs湘南 （13:00）",
           "match_en": "Sapporo vs Shonan",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-01",
+          "display_date": "11月1日(日)",
+          "sport": "Horse Racing",
+          "match": "天皇賞(秋) (15:00)",
+          "match_en": "天皇賞(秋) (15:00)",
           "broadcastStatus": "showing"
         },
         {
@@ -14144,6 +14368,30 @@
           "sport": "Football",
           "match": "八戸vs.札幌 (13:00)",
           "match_en": "八戸vs.札幌 (13:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-13",
+          "display_date": "11月13日(金)",
+          "sport": "Baseball",
+          "match": "日本vs.韓国 (19:00)",
+          "match_en": "日本vs.韓国 (19:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日(土)",
+          "sport": "Football",
+          "match": "日本vs.ブラジル (19:15)",
+          "match_en": "日本vs.ブラジル (19:15)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日(土)",
+          "sport": "Baseball",
+          "match": "日本vs.オーストラリア (12:00)",
+          "match_en": "日本vs.オーストラリア (12:00)",
           "broadcastStatus": "showing"
         },
         {
