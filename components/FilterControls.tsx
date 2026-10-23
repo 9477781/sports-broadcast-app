@@ -41,7 +41,7 @@ const MultiSelect: React.FC<MultiSelectProps> = ({ language, label, options, sel
         aria-expanded={isOpen}
         aria-controls={listId}
         onClick={() => setIsOpen(open => !open)}
-        className="flex min-h-11 w-full items-center justify-between gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2.5 text-left text-xs font-bold shadow-sm transition-colors hover:border-slate-300 sm:text-sm"
+        className="flex min-h-11 w-full items-center justify-between gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2.5 text-left text-xs font-bold shadow-sm transition-colors hover:border-slate-300 sm:text-sm md:min-h-14 md:px-4 md:text-base"
       >
         <span className={`truncate ${selectedValues.length > 0 ? "text-blue-700" : "text-slate-600"}`}>{currentLabel}</span>
         <svg className={`h-4 w-4 shrink-0 text-slate-400 transition-transform ${isOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -57,9 +57,9 @@ const MultiSelect: React.FC<MultiSelectProps> = ({ language, label, options, sel
                 type="checkbox"
                 checked={selectedValues.includes(option.value)}
                 onChange={() => toggleOption(option.value)}
-                className="h-4 w-4 shrink-0 rounded border-slate-300 text-blue-600 focus:ring-blue-500"
+                className="h-4 w-4 shrink-0 rounded border-slate-300 text-blue-600 focus:ring-blue-500 md:h-5 md:w-5"
               />
-              <span className={`whitespace-normal text-sm font-medium leading-tight ${optionLabelClassName?.(option) ?? "text-slate-700"}`}>
+              <span className={`whitespace-normal text-sm font-medium leading-tight md:text-base ${optionLabelClassName?.(option) ?? "text-slate-700"}`}>
                 {renderOptionLabel ? renderOptionLabel(option) : option.label}
               </span>
             </label>
@@ -138,7 +138,7 @@ const FilterControls: React.FC<FilterControlsProps> = ({
 
   return (
     <section className="mb-5 rounded-2xl border border-slate-200 bg-white p-3 shadow-sm sm:p-5" aria-label={language === "ja" ? "検索と絞り込み" : "Search and filters"}>
-      <div className="space-y-2.5">
+      <div className="space-y-2.5 md:space-y-4">
         <form
           className="flex min-w-0"
           onSubmit={event => {
@@ -155,14 +155,14 @@ const FilterControls: React.FC<FilterControlsProps> = ({
             placeholder={language === "ja" ? "店舗名・住所・試合名などで検索..." : "Search stores, addresses, matches..."}
             value={draftSearchQuery}
             onChange={event => onSearchChange(event.target.value)}
-            className="h-11 min-w-0 flex-1 rounded-l-lg border border-r-0 border-slate-200 bg-white px-3 text-sm shadow-sm outline-none transition-colors placeholder:text-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20"
+            className="h-11 min-w-0 flex-1 rounded-l-lg border border-r-0 border-slate-200 bg-white px-3 text-sm shadow-sm outline-none transition-colors placeholder:text-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 md:h-14 md:px-4 md:text-base"
           />
-          <button type="submit" className="h-11 shrink-0 rounded-r-lg bg-slate-800 px-5 text-sm font-bold text-white shadow-sm transition-colors hover:bg-slate-700">
+          <button type="submit" className="h-11 shrink-0 rounded-r-lg bg-slate-800 px-5 text-sm font-bold text-white shadow-sm transition-colors hover:bg-slate-700 md:h-14 md:px-7 md:text-base">
             {language === "ja" ? "検索" : "Search"}
           </button>
         </form>
 
-        <div className="grid grid-cols-2 gap-2.5" aria-label={language === "ja" ? "店舗・日付・競技・カードの選択" : "Store, date, sport and match selection"}>
+        <div className="grid grid-cols-2 gap-2.5 md:gap-3" aria-label={language === "ja" ? "店舗・日付・競技・カードの選択" : "Store, date, sport and match selection"}>
         <MultiSelect
           language={language}
           label={language === "ja" ? "店名で絞り込み" : "Filter by store"}
@@ -210,10 +210,10 @@ const FilterControls: React.FC<FilterControlsProps> = ({
         </div>
       </div>
 
-      <div className="mt-3 space-y-2.5">
+      <div className="mt-3 space-y-2.5 md:mt-5 md:space-y-4">
         <div className="flex items-start gap-2">
-          <span className="w-14 shrink-0 pt-1.5 text-xs font-bold text-slate-500">{language === "ja" ? "地域" : "Region"}</span>
-          <div className="flex min-w-0 flex-1 gap-1.5 overflow-x-auto py-0.5 sm:flex-wrap sm:overflow-visible" role="group" aria-label={language === "ja" ? "地域を選択" : "Choose a region"}>
+          <span className="w-14 shrink-0 pt-1.5 text-xs font-bold text-slate-500 md:w-20 md:pt-2 md:text-sm">{language === "ja" ? "地域" : "Region"}</span>
+          <div className="flex min-w-0 flex-1 gap-1.5 overflow-x-auto py-0.5 sm:flex-wrap sm:overflow-visible md:gap-2" role="group" aria-label={language === "ja" ? "地域を選択" : "Choose a region"}>
             {regions.map(option => {
               const active = selectedRegion === option.value;
               return (
@@ -222,7 +222,7 @@ const FilterControls: React.FC<FilterControlsProps> = ({
                   type="button"
                   aria-pressed={active}
                   onClick={() => onRegionChange(option.value)}
-                  className={`min-h-10 shrink-0 rounded-md px-4 py-2 text-sm font-bold transition-colors ${regionButtonClass(active)}`}
+                  className={`min-h-10 shrink-0 rounded-md px-4 py-2 text-sm font-bold transition-colors md:min-h-12 md:px-6 md:py-3 md:text-base ${regionButtonClass(active)}`}
                 >
                   {option.value === "__all__" ? (language === "ja" ? "すべて" : "All") : geoDisplayLabel(option.value, language)}
                 </button>
@@ -232,8 +232,8 @@ const FilterControls: React.FC<FilterControlsProps> = ({
         </div>
 
         <div className="flex items-start gap-2">
-          <span className="w-14 shrink-0 pt-1.5 text-xs font-bold text-slate-500">{language === "ja" ? "都道府県" : "Prefecture"}</span>
-          <div className="flex min-w-0 flex-1 gap-1.5 overflow-x-auto py-0.5 sm:flex-wrap sm:overflow-visible" role="group" aria-label={language === "ja" ? "都道府県を選択" : "Choose a prefecture"}>
+          <span className="w-14 shrink-0 pt-1.5 text-xs font-bold text-slate-500 md:w-20 md:pt-2 md:text-sm">{language === "ja" ? "都道府県" : "Prefecture"}</span>
+          <div className="flex min-w-0 flex-1 gap-1.5 overflow-x-auto py-0.5 sm:flex-wrap sm:overflow-visible md:gap-2" role="group" aria-label={language === "ja" ? "都道府県を選択" : "Choose a prefecture"}>
             {prefectures.map(option => {
               const active = selectedPrefecture === option.value;
               return (
@@ -242,7 +242,7 @@ const FilterControls: React.FC<FilterControlsProps> = ({
                   type="button"
                   aria-pressed={active}
                   onClick={() => onPrefectureChange(option.value)}
-                  className={`min-h-10 shrink-0 rounded-md px-4 py-2 text-sm font-bold transition-colors ${prefectureButtonClass(active)}`}
+                  className={`min-h-10 shrink-0 rounded-md px-4 py-2 text-sm font-bold transition-colors md:min-h-12 md:px-6 md:py-3 md:text-base ${prefectureButtonClass(active)}`}
                 >
                   {option.value === "__all__" ? (language === "ja" ? "すべて" : "All") : geoDisplayLabel(option.value, language)}
                 </button>
