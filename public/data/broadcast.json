@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T23:44:39.234Z",
+  "updatedAt": "2026-10-24T23:44:39.000Z",
   "data": [
     {
       "id": "5506",
@@ -749,6 +749,14 @@
         {
           "date": "2026-10-27",
           "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
           "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
@@ -2487,9 +2495,9 @@
         {
           "date": "2026-10-24",
           "display_date": "10月24日(土)",
-          "sport": "Soccer",
-          "match": "鹿島vs柏 （15:00）",
-          "match_en": "Kashima vs Kashiwa",
+          "sport": "Rugby",
+          "match": "日本vsフィジー （14:50）",
+          "match_en": "Japan vs Fiji",
           "broadcastStatus": "showing"
         },
         {
@@ -2772,6 +2780,14 @@
       "city": "品川区",
       "matches": [
         {
+          "date": "2026-10-24",
+          "display_date": "10月24日(土)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:30）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-25",
           "display_date": "10月25日(日)",
           "sport": "Horse Racing",
@@ -2785,6 +2801,30 @@
           "sport": "Soccer",
           "match": "F東京vs水戸 （16:00）",
           "match_en": "FC Tokyo vs Mito",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-25",
+          "display_date": "10月25日(日)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:00）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
           "broadcastStatus": "showing"
         },
         {
@@ -4864,6 +4904,30 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-25",
+          "display_date": "10月25日(日)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:00）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-01",
           "display_date": "11月1日(日)",
           "sport": "Horse Racing",
@@ -6675,9 +6739,25 @@
         {
           "date": "2026-10-24",
           "display_date": "10月24日(土)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:30）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-24",
+          "display_date": "10月24日(土)",
           "sport": "Soccer",
           "match": "アストン・ヴィラvsマンチェスター・シティ （20:30）",
           "match_en": "Aston Villa vs Manchester City",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-24",
+          "display_date": "10月24日(土)",
+          "sport": "Soccer",
+          "match": "アーセナルvsエヴァートン （23:00）",
+          "match_en": "Arsenal vs Everton",
           "broadcastStatus": "showing"
         },
         {
@@ -6691,9 +6771,17 @@
         {
           "date": "2026-10-25",
           "display_date": "10月25日(日)",
-          "sport": "Soccer",
-          "match": "クリスタル・パレスvsニューカッスル・ユナイテッド （23:00）",
-          "match_en": "Crystal Palace vs Newcastle United",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:00）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
           "broadcastStatus": "showing"
         },
         {
@@ -6707,9 +6795,17 @@
         {
           "date": "2026-10-28",
           "display_date": "10月28日(水)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
           "sport": "Soccer",
-          "match": "鹿島vs浦須S （19:00）",
-          "match_en": "Kashima vs Urasu S",
+          "match": "横浜FMvs広島 （19:00）",
+          "match_en": "Yokohama FM vs Hiroshima",
           "broadcastStatus": "showing"
         },
         {
@@ -12341,6 +12437,35 @@
       ]
     },
     {
+      "id": "5631",
+      "url": "",
+      "name": "HUBみずほPayPayドーム福岡店",
+      "name_en": "HUB MIZUHO PayPay Dome FUKUOKA branch",
+      "address": "福岡県 福岡市",
+      "region": "九州",
+      "prefecture": "福岡県",
+      "prefecture_en": "Fukuoka-shi, Fukuoka",
+      "city": "福岡市",
+      "matches": [
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        }
+      ]
+    },
+    {
       "id": "5637",
       "url": "https://fansta.jp/shops/rwGTdz9BXAw1?utm_source=hub_hp",
       "name": "HUB福岡大名店",
@@ -12365,6 +12490,38 @@
           "sport": "Soccer",
           "match": "東京Vvs福岡 （15:00）",
           "match_en": "Tokyo Verdy vs Fukuoka",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-24",
+          "display_date": "10月24日(土)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:30）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-25",
+          "display_date": "10月25日(日)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:00）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
           "broadcastStatus": "showing"
         },
         {
@@ -12426,6 +12583,22 @@
           "sport": "Soccer",
           "match": "東京Vvs福岡 （15:00）",
           "match_en": "Tokyo Verdy vs Fukuoka",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
           "broadcastStatus": "showing"
         },
         {
