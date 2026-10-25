@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T23:44:39.000Z",
+  "updatedAt": "2026-10-25T23:44:37.442Z",
   "data": [
     {
       "id": "5506",
@@ -1747,6 +1747,14 @@
           "date": "2026-10-31",
           "display_date": "10月31日(土)",
           "sport": "Soccer",
+          "match": "柏vs浦和 （16:00）",
+          "match_en": "Kashiwa vs Urawa",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-31",
+          "display_date": "10月31日(土)",
+          "sport": "Soccer",
           "match": "チェルシーvsマンチェスター・ユナイテッド （21:30）",
           "match_en": "Chelsea vs Manchester United",
           "broadcastStatus": "showing"
@@ -2753,6 +2761,14 @@
         {
           "date": "2026-10-27",
           "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
           "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
@@ -11831,14 +11847,6 @@
           "date": "2026-10-27",
           "display_date": "10月27日(火)",
           "sport": "Baseball",
-          "match": "レイズvsブルワーズ （09:00）",
-          "match_en": "Rays vs Brewers",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-10-27",
-          "display_date": "10月27日(火)",
-          "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
           "broadcastStatus": "showing"
@@ -14012,6 +14020,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-25",
+          "display_date": "10月25日(日)",
+          "sport": "Soccer",
+          "match": "リヴァプールvsブライトン&ホーヴ・アルビオン （23:00）",
+          "match_en": "Liverpool vs Brighton & Hove Albion",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-27",
           "display_date": "10月27日(火)",
           "sport": "Baseball",
@@ -14339,11 +14355,67 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-25",
+          "display_date": "10月25日(日)",
+          "sport": "Baseball",
+          "match": "DeNAvsソフトバンク （18:00）",
+          "match_en": "DeNA vs SoftBank",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Soccer",
+          "match": "大田vs神戸 （19:00）",
+          "match_en": "Ota vs Kobe",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
+          "sport": "Soccer",
+          "match": "名古屋vs浦和 （19:00）",
+          "match_en": "Nagoya vs Urawa",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-31",
           "display_date": "10月31日(土)",
           "sport": "Soccer",
           "match": "京都vs清水 （14:00）",
           "match_en": "Kyoto vs Shimizu",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-31",
+          "display_date": "10月31日(土)",
+          "sport": "Soccer",
+          "match": "神戸vs名古屋 （15:00）",
+          "match_en": "Kobe vs Nagoya",
           "broadcastStatus": "showing"
         },
         {
