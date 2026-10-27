@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T06:13:21.420Z",
+  "updatedAt": "2026-10-27T01:17:13.442Z",
   "data": [
     {
       "id": "5506",
@@ -3070,11 +3070,51 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Soccer",
+          "match": "大田vs神戸 （19:00）",
+          "match_en": "Ota vs Kobe",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Soccer",
+          "match": "ラーチャブリーvs柏 （21:15）",
+          "match_en": "Ratchaburi vs Kashiwa",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-31",
           "display_date": "10月31日(土)",
           "sport": "Horse Racing",
           "match": "ファンタジーS （15:00）",
           "match_en": "Fantasy S",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-31",
+          "display_date": "10月31日(土)",
+          "sport": "Soccer",
+          "match": "チェルシーvsマンチェスター・ユナイテッド （21:30）",
+          "match_en": "Chelsea vs Manchester United",
           "broadcastStatus": "showing"
         },
         {
@@ -3278,24 +3318,8 @@
           "date": "2026-10-27",
           "display_date": "10月27日(火)",
           "sport": "Baseball",
-          "match": "レイズvsブルワーズ （09:00）",
-          "match_en": "Rays vs Brewers",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-10-27",
-          "display_date": "10月27日(火)",
-          "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-10-28",
-          "display_date": "10月28日(水)",
-          "sport": "Baseball",
-          "match": "レイズvsブルワーズ （09:00）",
-          "match_en": "Rays vs Brewers",
           "broadcastStatus": "showing"
         },
         {
@@ -3304,6 +3328,22 @@
           "sport": "Soccer",
           "match": "横浜FMvs広島 （19:00）",
           "match_en": "Yokohama FM vs Hiroshima",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-31",
+          "display_date": "10月31日(土)",
+          "sport": "Baseball",
+          "match": "レイズvsブルワーズ （09:00）",
+          "match_en": "Rays vs Brewers",
           "broadcastStatus": "showing"
         },
         {
@@ -3519,6 +3559,14 @@
           "sport": "Soccer",
           "match": "横浜FMvs広島 （19:00）",
           "match_en": "Yokohama FM vs Hiroshima",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
           "broadcastStatus": "showing"
         },
         {
@@ -5346,6 +5394,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-31",
           "display_date": "10月31日(土)",
           "sport": "Soccer",
@@ -5431,6 +5487,22 @@
           "sport": "Football",
           "match": "いわきvs.山形 (14:00)",
           "match_en": "いわきvs.山形 (14:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-07",
+          "display_date": "11月7日(土)",
+          "sport": "Soccer",
+          "match": "リーズ・ユナイテッドvsトッテナム・ホットスパー （21:30）",
+          "match_en": "Leeds United vs Tottenham Hotspur",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日(日)",
+          "sport": "Soccer",
+          "match": "アーセナルvsハル・シティ （0:00）",
+          "match_en": "Arsenal vs Hull City",
           "broadcastStatus": "showing"
         },
         {
@@ -6405,11 +6477,43 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-27",
+          "display_date": "10月27日(火)",
+          "sport": "Soccer",
+          "match": "大田vs神戸 （19:00）",
+          "match_en": "Ota vs Kobe",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-28",
           "display_date": "10月28日(水)",
           "sport": "Soccer",
           "match": "鹿島vs浦須S （19:00）",
           "match_en": "Kashima vs Urasu S",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
+          "sport": "Soccer",
+          "match": "名古屋vs浦和 （19:00）",
+          "match_en": "Nagoya vs Urawa",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
           "broadcastStatus": "showing"
         },
         {
@@ -6426,6 +6530,22 @@
           "sport": "Soccer",
           "match": "鹿島vsC大阪 （15:00）",
           "match_en": "Kashima vs Cerezo Osaka",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-31",
+          "display_date": "10月31日(土)",
+          "sport": "Soccer",
+          "match": "柏vs浦和 （16:00）",
+          "match_en": "Kashiwa vs Urawa",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-31",
+          "display_date": "10月31日(土)",
+          "sport": "Soccer",
+          "match": "チェルシーvsマンチェスター・ユナイテッド （21:30）",
+          "match_en": "Chelsea vs Manchester United",
           "broadcastStatus": "showing"
         },
         {
@@ -8855,9 +8975,25 @@
         {
           "date": "2026-10-29",
           "display_date": "10月29日(木)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
           "sport": "Soccer",
           "match": "上海申花vs町田 （21:15）",
           "match_en": "Shanghai Shenhua vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-31",
+          "display_date": "10月31日(土)",
+          "sport": "Soccer",
+          "match": "鹿島vsC大阪 （15:00）",
+          "match_en": "Kashima vs Cerezo Osaka",
           "broadcastStatus": "showing"
         },
         {
@@ -8874,6 +9010,14 @@
           "sport": "Football",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-03",
+          "display_date": "11月3日(火)",
+          "sport": "Football",
+          "match": "柏vs.大田 (19:00)",
+          "match_en": "柏vs.大田 (19:00)",
           "broadcastStatus": "showing"
         },
         {
