@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T02:04:04.681Z",
+  "updatedAt": "2026-10-28T04:19:44.613Z",
   "data": [
     {
       "id": "5506",
@@ -8768,6 +8768,22 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-28",
+          "display_date": "10月28日(水)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-31",
           "display_date": "10月31日(土)",
           "sport": "Soccer",
@@ -9226,6 +9242,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-31",
           "display_date": "10月31日(土)",
           "sport": "Soccer",
@@ -9478,6 +9502,14 @@
         {
           "date": "2026-10-28",
           "display_date": "10月28日(水)",
+          "sport": "Baseball",
+          "match": "ソフトバンクvsDeNA （18:00）",
+          "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
           "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
