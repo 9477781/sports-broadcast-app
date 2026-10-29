@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T02:19:27.923Z",
+  "updatedAt": "2026-10-29T06:07:07.901Z",
   "data": [
     {
       "id": "5506",
@@ -593,6 +593,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-31",
           "display_date": "10月31日(土)",
           "sport": "Soccer",
@@ -803,6 +811,14 @@
           "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
           "broadcastStatus": "showing"
         },
         {
@@ -1215,6 +1231,22 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-31",
+          "display_date": "10月31日(土)",
+          "sport": "Soccer",
+          "match": "鹿島vsC大阪 （15:00）",
+          "match_en": "Kashima vs Cerezo Osaka",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-31",
+          "display_date": "10月31日(土)",
+          "sport": "Soccer",
+          "match": "チェルシーvsマンチェスター・ユナイテッド （21:30）",
+          "match_en": "Chelsea vs Manchester United",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-01",
           "display_date": "11月1日(日)",
           "sport": "Football",
@@ -1252,6 +1284,22 @@
           "sport": "Football",
           "match": "福岡vs.長崎 (15:00)",
           "match_en": "福岡vs.長崎 (15:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日(日)",
+          "sport": "Football",
+          "match": "神戸vs.浦和 (14:00)",
+          "match_en": "神戸vs.浦和 (14:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日(日)",
+          "sport": "Football",
+          "match": "千葉vs.水戸 (17:00)",
+          "match_en": "千葉vs.水戸 (17:00)",
           "broadcastStatus": "showing"
         },
         {
@@ -1885,6 +1933,14 @@
           "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
           "broadcastStatus": "showing"
         },
         {
@@ -2621,6 +2677,14 @@
           "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
           "broadcastStatus": "showing"
         },
         {
@@ -3491,14 +3555,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-10-31",
-          "display_date": "10月31日(土)",
-          "sport": "Baseball",
-          "match": "レイズvsブルワーズ （09:00）",
-          "match_en": "Rays vs Brewers",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-01",
           "display_date": "11月1日(日)",
           "sport": "Football",
@@ -3613,6 +3669,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-31",
           "display_date": "10月31日(土)",
           "sport": "Soccer",
@@ -3711,6 +3775,14 @@
           "sport": "Soccer",
           "match": "横浜FMvs広島 （19:00）",
           "match_en": "Yokohama FM vs Hiroshima",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
           "broadcastStatus": "showing"
         },
         {
@@ -3847,6 +3919,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-31",
           "display_date": "10月31日(土)",
           "sport": "Soccer",
@@ -3970,6 +4050,14 @@
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
           "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
+          "broadcastStatus": "showing"
         }
       ]
     },
@@ -3998,6 +4086,14 @@
           "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
           "broadcastStatus": "showing"
         },
         {
@@ -4511,6 +4607,14 @@
           "sport": "Soccer",
           "match": "鳥栖vs川崎 （19:00）",
           "match_en": "Tosu vs Kawasaki",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
           "broadcastStatus": "showing"
         },
         {
@@ -6190,6 +6294,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-30",
           "display_date": "10月30日(金)",
           "sport": "Basketball",
@@ -6230,6 +6342,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-13",
+          "display_date": "11月13日(金)",
+          "sport": "Baseball",
+          "match": "日本vs.韓国 (19:00)",
+          "match_en": "日本vs.韓国 (19:00)",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-14",
           "display_date": "11月14日(土)",
           "sport": "Football",
@@ -6251,6 +6371,14 @@
           "sport": "Horse Racing",
           "match": "エリザベス女王杯 (15:00)",
           "match_en": "エリザベス女王杯 (15:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Baseball",
+          "match": "決勝戦※日本出場時のみ放送 (19:00)",
+          "match_en": "決勝戦※日本出場時のみ放送 (19:00)",
           "broadcastStatus": "showing"
         }
       ]
@@ -8952,6 +9080,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-31",
           "display_date": "10月31日(土)",
           "sport": "Soccer",
@@ -9849,6 +9985,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-31",
           "display_date": "10月31日(土)",
           "sport": "Soccer",
@@ -10251,6 +10395,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-31",
           "display_date": "10月31日(土)",
           "sport": "Horse Racing",
@@ -10424,6 +10576,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-31",
           "display_date": "10月31日(土)",
           "sport": "Soccer",
@@ -10589,6 +10749,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-31",
           "display_date": "10月31日(土)",
           "sport": "Soccer",
@@ -10738,11 +10906,99 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-31",
+          "display_date": "10月31日(土)",
+          "sport": "Soccer",
+          "match": "水戸vs広島 （14:00）",
+          "match_en": "Mito vs Hiroshima",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-31",
+          "display_date": "10月31日(土)",
+          "sport": "Soccer",
+          "match": "チェルシーvsマンチェスター・ユナイテッド （21:30）",
+          "match_en": "Chelsea vs Manchester United",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-01",
+          "display_date": "11月1日(日)",
+          "sport": "Football",
+          "match": "長崎vs.東京V (14:00)",
+          "match_en": "長崎vs.東京V (14:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-01",
+          "display_date": "11月1日(日)",
+          "sport": "Horse Racing",
+          "match": "天皇賞(秋) (15:00)",
+          "match_en": "天皇賞(秋) (15:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-07",
+          "display_date": "11月7日(土)",
+          "sport": "Football",
+          "match": "福岡vs.長崎 (15:00)",
+          "match_en": "福岡vs.長崎 (15:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-07",
+          "display_date": "11月7日(土)",
+          "sport": "Horse Racing",
+          "match": "京王杯2歳S (15:00)",
+          "match_en": "京王杯2歳S (15:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日(日)",
+          "sport": "Football",
+          "match": "町田vs.広島 (14:00)",
+          "match_en": "町田vs.広島 (14:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日(日)",
+          "sport": "Horse Racing",
+          "match": "アルゼンチン共和国杯 (15:00)",
+          "match_en": "アルゼンチン共和国杯 (15:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-13",
+          "display_date": "11月13日(金)",
+          "sport": "Baseball",
+          "match": "日本vs.韓国 (19:00)",
+          "match_en": "日本vs.韓国 (19:00)",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-14",
           "display_date": "11月14日(土)",
           "sport": "Football",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "日本vs.ブラジル (19:15)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日(土)",
+          "sport": "Horse Racing",
+          "match": "デイリー杯2歳S (15:00)",
+          "match_en": "デイリー杯2歳S (15:00)",
           "broadcastStatus": "showing"
         },
         {
@@ -10836,6 +11092,22 @@
           "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-31",
+          "display_date": "10月31日(土)",
+          "sport": "Soccer",
+          "match": "札幌vs湘南 （13:00）",
+          "match_en": "Sapporo vs Shonan",
           "broadcastStatus": "showing"
         },
         {
@@ -11044,6 +11316,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-31",
           "display_date": "10月31日(土)",
           "sport": "Soccer",
@@ -11238,6 +11518,14 @@
           "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
           "broadcastStatus": "showing"
         },
         {
@@ -11454,6 +11742,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-10-30",
           "display_date": "10月30日(金)",
           "sport": "Basketball",
@@ -11568,6 +11864,14 @@
           "sport": "Soccer",
           "match": "横浜FMvs広島 （19:00）",
           "match_en": "Yokohama FM vs Hiroshima",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
           "broadcastStatus": "showing"
         },
         {
@@ -11890,6 +12194,14 @@
           "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
           "broadcastStatus": "showing"
         },
         {
@@ -13021,6 +13333,22 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-31",
+          "display_date": "10月31日(土)",
+          "sport": "Soccer",
+          "match": "宮崎vs大分 （14:00）",
+          "match_en": "Miyazaki vs Oita",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-01",
           "display_date": "11月1日(日)",
           "sport": "Football",
@@ -13045,11 +13373,27 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-13",
+          "display_date": "11月13日(金)",
+          "sport": "Baseball",
+          "match": "日本vs.韓国 (19:00)",
+          "match_en": "日本vs.韓国 (19:00)",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-14",
           "display_date": "11月14日(土)",
           "sport": "Football",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "日本vs.ブラジル (19:15)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日(土)",
+          "sport": "Baseball",
+          "match": "日本vs.オーストラリア (12:00)",
+          "match_en": "日本vs.オーストラリア (12:00)",
           "broadcastStatus": "showing"
         },
         {
@@ -15069,6 +15413,14 @@
           "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Soccer",
+          "match": "上海申花vs町田 （21:15）",
+          "match_en": "Shanghai Shenhua vs Machida",
           "broadcastStatus": "showing"
         },
         {
