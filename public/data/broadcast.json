@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T01:02:16.216Z",
+  "updatedAt": "2026-10-29T02:19:27.923Z",
   "data": [
     {
       "id": "5506",
@@ -1377,6 +1377,14 @@
           "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-10-29",
+          "display_date": "10月29日(木)",
+          "sport": "Baseball",
+          "match": "レイズvsブルワーズ （09:00）",
+          "match_en": "Rays vs Brewers",
           "broadcastStatus": "showing"
         },
         {
