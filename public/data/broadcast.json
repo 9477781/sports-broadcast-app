@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T14:45:49.212Z",
+  "updatedAt": "2026-10-31T23:44:36.721Z",
   "data": [
     {
       "id": "5506",
@@ -1928,6 +1928,30 @@
           "sport": "Soccer",
           "match": "チェルシーvsマンチェスター・ユナイテッド （21:30）",
           "match_en": "Chelsea vs Manchester United",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-04",
+          "display_date": "11月4日(水)",
+          "sport": "Football",
+          "match": "浦項Svs.G大阪 (19:00)",
+          "match_en": "浦項Svs.G大阪 (19:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-07",
+          "display_date": "11月7日(土)",
+          "sport": "Soccer",
+          "match": "リーズ・ユナイテッドvsトッテナム・ホットスパー （21:30）",
+          "match_en": "Leeds United vs Tottenham Hotspur",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日(日)",
+          "sport": "Football",
+          "match": "町田vs.広島 (14:00)",
+          "match_en": "町田vs.広島 (14:00)",
           "broadcastStatus": "showing"
         }
       ]
@@ -7101,14 +7125,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日(日)",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "天皇賞(秋) (15:00)",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日(火)",
           "sport": "Football",
@@ -7162,6 +7178,14 @@
           "sport": "Football",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "F東京vs.鹿島 (15:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日(日)",
+          "sport": "Football",
+          "match": "千葉vs.水戸 (17:00)",
+          "match_en": "千葉vs.水戸 (17:00)",
           "broadcastStatus": "showing"
         },
         {
