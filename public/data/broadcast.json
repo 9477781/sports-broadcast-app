@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T09:56:37.831Z",
+  "updatedAt": "2026-11-02T23:44:45.018Z",
   "data": [
     {
       "id": "5506",
@@ -71,7 +71,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.福岡 (14:00)",
           "match_en": "Chiba vs. Fukuoka",
           "broadcastStatus": "showing"
@@ -79,7 +79,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "富山vs.仙台 (13:55)",
           "match_en": "Toyama vs. Sendai",
           "broadcastStatus": "showing"
@@ -87,7 +87,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -95,7 +95,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.岡山 (14:00)",
           "match_en": "Yokohama FM vs. Okayama",
           "broadcastStatus": "showing"
@@ -111,7 +111,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.浦和 (14:00)",
           "match_en": "Kobe vs Urawa",
           "broadcastStatus": "showing"
@@ -119,9 +119,17 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "浦和vsC大阪 （19:30）",
+          "match_en": "Urawa vs Cerezo Osaka",
           "broadcastStatus": "showing"
         },
         {
@@ -135,7 +143,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -146,6 +154,14 @@
           "sport": "Rugby",
           "match": "ウェールズvs.ニュージーランド (22:55)",
           "match_en": "Wales vs New Zealand",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "C大阪vs浦和 （15:00）",
+          "match_en": "C Osaka vs Urawa",
           "broadcastStatus": "showing"
         },
         {
@@ -252,7 +268,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -260,7 +276,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.川崎 (16:00)",
           "match_en": "Kashiwa vs Kawasaki",
           "broadcastStatus": "showing"
@@ -274,6 +290,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "川崎vs柏 （19:00）",
+          "match_en": "Kawasaki vs Kashiwa",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
           "sport": "Horse Racing",
@@ -284,7 +308,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -295,6 +319,14 @@
           "sport": "Horse Racing",
           "match": "エリザベス女王杯 (15:00)",
           "match_en": "Queen Elizabeth II Cup",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "柏vs川崎 （17:00）",
+          "match_en": "Kashiwa vs Kawasaki",
           "broadcastStatus": "showing"
         }
       ]
@@ -446,7 +478,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "湘南vs.鳥栖 (14:00)",
           "match_en": "Shonan vs. Tosu",
           "broadcastStatus": "showing"
@@ -454,17 +486,41 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "鳥栖vs.富山 (14:00)",
           "match_en": "Tosu vs. Toyama",
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "川崎vs柏 （19:00）",
+          "match_en": "Kawasaki vs Kashiwa",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Soccer",
+          "match": "札幌vs.鳥栖 (13:00)",
+          "match_en": "Sapporo vs. Tosu",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "柏vs川崎 （17:00）",
+          "match_en": "Kashiwa vs Kawasaki",
           "broadcastStatus": "showing"
         }
       ]
@@ -619,7 +675,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "Manchester City vs Brighton & Hove Albion",
           "broadcastStatus": "showing"
@@ -627,7 +683,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.G大阪 (16:00)",
           "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
@@ -635,7 +691,7 @@
         {
           "date": "2026-11-02",
           "display_date": "11月2日（月）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "リヴァプールvs.アーセナル (01:30)",
           "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
@@ -643,7 +699,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "甲府vs.新潟 (14:00)",
           "match_en": "Kofu vs. Niigata",
           "broadcastStatus": "showing"
@@ -651,7 +707,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -659,7 +715,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.大田 (19:00)",
           "match_en": "Kashiwa vs. Ota",
           "broadcastStatus": "showing"
@@ -667,7 +723,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -675,7 +731,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -683,7 +739,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -691,7 +747,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "新潟vs.今治 (14:00)",
           "match_en": "Niigata vs. Imabari",
           "broadcastStatus": "showing"
@@ -715,7 +771,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
           "broadcastStatus": "showing"
@@ -723,7 +779,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "仙台vs.甲府 (15:00)",
           "match_en": "Sendai vs. Kofu",
           "broadcastStatus": "showing"
@@ -747,7 +803,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "新潟vs.宮崎 (14:00)",
           "match_en": "Niigata vs Miyazaki",
           "broadcastStatus": "showing"
@@ -755,7 +811,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -840,7 +896,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "FC Tokyo vs Kashima",
           "broadcastStatus": "showing"
@@ -848,7 +904,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -917,7 +973,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "藤枝vs.磐田 (14:00)",
           "match_en": "Fujieda vs. Iwata",
           "broadcastStatus": "showing"
@@ -925,9 +981,25 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "磐田vs.湘南 (14:00)",
           "match_en": "Iwata vs Shonan",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "横浜FMvs鹿島 （19:00）",
+          "match_en": "Yokohama FM vs Kashima",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Soccer",
+          "match": "今治vs.磐田 (14:00)",
+          "match_en": "Imabari vs. Iwata",
           "broadcastStatus": "showing"
         }
       ]
@@ -1034,7 +1106,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "Manchester City vs Brighton & Hove Albion",
           "broadcastStatus": "showing"
@@ -1056,11 +1128,35 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-06",
+          "display_date": "11月6日(金)",
+          "sport": "Basketball",
+          "match": "仙台vsA東京 （19:05）",
+          "match_en": "Sendai vs A Tokyo",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-07",
+          "display_date": "11月7日(土)",
+          "sport": "Basketball",
+          "match": "富山vs名古屋DD （15:05）",
+          "match_en": "Toyama vs Nagoya DD",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-08",
           "display_date": "11月8日(日)",
           "sport": "Soccer",
           "match": "アーセナルvsハル・シティ （0:00）",
           "match_en": "Arsenal vs Hull City",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日(日)",
+          "sport": "Basketball",
+          "match": "佐賀vs千葉J （17:05）",
+          "match_en": "Saga vs Chiba J",
           "broadcastStatus": "showing"
         },
         {
@@ -1072,9 +1168,57 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-09",
+          "display_date": "11月9日(月)",
+          "sport": "Basketball",
+          "match": "長崎vs仙台 （19:05）",
+          "match_en": "Nagasaki vs Sendai",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-10",
+          "display_date": "11月10日(火)",
+          "sport": "Basketball",
+          "match": "千葉Jvs大阪 （19:05）",
+          "match_en": "Chiba J vs Osaka",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Basketball",
+          "match": "広島vs仙台 （19:05）",
+          "match_en": "Hiroshima vs Sendai",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-12",
+          "display_date": "11月12日(木)",
+          "sport": "Basketball",
+          "match": "A千葉vs横浜BC （19:05）",
+          "match_en": "A Chiba vs Yokohama BC",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-13",
+          "display_date": "11月13日(金)",
+          "sport": "Basketball",
+          "match": "島根vs仙台 （19:05）",
+          "match_en": "Shimane vs Sendai",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日(土)",
+          "sport": "Basketball",
+          "match": "A千葉vs三遠 （14:05）",
+          "match_en": "A Chiba vs Sanen",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -1155,6 +1299,14 @@
           "match": "神戸vs名古屋 （15:00）",
           "match_en": "Kobe vs Nagoya",
           "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-07",
+          "display_date": "11月7日（土）",
+          "sport": "Soccer",
+          "match": "名古屋vs.京都 (14:00)",
+          "match_en": "Nagoya vs Kyoto",
+          "broadcastStatus": "showing"
         }
       ]
     },
@@ -1212,7 +1364,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -1305,7 +1457,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "長崎vs.東京V (14:00)",
           "match_en": "Nagasaki vs Tokyo Verdy",
           "broadcastStatus": "showing"
@@ -1321,7 +1473,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -1329,7 +1481,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "FC Tokyo vs Kashima",
           "broadcastStatus": "showing"
@@ -1337,7 +1489,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "福岡vs.長崎 (15:00)",
           "match_en": "Fukuoka vs. Nagasaki",
           "broadcastStatus": "showing"
@@ -1345,7 +1497,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.浦和 (14:00)",
           "match_en": "Kobe vs Urawa",
           "broadcastStatus": "showing"
@@ -1361,7 +1513,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
           "broadcastStatus": "showing"
@@ -1385,7 +1537,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -1635,7 +1787,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "山形vs.徳島 (14:00)",
           "match_en": "Yamagata vs. Tokushima",
           "broadcastStatus": "showing"
@@ -1643,7 +1795,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "いわきvs.山形 (14:00)",
           "match_en": "Iwaki vs. Yamagata",
           "broadcastStatus": "showing"
@@ -1651,7 +1803,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "FC Tokyo vs Kashima",
           "broadcastStatus": "showing"
@@ -1675,7 +1827,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.広島 (14:00)",
           "match_en": "Machida vs. Hiroshima",
           "broadcastStatus": "showing"
@@ -1699,7 +1851,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "大宮vs.山形 (14:00)",
           "match_en": "Omiya vs Yamagata",
           "broadcastStatus": "showing"
@@ -1707,7 +1859,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -1800,7 +1952,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.福岡 (14:00)",
           "match_en": "Chiba vs. Fukuoka",
           "broadcastStatus": "showing"
@@ -1816,7 +1968,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "藤枝vs.磐田 (14:00)",
           "match_en": "Fujieda vs. Iwata",
           "broadcastStatus": "showing"
@@ -1832,7 +1984,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.川崎 (16:00)",
           "match_en": "Kashiwa vs Kawasaki",
           "broadcastStatus": "showing"
@@ -1840,7 +1992,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
           "broadcastStatus": "showing"
@@ -1856,7 +2008,7 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "今治vs.磐田 (14:00)",
           "match_en": "Imabari vs. Iwata",
           "broadcastStatus": "showing"
@@ -1933,7 +2085,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -1949,7 +2101,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.広島 (14:00)",
           "match_en": "Machida vs. Hiroshima",
           "broadcastStatus": "showing"
@@ -2167,7 +2319,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "Manchester City vs Brighton & Hove Albion",
           "broadcastStatus": "showing"
@@ -2175,7 +2327,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "FC Tokyo vs Kashima",
           "broadcastStatus": "showing"
@@ -2183,7 +2335,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -2252,7 +2404,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -2345,7 +2497,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.川崎 (13:00)",
           "match_en": "Yokohama FM vs. Kawasaki",
           "broadcastStatus": "showing"
@@ -2361,7 +2513,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.G大阪 (16:00)",
           "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
@@ -2369,7 +2521,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "湘南vs.鳥栖 (14:00)",
           "match_en": "Shonan vs. Tosu",
           "broadcastStatus": "showing"
@@ -2377,7 +2529,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "藤枝vs.磐田 (14:00)",
           "match_en": "Fujieda vs. Iwata",
           "broadcastStatus": "showing"
@@ -2385,9 +2537,25 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "横浜FMvs鹿島 （19:00）",
+          "match_en": "Yokohama FM vs Kashima",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "浦和vsC大阪 （19:30）",
+          "match_en": "Urawa vs Cerezo Osaka",
           "broadcastStatus": "showing"
         },
         {
@@ -2401,7 +2569,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -2470,7 +2638,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "高知vs.愛媛 (14:00)",
           "match_en": "Kochi vs. Ehime",
           "broadcastStatus": "showing"
@@ -2478,7 +2646,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "奈良vs.高知 (14:00)",
           "match_en": "Nara vs. Kochi",
           "broadcastStatus": "showing"
@@ -2486,7 +2654,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -2494,7 +2662,7 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "琉球vs.高知 (16:00)",
           "match_en": "Ryukyu vs. Kochi",
           "broadcastStatus": "showing"
@@ -2529,6 +2697,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-04",
+          "display_date": "11月4日（水）",
+          "sport": "Soccer",
+          "match": "ブリーラムvs.鹿島 (21:15)",
+          "match_en": "Buriram vs Kashima",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-13",
           "display_date": "11月13日（金）",
           "sport": "Baseball",
@@ -2539,7 +2715,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -2757,7 +2933,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "大分vs.八戸 (14:00)",
           "match_en": "Oita vs Hachinohe",
           "broadcastStatus": "showing"
@@ -2765,7 +2941,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -2773,7 +2949,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "FC Tokyo vs Kashima",
           "broadcastStatus": "showing"
@@ -2781,7 +2957,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "大分vs.栃木Ｃ (14:00)",
           "match_en": "Oita vs. Tochigi C",
           "broadcastStatus": "showing"
@@ -2789,7 +2965,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -2866,7 +3042,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.G大阪 (16:00)",
           "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
@@ -2874,7 +3050,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -2882,7 +3058,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.広島 (14:00)",
           "match_en": "Machida vs. Hiroshima",
           "broadcastStatus": "showing"
@@ -2898,7 +3074,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -2991,7 +3167,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "山形vs.徳島 (14:00)",
           "match_en": "Yamagata vs. Tokushima",
           "broadcastStatus": "showing"
@@ -2999,7 +3175,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -3007,7 +3183,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -3015,7 +3191,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -3023,7 +3199,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "FC Tokyo vs Kashima",
           "broadcastStatus": "showing"
@@ -3039,7 +3215,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.浦和 (14:00)",
           "match_en": "Kobe vs Urawa",
           "broadcastStatus": "showing"
@@ -3047,7 +3223,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
           "broadcastStatus": "showing"
@@ -3071,7 +3247,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -3140,7 +3316,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.G大阪 (16:00)",
           "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
@@ -3148,17 +3324,57 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-07",
+          "display_date": "11月7日（土）",
+          "sport": "Rugby",
+          "match": "イタリアvs.南アフリカ (20:25)",
+          "match_en": "Italy vs South Africa",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-13",
+          "display_date": "11月13日（金）",
+          "sport": "Baseball",
+          "match": "日本vs.韓国 (19:00)",
+          "match_en": "Japan vs. Korea",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Soccer",
+          "match": "日本vs.ブラジル (19:15)",
+          "match_en": "Japan vs Brazil",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Rugby",
+          "match": "ウェールズvs.ニュージーランド (22:55)",
+          "match_en": "Wales vs New Zealand",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Baseball",
+          "match": "決勝戦※日本出場時のみ放送 (19:00)",
+          "match_en": "Final match *Broadcast only when Japan is competing",
           "broadcastStatus": "showing"
         }
       ]
@@ -3302,7 +3518,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "FC Tokyo vs Kashima",
           "broadcastStatus": "showing"
@@ -3318,7 +3534,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -3411,7 +3627,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "福岡vs.長崎 (15:00)",
           "match_en": "Fukuoka vs. Nagasaki",
           "broadcastStatus": "showing"
@@ -3427,7 +3643,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.浦和 (14:00)",
           "match_en": "Kobe vs Urawa",
           "broadcastStatus": "showing"
@@ -3443,9 +3659,25 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Rugby",
+          "match": "ウェールズvs.ニュージーランド (22:55)",
+          "match_en": "Wales vs New Zealand",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Rugby",
+          "match": "イングランドvs.日本 (01:10)",
+          "match_en": "England vs Japan",
           "broadcastStatus": "showing"
         }
       ]
@@ -3576,7 +3808,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "長崎vs.東京V (14:00)",
           "match_en": "Nagasaki vs Tokyo Verdy",
           "broadcastStatus": "showing"
@@ -3592,7 +3824,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "(再)トッテナム・ホットスパーvs.クリスタル・パレス (19:00)",
           "match_en": "Tottenham Hotspur vs. Crystal Palace",
           "broadcastStatus": "showing"
@@ -3600,7 +3832,7 @@
         {
           "date": "2026-11-02",
           "display_date": "11月2日（月）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "リヴァプールvs.アーセナル (01:30)",
           "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
@@ -3608,7 +3840,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.大田 (19:00)",
           "match_en": "Kashiwa vs. Ota",
           "broadcastStatus": "showing"
@@ -3616,7 +3848,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -3624,7 +3856,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -3632,7 +3864,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -3640,7 +3872,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "福岡vs.長崎 (15:00)",
           "match_en": "Fukuoka vs. Nagasaki",
           "broadcastStatus": "showing"
@@ -3672,7 +3904,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.広島 (14:00)",
           "match_en": "Machida vs. Hiroshima",
           "broadcastStatus": "showing"
@@ -3683,6 +3915,14 @@
           "sport": "Horse Racing",
           "match": "アルゼンチン共和国杯 (15:00)",
           "match_en": "Argentine Republic Cup",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日(日)",
+          "sport": "Soccer",
+          "match": "クリスタル・パレスvsリヴァプール （23:00）",
+          "match_en": "Crystal Palace vs Liverpool",
           "broadcastStatus": "showing"
         },
         {
@@ -3699,14 +3939,6 @@
           "sport": "Horse Racing",
           "match": "デイリー杯2歳S (15:00)",
           "match_en": "Daily Hai 2-Year-Old Stakes",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-14",
-          "display_date": "11月14日（土）",
-          "sport": "Football",
-          "match": "日本vs.ブラジル (19:15)",
-          "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
         },
         {
@@ -3805,7 +4037,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.川崎 (13:00)",
           "match_en": "Yokohama FM vs. Kawasaki",
           "broadcastStatus": "showing"
@@ -3813,9 +4045,65 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.岡山 (14:00)",
           "match_en": "Yokohama FM vs. Okayama",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日（日）",
+          "sport": "Soccer",
+          "match": "千葉vs.水戸 (17:00)",
+          "match_en": "Chiba vs Mito",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "横浜FMvs鹿島 （19:00）",
+          "match_en": "Yokohama FM vs Kashima",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Soccer",
+          "match": "日本vs.ブラジル (19:15)",
+          "match_en": "Japan vs Brazil",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Rugby",
+          "match": "ウェールズvs.ニュージーランド (22:55)",
+          "match_en": "Wales vs New Zealand",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Rugby",
+          "match": "イングランドvs.日本 (01:10)",
+          "match_en": "England vs Japan",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "鹿島vs横浜FM （15:00）",
+          "match_en": "Kashima vs Yokohama FM",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Baseball",
+          "match": "決勝戦※日本出場時のみ放送 (19:00)",
+          "match_en": "Final match *Broadcast only when Japan is competing",
           "broadcastStatus": "showing"
         }
       ]
@@ -3943,7 +4231,7 @@
         {
           "date": "2026-11-02",
           "display_date": "11月2日（月）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "リヴァプールvs.アーセナル (01:30)",
           "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
@@ -3951,7 +4239,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -3959,7 +4247,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -3983,7 +4271,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.浦和 (14:00)",
           "match_en": "Kobe vs Urawa",
           "broadcastStatus": "showing"
@@ -3991,7 +4279,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
           "broadcastStatus": "showing"
@@ -4005,6 +4293,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "浦和vsC大阪 （19:30）",
+          "match_en": "Urawa vs Cerezo Osaka",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-13",
           "display_date": "11月13日（金）",
           "sport": "Baseball",
@@ -4015,7 +4311,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -4026,6 +4322,22 @@
           "sport": "Rugby",
           "match": "ウェールズvs.ニュージーランド (22:55)",
           "match_en": "Wales vs New Zealand",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "C大阪vs浦和 （15:00）",
+          "match_en": "C Osaka vs Urawa",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Baseball",
+          "match": "決勝戦※日本出場時のみ放送 (19:00)",
+          "match_en": "Final match *Broadcast only when Japan is competing",
           "broadcastStatus": "showing"
         }
       ]
@@ -4116,7 +4428,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.川崎 (13:00)",
           "match_en": "Yokohama FM vs. Kawasaki",
           "broadcastStatus": "showing"
@@ -4124,7 +4436,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.大田 (19:00)",
           "match_en": "Kashiwa vs. Ota",
           "broadcastStatus": "showing"
@@ -4132,7 +4444,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -4140,7 +4452,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -4148,7 +4460,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.岡山 (14:00)",
           "match_en": "Yokohama FM vs. Okayama",
           "broadcastStatus": "showing"
@@ -4162,6 +4474,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "横浜FMvs鹿島 （19:00）",
+          "match_en": "Yokohama FM vs Kashima",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-13",
           "display_date": "11月13日（金）",
           "sport": "Baseball",
@@ -4172,9 +4492,17 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "鹿島vs横浜FM （15:00）",
+          "match_en": "Kashima vs Yokohama FM",
           "broadcastStatus": "showing"
         },
         {
@@ -4273,7 +4601,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -4281,7 +4609,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -4289,7 +4617,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -4297,7 +4625,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -4305,7 +4633,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
           "broadcastStatus": "showing"
@@ -4321,7 +4649,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -4406,7 +4734,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -4414,7 +4742,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -4422,7 +4750,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -4430,7 +4758,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -4438,7 +4766,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -4507,7 +4835,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -4576,7 +4904,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "清水vs.東京V (13:00)",
           "match_en": "Shimizu vs. Tokyo V",
           "broadcastStatus": "showing"
@@ -4584,7 +4912,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -4645,7 +4973,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "名古屋vs.京都 (14:00)",
           "match_en": "Nagoya vs Kyoto",
           "broadcastStatus": "showing"
@@ -4653,7 +4981,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -4722,7 +5050,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "富山vs.仙台 (13:55)",
           "match_en": "Toyama vs. Sendai",
           "broadcastStatus": "showing"
@@ -4730,7 +5058,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "仙台vs.甲府 (15:00)",
           "match_en": "Sendai vs. Kofu",
           "broadcastStatus": "showing"
@@ -4738,7 +5066,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -4746,7 +5074,7 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "仙台vs.秋田 (13:00)",
           "match_en": "Sendai vs. Akita",
           "broadcastStatus": "showing"
@@ -4831,7 +5159,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "Manchester City vs Brighton & Hove Albion",
           "broadcastStatus": "showing"
@@ -4839,7 +5167,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.G大阪 (16:00)",
           "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
@@ -4847,7 +5175,7 @@
         {
           "date": "2026-11-02",
           "display_date": "11月2日（月）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "リヴァプールvs.アーセナル (01:30)",
           "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
@@ -4855,7 +5183,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -4863,7 +5191,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -4871,7 +5199,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -4879,7 +5207,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -4887,7 +5215,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -4895,7 +5223,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
           "broadcastStatus": "showing"
@@ -4911,7 +5239,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -5044,7 +5372,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.川崎 (13:00)",
           "match_en": "Yokohama FM vs. Kawasaki",
           "broadcastStatus": "showing"
@@ -5060,7 +5388,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "今治vs.札幌 (14:50)",
           "match_en": "Imabari vs Sapporo",
           "broadcastStatus": "showing"
@@ -5068,7 +5396,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "新潟vs.今治 (14:00)",
           "match_en": "Niigata vs. Imabari",
           "broadcastStatus": "showing"
@@ -5076,7 +5404,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.川崎 (16:00)",
           "match_en": "Kashiwa vs Kawasaki",
           "broadcastStatus": "showing"
@@ -5100,7 +5428,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -5108,7 +5436,7 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "今治vs.磐田 (14:00)",
           "match_en": "Imabari vs. Iwata",
           "broadcastStatus": "showing"
@@ -5185,7 +5513,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "山形vs.徳島 (14:00)",
           "match_en": "Yamagata vs. Tokushima",
           "broadcastStatus": "showing"
@@ -5193,7 +5521,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.大田 (19:00)",
           "match_en": "Kashiwa vs. Ota",
           "broadcastStatus": "showing"
@@ -5201,7 +5529,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "徳島vs.宮崎 (14:00)",
           "match_en": "Tokushima vs. Miyazaki",
           "broadcastStatus": "showing"
@@ -5209,7 +5537,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.川崎 (16:00)",
           "match_en": "Kashiwa vs Kawasaki",
           "broadcastStatus": "showing"
@@ -5217,7 +5545,7 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "富山vs.徳島 (14:00)",
           "match_en": "Toyama vs Tokushima",
           "broadcastStatus": "showing"
@@ -5270,7 +5598,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -5379,7 +5707,7 @@
         {
           "date": "2026-11-02",
           "display_date": "11月2日（月）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "リヴァプールvs.アーセナル (01:30)",
           "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
@@ -5387,7 +5715,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "今治vs.札幌 (14:50)",
           "match_en": "Imabari vs Sapporo",
           "broadcastStatus": "showing"
@@ -5395,7 +5723,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "八戸vs.札幌 (13:00)",
           "match_en": "Hachinohe vs. Sapporo",
           "broadcastStatus": "showing"
@@ -5403,7 +5731,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -5411,7 +5739,7 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "札幌vs.鳥栖 (13:00)",
           "match_en": "Sapporo vs. Tosu",
           "broadcastStatus": "showing"
@@ -5504,7 +5832,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.浦和 (14:00)",
           "match_en": "Kobe vs Urawa",
           "broadcastStatus": "showing"
@@ -5520,7 +5848,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -5621,7 +5949,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "Manchester City vs Brighton & Hove Albion",
           "broadcastStatus": "showing"
@@ -5629,7 +5957,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -5637,7 +5965,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "名古屋vs.京都 (14:00)",
           "match_en": "Nagoya vs Kyoto",
           "broadcastStatus": "showing"
@@ -5645,7 +5973,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -5746,7 +6074,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -5903,7 +6231,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "Manchester City vs Brighton & Hove Albion",
           "broadcastStatus": "showing"
@@ -5919,7 +6247,7 @@
         {
           "date": "2026-11-02",
           "display_date": "11月2日（月）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "リヴァプールvs.アーセナル (01:30)",
           "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
@@ -5927,7 +6255,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "富山vs.仙台 (13:55)",
           "match_en": "Toyama vs. Sendai",
           "broadcastStatus": "showing"
@@ -5935,7 +6263,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -5951,7 +6279,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "仙台vs.甲府 (15:00)",
           "match_en": "Sendai vs. Kofu",
           "broadcastStatus": "showing"
@@ -5991,7 +6319,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -5999,7 +6327,7 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "仙台vs.秋田 (13:00)",
           "match_en": "Sendai vs. Akita",
           "broadcastStatus": "showing"
@@ -6148,7 +6476,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "Manchester City vs Brighton & Hove Albion",
           "broadcastStatus": "showing"
@@ -6156,7 +6484,7 @@
         {
           "date": "2026-11-02",
           "display_date": "11月2日（月）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "(再)リヴァプールvs.アーセナル (19:00)",
           "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
@@ -6164,7 +6492,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "富山vs.仙台 (13:55)",
           "match_en": "Toyama vs. Sendai",
           "broadcastStatus": "showing"
@@ -6172,7 +6500,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -6180,7 +6508,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -6188,7 +6516,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -6196,7 +6524,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -6204,7 +6532,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -6220,7 +6548,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "いわきvs.山形 (14:00)",
           "match_en": "Iwaki vs. Yamagata",
           "broadcastStatus": "showing"
@@ -6276,7 +6604,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -6369,7 +6697,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.福岡 (14:00)",
           "match_en": "Chiba vs. Fukuoka",
           "broadcastStatus": "showing"
@@ -6377,7 +6705,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -6385,7 +6713,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "FC Tokyo vs Kashima",
           "broadcastStatus": "showing"
@@ -6393,7 +6721,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
           "broadcastStatus": "showing"
@@ -6417,7 +6745,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -6470,7 +6798,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -6478,7 +6806,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -6494,7 +6822,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
           "broadcastStatus": "showing"
@@ -6510,7 +6838,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -6627,7 +6955,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.大田 (19:00)",
           "match_en": "Kashiwa vs. Ota",
           "broadcastStatus": "showing"
@@ -6635,7 +6963,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -6643,7 +6971,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -6651,7 +6979,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -6659,7 +6987,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.川崎 (16:00)",
           "match_en": "Kashiwa vs Kawasaki",
           "broadcastStatus": "showing"
@@ -6699,7 +7027,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -6824,7 +7152,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.福岡 (14:00)",
           "match_en": "Chiba vs. Fukuoka",
           "broadcastStatus": "showing"
@@ -6848,7 +7176,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
           "broadcastStatus": "showing"
@@ -6864,7 +7192,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -6997,7 +7325,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.福岡 (14:00)",
           "match_en": "Chiba vs. Fukuoka",
           "broadcastStatus": "showing"
@@ -7005,7 +7333,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "長崎vs.東京V (14:00)",
           "match_en": "Nagasaki vs Tokyo Verdy",
           "broadcastStatus": "showing"
@@ -7013,7 +7341,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -7021,7 +7349,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -7029,7 +7357,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "福岡vs.長崎 (15:00)",
           "match_en": "Fukuoka vs. Nagasaki",
           "broadcastStatus": "showing"
@@ -7037,7 +7365,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.川崎 (16:00)",
           "match_en": "Kashiwa vs Kawasaki",
           "broadcastStatus": "showing"
@@ -7069,7 +7397,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
           "broadcastStatus": "showing"
@@ -7085,7 +7413,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -7218,7 +7546,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.福岡 (14:00)",
           "match_en": "Chiba vs. Fukuoka",
           "broadcastStatus": "showing"
@@ -7234,7 +7562,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.大田 (19:00)",
           "match_en": "Kashiwa vs. Ota",
           "broadcastStatus": "showing"
@@ -7242,7 +7570,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -7250,7 +7578,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -7258,7 +7586,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.岡山 (14:00)",
           "match_en": "Yokohama FM vs. Okayama",
           "broadcastStatus": "showing"
@@ -7274,7 +7602,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.川崎 (16:00)",
           "match_en": "Kashiwa vs Kawasaki",
           "broadcastStatus": "showing"
@@ -7282,7 +7610,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.浦和 (14:00)",
           "match_en": "Kobe vs Urawa",
           "broadcastStatus": "showing"
@@ -7290,7 +7618,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
           "broadcastStatus": "showing"
@@ -7314,7 +7642,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -7439,7 +7767,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.福岡 (14:00)",
           "match_en": "Chiba vs. Fukuoka",
           "broadcastStatus": "showing"
@@ -7447,7 +7775,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -7455,7 +7783,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.大田 (19:00)",
           "match_en": "Kashiwa vs. Ota",
           "broadcastStatus": "showing"
@@ -7463,7 +7791,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -7471,7 +7799,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -7479,7 +7807,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -7487,7 +7815,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -7495,7 +7823,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "FC Tokyo vs Kashima",
           "broadcastStatus": "showing"
@@ -7503,9 +7831,41 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.浦和 (14:00)",
           "match_en": "Kobe vs Urawa",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "神戸vs町田 （19:00）",
+          "match_en": "Kobe vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "横浜FMvs鹿島 （19:00）",
+          "match_en": "Yokohama FM vs Kashima",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-12",
+          "display_date": "11月12日(木)",
+          "sport": "Basketball",
+          "match": "滋賀vs千葉J （19:05）",
+          "match_en": "Shiga vs Chiba J",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-13",
+          "display_date": "11月13日（金）",
+          "sport": "Baseball",
+          "match": "日本vs.韓国 (19:00)",
+          "match_en": "Japan vs. Korea",
           "broadcastStatus": "showing"
         },
         {
@@ -7518,8 +7878,16 @@
         },
         {
           "date": "2026-11-14",
+          "display_date": "11月14日(土)",
+          "sport": "Basketball",
+          "match": "千葉Jvs長崎 （13:00）",
+          "match_en": "Chiba J vs Nagasaki",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -7604,7 +7972,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.福岡 (14:00)",
           "match_en": "Chiba vs. Fukuoka",
           "broadcastStatus": "showing"
@@ -7612,7 +7980,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ジェフLvs.大宮V (12:30)",
           "match_en": "JEF United vs. Omiya Ardija",
           "broadcastStatus": "showing"
@@ -7620,9 +7988,17 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "横浜FMvs鹿島 （19:00）",
+          "match_en": "Yokohama FM vs Kashima",
           "broadcastStatus": "showing"
         },
         {
@@ -7636,7 +8012,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "S広島Rvs.ジェフL (14:00)",
           "match_en": "S Hiroshima R vs. JEF L",
           "broadcastStatus": "showing"
@@ -7644,7 +8020,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -7745,7 +8121,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "FC Tokyo vs Kashima",
           "broadcastStatus": "showing"
@@ -7753,7 +8129,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.浦和 (14:00)",
           "match_en": "Kobe vs Urawa",
           "broadcastStatus": "showing"
@@ -7785,7 +8161,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -7918,17 +8294,41 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "FC Tokyo vs Kashima",
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-08",
+          "display_date": "11月8日（日）",
+          "sport": "Rugby",
+          "match": "ウェールズvs.日本 (01:10)",
+          "match_en": "Wales vs Japan",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "神戸vs町田 （19:00）",
+          "match_en": "Kobe vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "町田vs神戸 （14:00）",
+          "match_en": "Machida vs Kobe",
           "broadcastStatus": "showing"
         }
       ]
@@ -8051,7 +8451,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "長崎vs.東京V (14:00)",
           "match_en": "Nagasaki vs Tokyo Verdy",
           "broadcastStatus": "showing"
@@ -8059,7 +8459,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "大分vs.八戸 (14:00)",
           "match_en": "Oita vs Hachinohe",
           "broadcastStatus": "showing"
@@ -8067,7 +8467,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -8075,7 +8475,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -8083,7 +8483,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -8091,7 +8491,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -8099,7 +8499,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -8107,7 +8507,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "清水vs.東京V (13:00)",
           "match_en": "Shimizu vs. Tokyo V",
           "broadcastStatus": "showing"
@@ -8115,7 +8515,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "秋田vs.大分 (14:00)",
           "match_en": "Akita vs Oita",
           "broadcastStatus": "showing"
@@ -8171,7 +8571,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "大分vs.栃木Ｃ (14:00)",
           "match_en": "Oita vs. Tochigi C",
           "broadcastStatus": "showing"
@@ -8179,7 +8579,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -8320,7 +8720,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "Manchester City vs Brighton & Hove Albion",
           "broadcastStatus": "showing"
@@ -8336,7 +8736,7 @@
         {
           "date": "2026-11-02",
           "display_date": "11月2日（月）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "(再)リヴァプールvs.アーセナル (19:00)",
           "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
@@ -8344,7 +8744,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -8352,7 +8752,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -8360,7 +8760,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -8368,7 +8768,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "FC Tokyo vs Kashima",
           "broadcastStatus": "showing"
@@ -8384,7 +8784,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.浦和 (14:00)",
           "match_en": "Kobe vs Urawa",
           "broadcastStatus": "showing"
@@ -8416,7 +8816,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -8509,15 +8909,31 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "宮崎vs.栃木Ｃ (14:00)",
           "match_en": "Miyazaki vs. Tochigi C",
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-04",
+          "display_date": "11月4日（水）",
+          "sport": "Soccer",
+          "match": "浦項Svs.G大阪 (19:00)",
+          "match_en": "Pohang S vs. G Osaka",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-05",
+          "display_date": "11月5日（木）",
+          "sport": "Soccer",
+          "match": "町田vs.上海申花 (19:00)",
+          "match_en": "Machida vs. Shanghai Shenhua",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "徳島vs.宮崎 (14:00)",
           "match_en": "Tokushima vs. Miyazaki",
           "broadcastStatus": "showing"
@@ -8531,11 +8947,43 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-08",
+          "display_date": "11月8日（日）",
+          "sport": "Soccer",
+          "match": "G大阪vs.C大阪 (15:00)",
+          "match_en": "G Osaka vs. C Osaka",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "川崎vs柏 （19:00）",
+          "match_en": "Kawasaki vs Kashiwa",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "新潟vs.宮崎 (14:00)",
           "match_en": "Niigata vs Miyazaki",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Rugby",
+          "match": "イングランドvs.日本 (01:10)",
+          "match_en": "England vs Japan",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Rugby",
+          "match": "スコットランドvs.オーストラリア (23:55)",
+          "match_en": "Scotland vs Australia",
           "broadcastStatus": "showing"
         }
       ]
@@ -8618,7 +9066,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "大分vs.八戸 (14:00)",
           "match_en": "Oita vs Hachinohe",
           "broadcastStatus": "showing"
@@ -8626,7 +9074,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "秋田vs.大分 (14:00)",
           "match_en": "Akita vs Oita",
           "broadcastStatus": "showing"
@@ -8634,7 +9082,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "大分vs.栃木Ｃ (14:00)",
           "match_en": "Oita vs. Tochigi C",
           "broadcastStatus": "showing"
@@ -8759,7 +9207,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.川崎 (13:00)",
           "match_en": "Yokohama FM vs. Kawasaki",
           "broadcastStatus": "showing"
@@ -8775,7 +9223,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.G大阪 (16:00)",
           "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
@@ -8783,7 +9231,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "山形vs.徳島 (14:00)",
           "match_en": "Yamagata vs. Tokushima",
           "broadcastStatus": "showing"
@@ -8791,7 +9239,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "今治vs.札幌 (14:50)",
           "match_en": "Imabari vs Sapporo",
           "broadcastStatus": "showing"
@@ -8799,7 +9247,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -8807,7 +9255,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -8815,7 +9263,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "いわきvs.山形 (14:00)",
           "match_en": "Iwaki vs. Yamagata",
           "broadcastStatus": "showing"
@@ -8823,7 +9271,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.岡山 (14:00)",
           "match_en": "Yokohama FM vs. Okayama",
           "broadcastStatus": "showing"
@@ -8839,7 +9287,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "熊本vs.山口 (13:00)",
           "match_en": "Kumamoto vs. Yamaguchi",
           "broadcastStatus": "showing"
@@ -8847,7 +9295,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "八戸vs.札幌 (13:00)",
           "match_en": "Hachinohe vs. Sapporo",
           "broadcastStatus": "showing"
@@ -8858,6 +9306,14 @@
           "sport": "Horse Racing",
           "match": "アルゼンチン共和国杯 (15:00)",
           "match_en": "Argentine Republic Cup",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "横浜FMvs鹿島 （19:00）",
+          "match_en": "Yokohama FM vs Kashima",
           "broadcastStatus": "showing"
         },
         {
@@ -8879,7 +9335,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "大宮vs.山形 (14:00)",
           "match_en": "Omiya vs Yamagata",
           "broadcastStatus": "showing"
@@ -8895,7 +9351,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -8903,7 +9359,7 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "札幌vs.鳥栖 (13:00)",
           "match_en": "Sapporo vs. Tosu",
           "broadcastStatus": "showing"
@@ -8911,7 +9367,7 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "仙台vs.秋田 (13:00)",
           "match_en": "Sendai vs. Akita",
           "broadcastStatus": "showing"
@@ -8922,6 +9378,14 @@
           "sport": "Horse Racing",
           "match": "エリザベス女王杯 (15:00)",
           "match_en": "Queen Elizabeth II Cup",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "鹿島vs横浜FM （15:00）",
+          "match_en": "Kashima vs Yokohama FM",
           "broadcastStatus": "showing"
         }
       ]
@@ -8996,9 +9460,17 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.川崎 (13:00)",
           "match_en": "Yokohama FM vs. Kawasaki",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-03",
+          "display_date": "11月3日（火）",
+          "sport": "Soccer",
+          "match": "神戸vs.ラーチャブリー (19:00)",
+          "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
         }
       ]
@@ -9065,7 +9537,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.川崎 (13:00)",
           "match_en": "Yokohama FM vs. Kawasaki",
           "broadcastStatus": "showing"
@@ -9073,7 +9545,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.G大阪 (16:00)",
           "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
@@ -9081,7 +9553,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -9089,7 +9561,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.大田 (19:00)",
           "match_en": "Kashiwa vs. Ota",
           "broadcastStatus": "showing"
@@ -9097,7 +9569,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -9105,7 +9577,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -9113,7 +9585,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -9121,7 +9593,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -9129,7 +9601,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "清水vs.東京V (13:00)",
           "match_en": "Shimizu vs. Tokyo V",
           "broadcastStatus": "showing"
@@ -9137,7 +9609,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.川崎 (16:00)",
           "match_en": "Kashiwa vs Kawasaki",
           "broadcastStatus": "showing"
@@ -9238,15 +9710,23 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.G大阪 (16:00)",
           "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-04",
+          "display_date": "11月4日（水）",
+          "sport": "Soccer",
+          "match": "ブリーラムvs.鹿島 (21:15)",
+          "match_en": "Buriram vs Kashima",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -9278,15 +9758,23 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.広島 (14:00)",
           "match_en": "Machida vs. Hiroshima",
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "神戸vs町田 （19:00）",
+          "match_en": "Kobe vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -9297,6 +9785,14 @@
           "sport": "Rugby",
           "match": "イングランドvs.日本 (01:10)",
           "match_en": "England vs Japan",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "町田vs神戸 （14:00）",
+          "match_en": "Machida vs Kobe",
           "broadcastStatus": "showing"
         }
       ]
@@ -9395,7 +9891,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.福岡 (14:00)",
           "match_en": "Chiba vs. Fukuoka",
           "broadcastStatus": "showing"
@@ -9411,17 +9907,129 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "富山vs.仙台 (13:55)",
           "match_en": "Toyama vs. Sendai",
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-04",
+          "display_date": "11月4日（水）",
+          "sport": "Soccer",
+          "match": "浦項Svs.G大阪 (19:00)",
+          "match_en": "Pohang S vs. G Osaka",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-04",
+          "display_date": "11月4日（水）",
+          "sport": "Soccer",
+          "match": "ブリーラムvs.鹿島 (21:15)",
+          "match_en": "Buriram vs Kashima",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-07",
+          "display_date": "11月7日（土）",
+          "sport": "Soccer",
+          "match": "F東京vs.鹿島 (15:00)",
+          "match_en": "FC Tokyo vs Kashima",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-07",
+          "display_date": "11月7日（土）",
+          "sport": "Soccer",
+          "match": "福岡vs.長崎 (15:00)",
+          "match_en": "Fukuoka vs. Nagasaki",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日（日）",
+          "sport": "Rugby",
+          "match": "ウェールズvs.日本 (01:10)",
+          "match_en": "Wales vs Japan",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日（日）",
+          "sport": "Soccer",
+          "match": "G大阪vs.C大阪 (15:00)",
+          "match_en": "G Osaka vs. C Osaka",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日（日）",
+          "sport": "Horse Racing",
+          "match": "アルゼンチン共和国杯 (15:00)",
+          "match_en": "Argentine Republic Cup",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "横浜FMvs鹿島 （19:00）",
+          "match_en": "Yokohama FM vs Kashima",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-13",
+          "display_date": "11月13日（金）",
+          "sport": "Baseball",
+          "match": "日本vs.韓国 (19:00)",
+          "match_en": "Japan vs. Korea",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
+          "match": "新潟vs.宮崎 (14:00)",
+          "match_en": "Niigata vs Miyazaki",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Rugby",
+          "match": "イングランドvs.日本 (01:10)",
+          "match_en": "England vs Japan",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Horse Racing",
+          "match": "エリザベス女王杯 (15:00)",
+          "match_en": "Queen Elizabeth II Cup",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "鹿島vs横浜FM （15:00）",
+          "match_en": "Kashima vs Yokohama FM",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Baseball",
+          "match": "決勝戦※日本出場時のみ放送 (19:00)",
+          "match_en": "Final match *Broadcast only when Japan is competing",
           "broadcastStatus": "showing"
         }
       ]
@@ -9552,7 +10160,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.川崎 (13:00)",
           "match_en": "Yokohama FM vs. Kawasaki",
           "broadcastStatus": "showing"
@@ -9568,7 +10176,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.G大阪 (16:00)",
           "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
@@ -9576,7 +10184,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "U-21FC東京vs.U-21G大阪 (19:00)",
           "match_en": "U-21FC Tokyo vs. U-21G Osaka",
           "broadcastStatus": "showing"
@@ -9584,7 +10192,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "鳥取vs.相模原 (14:00)",
           "match_en": "Tottori vs. Sagamihara",
           "broadcastStatus": "showing"
@@ -9592,7 +10200,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -9600,7 +10208,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -9608,7 +10216,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -9616,7 +10224,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "FC Tokyo vs Kashima",
           "broadcastStatus": "showing"
@@ -9624,7 +10232,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.川崎 (16:00)",
           "match_en": "Kashiwa vs Kawasaki",
           "broadcastStatus": "showing"
@@ -9632,7 +10240,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "相模原vs.鹿児島 (14:00)",
           "match_en": "Sagamihara vs. Kagoshima",
           "broadcastStatus": "showing"
@@ -9640,7 +10248,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.広島 (14:00)",
           "match_en": "Machida vs. Hiroshima",
           "broadcastStatus": "showing"
@@ -9648,7 +10256,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
           "broadcastStatus": "showing"
@@ -9672,7 +10280,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "福島vs.相模原 (14:00)",
           "match_en": "Fukushima vs. Sagamihara",
           "broadcastStatus": "showing"
@@ -9680,7 +10288,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -9789,7 +10397,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.川崎 (13:00)",
           "match_en": "Yokohama FM vs. Kawasaki",
           "broadcastStatus": "showing"
@@ -9805,7 +10413,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.岡山 (14:00)",
           "match_en": "Yokohama FM vs. Okayama",
           "broadcastStatus": "showing"
@@ -9813,7 +10421,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -9954,7 +10562,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "Manchester City vs Brighton & Hove Albion",
           "broadcastStatus": "showing"
@@ -9962,7 +10570,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "長崎vs.東京V (14:00)",
           "match_en": "Nagasaki vs Tokyo Verdy",
           "broadcastStatus": "showing"
@@ -9978,7 +10586,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.G大阪 (16:00)",
           "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
@@ -9986,7 +10594,7 @@
         {
           "date": "2026-11-02",
           "display_date": "11月2日（月）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "リヴァプールvs.アーセナル (01:30)",
           "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
@@ -9994,7 +10602,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -10002,7 +10610,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.大田 (19:00)",
           "match_en": "Kashiwa vs. Ota",
           "broadcastStatus": "showing"
@@ -10010,7 +10618,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -10018,7 +10626,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -10026,7 +10634,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -10034,7 +10642,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -10042,7 +10650,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "清水vs.東京V (13:00)",
           "match_en": "Shimizu vs. Tokyo V",
           "broadcastStatus": "showing"
@@ -10050,7 +10658,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "名古屋vs.京都 (14:00)",
           "match_en": "Nagoya vs Kyoto",
           "broadcastStatus": "showing"
@@ -10058,7 +10666,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.川崎 (16:00)",
           "match_en": "Kashiwa vs Kawasaki",
           "broadcastStatus": "showing"
@@ -10098,7 +10706,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
           "broadcastStatus": "showing"
@@ -10106,7 +10714,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
           "broadcastStatus": "showing"
@@ -10122,7 +10730,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -10279,7 +10887,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "Manchester City vs Brighton & Hove Albion",
           "broadcastStatus": "showing"
@@ -10295,7 +10903,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.G大阪 (16:00)",
           "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
@@ -10303,7 +10911,7 @@
         {
           "date": "2026-11-02",
           "display_date": "11月2日（月）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "(再)リヴァプールvs.アーセナル (19:00)",
           "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
@@ -10311,7 +10919,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "藤枝vs.磐田 (14:00)",
           "match_en": "Fujieda vs. Iwata",
           "broadcastStatus": "showing"
@@ -10319,7 +10927,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.大田 (19:00)",
           "match_en": "Kashiwa vs. Ota",
           "broadcastStatus": "showing"
@@ -10327,7 +10935,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -10335,7 +10943,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -10343,7 +10951,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -10351,7 +10959,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -10359,7 +10967,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "FC Tokyo vs Kashima",
           "broadcastStatus": "showing"
@@ -10367,7 +10975,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.浦和 (14:00)",
           "match_en": "Kobe vs Urawa",
           "broadcastStatus": "showing"
@@ -10375,17 +10983,49 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "横浜FMvs鹿島 （19:00）",
+          "match_en": "Yokohama FM vs Kashima",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-13",
+          "display_date": "11月13日（金）",
+          "sport": "Baseball",
+          "match": "日本vs.韓国 (19:00)",
+          "match_en": "Japan vs. Korea",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Baseball",
+          "match": "日本vs.オーストラリア (12:00)",
+          "match_en": "Japan vs Australia",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "鹿島vs横浜FM （15:00）",
+          "match_en": "Kashima vs Yokohama FM",
           "broadcastStatus": "showing"
         }
       ]
@@ -10452,25 +11092,33 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-13",
-          "display_date": "11月13日（金）",
-          "sport": "Baseball",
-          "match": "日本vs.韓国 (19:00)",
-          "match_en": "Japan vs. Korea",
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "浦和vsC大阪 （19:30）",
+          "match_en": "Urawa vs Cerezo Osaka",
           "broadcastStatus": "showing"
         },
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "C大阪vs浦和 （15:00）",
+          "match_en": "C Osaka vs Urawa",
           "broadcastStatus": "showing"
         }
       ]
@@ -10569,7 +11217,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "長崎vs.東京V (14:00)",
           "match_en": "Nagasaki vs Tokyo Verdy",
           "broadcastStatus": "showing"
@@ -10585,7 +11233,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.G大阪 (16:00)",
           "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
@@ -10593,7 +11241,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "U-21FC東京vs.U-21G大阪 (19:00)",
           "match_en": "U-21FC Tokyo vs. U-21G Osaka",
           "broadcastStatus": "showing"
@@ -10601,7 +11249,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "大宮vs.いわき (14:00)",
           "match_en": "Omiya vs. Iwaki",
           "broadcastStatus": "showing"
@@ -10609,7 +11257,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "藤枝vs.磐田 (14:00)",
           "match_en": "Fujieda vs. Iwata",
           "broadcastStatus": "showing"
@@ -10617,7 +11265,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.大田 (19:00)",
           "match_en": "Kashiwa vs. Ota",
           "broadcastStatus": "showing"
@@ -10625,7 +11273,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -10633,7 +11281,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -10641,7 +11289,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -10649,7 +11297,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -10657,7 +11305,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "FC Tokyo vs Kashima",
           "broadcastStatus": "showing"
@@ -10665,7 +11313,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.広島 (14:00)",
           "match_en": "Machida vs. Hiroshima",
           "broadcastStatus": "showing"
@@ -10673,7 +11321,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "仙台vs.甲府 (15:00)",
           "match_en": "Sendai vs. Kofu",
           "broadcastStatus": "showing"
@@ -10681,7 +11329,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
           "broadcastStatus": "showing"
@@ -10697,7 +11345,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -10814,7 +11462,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.川崎 (16:00)",
           "match_en": "Kashiwa vs Kawasaki",
           "broadcastStatus": "showing"
@@ -10830,7 +11478,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.浦和 (14:00)",
           "match_en": "Kobe vs Urawa",
           "broadcastStatus": "showing"
@@ -10862,7 +11510,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -11003,7 +11651,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "FC Tokyo vs Kashima",
           "broadcastStatus": "showing"
@@ -11043,7 +11691,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -11216,7 +11864,7 @@
         {
           "date": "2026-11-02",
           "display_date": "11月2日（月）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "(再)リヴァプールvs.アーセナル (19:00)",
           "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
@@ -11224,7 +11872,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "大宮vs.いわき (14:00)",
           "match_en": "Omiya vs. Iwaki",
           "broadcastStatus": "showing"
@@ -11232,7 +11880,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -11240,7 +11888,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -11264,7 +11912,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "栃木Ｃvs.大宮 (14:00)",
           "match_en": "Tochigi C vs. Omiya",
           "broadcastStatus": "showing"
@@ -11272,7 +11920,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "大宮vs.山形 (14:00)",
           "match_en": "Omiya vs Yamagata",
           "broadcastStatus": "showing"
@@ -11280,7 +11928,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -11413,7 +12061,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "藤枝vs.磐田 (14:00)",
           "match_en": "Fujieda vs. Iwata",
           "broadcastStatus": "showing"
@@ -11421,7 +12069,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -11429,7 +12077,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FCvs.藤枝 (14:00)",
           "match_en": "Yokohama FC vs Fujieda",
           "broadcastStatus": "showing"
@@ -11445,15 +12093,31 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.浦和 (14:00)",
           "match_en": "Kobe vs Urawa",
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "浦和vsC大阪 （19:30）",
+          "match_en": "Urawa vs Cerezo Osaka",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-13",
+          "display_date": "11月13日（金）",
+          "sport": "Baseball",
+          "match": "日本vs.韓国 (19:00)",
+          "match_en": "Japan vs. Korea",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "藤枝vs.甲府 (14:00)",
           "match_en": "Fujieda vs. Kofu",
           "broadcastStatus": "showing"
@@ -11469,17 +12133,17 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
         },
         {
           "date": "2026-11-15",
-          "display_date": "11月15日（日）",
-          "sport": "Horse Racing",
-          "match": "エリザベス女王杯 (15:00)",
-          "match_en": "Queen Elizabeth II Cup",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "C大阪vs浦和 （15:00）",
+          "match_en": "C Osaka vs Urawa",
           "broadcastStatus": "showing"
         }
       ]
@@ -11578,7 +12242,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "長崎vs.東京V (14:00)",
           "match_en": "Nagasaki vs Tokyo Verdy",
           "broadcastStatus": "showing"
@@ -11594,7 +12258,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "甲府vs.新潟 (14:00)",
           "match_en": "Kofu vs. Niigata",
           "broadcastStatus": "showing"
@@ -11602,7 +12266,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -11610,7 +12274,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "新潟vs.今治 (14:00)",
           "match_en": "Niigata vs. Imabari",
           "broadcastStatus": "showing"
@@ -11642,7 +12306,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "新潟vs.宮崎 (14:00)",
           "match_en": "Niigata vs Miyazaki",
           "broadcastStatus": "showing"
@@ -11650,7 +12314,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -11775,7 +12439,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "富山vs.仙台 (13:55)",
           "match_en": "Toyama vs. Sendai",
           "broadcastStatus": "showing"
@@ -11783,7 +12447,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "鳥栖vs.富山 (14:00)",
           "match_en": "Tosu vs. Toyama",
           "broadcastStatus": "showing"
@@ -11791,7 +12455,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
           "broadcastStatus": "showing"
@@ -11823,7 +12487,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -11831,7 +12495,7 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "富山vs.徳島 (14:00)",
           "match_en": "Toyama vs Tokushima",
           "broadcastStatus": "showing"
@@ -11932,7 +12596,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "長崎vs.東京V (14:00)",
           "match_en": "Nagasaki vs Tokyo Verdy",
           "broadcastStatus": "showing"
@@ -11948,7 +12612,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "福岡vs.長崎 (15:00)",
           "match_en": "Fukuoka vs. Nagasaki",
           "broadcastStatus": "showing"
@@ -11964,7 +12628,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.広島 (14:00)",
           "match_en": "Machida vs. Hiroshima",
           "broadcastStatus": "showing"
@@ -11996,7 +12660,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -12145,7 +12809,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "湘南vs.鳥栖 (14:00)",
           "match_en": "Shonan vs. Tosu",
           "broadcastStatus": "showing"
@@ -12153,7 +12817,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "鳥取vs.相模原 (14:00)",
           "match_en": "Tottori vs. Sagamihara",
           "broadcastStatus": "showing"
@@ -12161,7 +12825,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -12169,7 +12833,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -12177,7 +12841,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -12185,7 +12849,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -12193,7 +12857,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -12201,7 +12865,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "FC Tokyo vs Kashima",
           "broadcastStatus": "showing"
@@ -12217,7 +12881,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.川崎 (16:00)",
           "match_en": "Kashiwa vs Kawasaki",
           "broadcastStatus": "showing"
@@ -12225,7 +12889,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.浦和 (14:00)",
           "match_en": "Kobe vs Urawa",
           "broadcastStatus": "showing"
@@ -12233,7 +12897,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
           "broadcastStatus": "showing"
@@ -12265,7 +12929,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "福島vs.相模原 (14:00)",
           "match_en": "Fukushima vs. Sagamihara",
           "broadcastStatus": "showing"
@@ -12281,7 +12945,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -12289,7 +12953,7 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "札幌vs.鳥栖 (13:00)",
           "match_en": "Sapporo vs. Tosu",
           "broadcastStatus": "showing"
@@ -12297,7 +12961,7 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "今治vs.磐田 (14:00)",
           "match_en": "Imabari vs. Iwata",
           "broadcastStatus": "showing"
@@ -12414,7 +13078,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.G大阪 (16:00)",
           "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
@@ -12422,7 +13086,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "U-21FC東京vs.U-21G大阪 (19:00)",
           "match_en": "U-21FC Tokyo vs. U-21G Osaka",
           "broadcastStatus": "showing"
@@ -12430,7 +13094,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.大田 (19:00)",
           "match_en": "Kashiwa vs. Ota",
           "broadcastStatus": "showing"
@@ -12438,7 +13102,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -12446,7 +13110,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -12454,7 +13118,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -12462,7 +13126,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -12470,7 +13134,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FCvs.藤枝 (14:00)",
           "match_en": "Yokohama FC vs Fujieda",
           "broadcastStatus": "showing"
@@ -12478,7 +13142,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
           "broadcastStatus": "showing"
@@ -12494,7 +13158,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "湘南vs.横浜FC (14:00)",
           "match_en": "Shonan vs Yokohama FC",
           "broadcastStatus": "showing"
@@ -12502,7 +13166,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -12510,7 +13174,7 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "琉球vs.高知 (16:00)",
           "match_en": "Ryukyu vs. Kochi",
           "broadcastStatus": "showing"
@@ -12518,7 +13182,7 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "滋賀vs.F大阪 (18:00)",
           "match_en": "Shiga vs. FC Osaka",
           "broadcastStatus": "showing"
@@ -12627,7 +13291,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "富山vs.仙台 (13:55)",
           "match_en": "Toyama vs. Sendai",
           "broadcastStatus": "showing"
@@ -12635,7 +13299,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "藤枝vs.磐田 (14:00)",
           "match_en": "Fujieda vs. Iwata",
           "broadcastStatus": "showing"
@@ -12667,7 +13331,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "磐田vs.湘南 (14:00)",
           "match_en": "Iwata vs Shonan",
           "broadcastStatus": "showing"
@@ -12675,7 +13339,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "仙台vs.甲府 (15:00)",
           "match_en": "Sendai vs. Kofu",
           "broadcastStatus": "showing"
@@ -12707,7 +13371,7 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "仙台vs.秋田 (13:00)",
           "match_en": "Sendai vs. Akita",
           "broadcastStatus": "showing"
@@ -12715,7 +13379,7 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "今治vs.磐田 (14:00)",
           "match_en": "Imabari vs. Iwata",
           "broadcastStatus": "showing"
@@ -12856,7 +13520,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "湘南vs.鳥栖 (14:00)",
           "match_en": "Shonan vs. Tosu",
           "broadcastStatus": "showing"
@@ -12864,23 +13528,47 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
+          "match": "神戸vs.ラーチャブリー (19:00)",
+          "match_en": "Kobe vs Ratchaburi",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-03",
+          "display_date": "11月3日（火）",
+          "sport": "Soccer",
           "match": "柏vs.大田 (19:00)",
           "match_en": "Kashiwa vs. Ota",
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-03",
+          "display_date": "11月3日（火）",
+          "sport": "Soccer",
+          "match": "コンアン・ハノイFCvs.京都 (21:15)",
+          "match_en": "Cong An Hanoi FC vs. Kyoto",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
         },
         {
           "date": "2026-11-04",
+          "display_date": "11月4日(水)",
+          "sport": "Basketball",
+          "match": "福島vs新潟 （19:05）",
+          "match_en": "Fukushima vs Niigata",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -12888,17 +13576,49 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-07",
+          "display_date": "11月7日（土）",
+          "sport": "Soccer",
+          "match": "F東京vs.鹿島 (15:00)",
+          "match_en": "FC Tokyo vs Kashima",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-07",
+          "display_date": "11月7日(土)",
+          "sport": "Basketball",
+          "match": "山口vs湘南 （15:05）",
+          "match_en": "Yamaguchi vs Shonan",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-07",
+          "display_date": "11月7日(土)",
+          "sport": "Soccer",
+          "match": "リーズ・ユナイテッドvsトッテナム・ホットスパー （21:30）",
+          "match_en": "Leeds United vs Tottenham Hotspur",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "磐田vs.湘南 (14:00)",
           "match_en": "Iwata vs Shonan",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "神戸vs町田 （19:00）",
+          "match_en": "Kobe vs Machida",
           "broadcastStatus": "showing"
         },
         {
@@ -12912,7 +13632,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "湘南vs.横浜FC (14:00)",
           "match_en": "Shonan vs Yokohama FC",
           "broadcastStatus": "showing"
@@ -12920,9 +13640,25 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "町田vs神戸 （14:00）",
+          "match_en": "Machida vs Kobe",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "柏vs川崎 （17:00）",
+          "match_en": "Kashiwa vs Kawasaki",
           "broadcastStatus": "showing"
         },
         {
@@ -12989,7 +13725,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.川崎 (13:00)",
           "match_en": "Yokohama FM vs. Kawasaki",
           "broadcastStatus": "showing"
@@ -12997,7 +13733,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.大田 (19:00)",
           "match_en": "Kashiwa vs. Ota",
           "broadcastStatus": "showing"
@@ -13005,7 +13741,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -13013,7 +13749,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -13021,7 +13757,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -13029,7 +13765,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -13037,7 +13773,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.岡山 (14:00)",
           "match_en": "Yokohama FM vs. Okayama",
           "broadcastStatus": "showing"
@@ -13045,7 +13781,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.浦和 (14:00)",
           "match_en": "Kobe vs Urawa",
           "broadcastStatus": "showing"
@@ -13069,7 +13805,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -13234,7 +13970,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.川崎 (13:00)",
           "match_en": "Yokohama FM vs. Kawasaki",
           "broadcastStatus": "showing"
@@ -13250,7 +13986,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.G大阪 (16:00)",
           "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
@@ -13258,7 +13994,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "湘南vs.鳥栖 (14:00)",
           "match_en": "Shonan vs. Tosu",
           "broadcastStatus": "showing"
@@ -13266,7 +14002,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -13274,7 +14010,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -13282,7 +14018,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -13290,7 +14026,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -13298,7 +14034,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "名古屋vs.京都 (14:00)",
           "match_en": "Nagoya vs Kyoto",
           "broadcastStatus": "showing"
@@ -13322,7 +14058,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
           "broadcastStatus": "showing"
@@ -13362,7 +14098,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -13471,7 +14207,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.G大阪 (16:00)",
           "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
@@ -13479,7 +14215,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "藤枝vs.磐田 (14:00)",
           "match_en": "Fujieda vs. Iwata",
           "broadcastStatus": "showing"
@@ -13487,7 +14223,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -13495,7 +14231,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -13503,7 +14239,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -13511,7 +14247,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "清水vs.東京V (13:00)",
           "match_en": "Shimizu vs. Tokyo V",
           "broadcastStatus": "showing"
@@ -13519,7 +14255,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.川崎 (16:00)",
           "match_en": "Kashiwa vs Kawasaki",
           "broadcastStatus": "showing"
@@ -13527,7 +14263,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.広島 (14:00)",
           "match_en": "Machida vs. Hiroshima",
           "broadcastStatus": "showing"
@@ -13535,7 +14271,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
           "broadcastStatus": "showing"
@@ -13551,7 +14287,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -13676,7 +14412,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -13684,7 +14420,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -13716,7 +14452,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.浦和 (14:00)",
           "match_en": "Kobe vs Urawa",
           "broadcastStatus": "showing"
@@ -13732,7 +14468,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -13849,7 +14585,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.G大阪 (16:00)",
           "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
@@ -13857,7 +14593,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -13873,7 +14609,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
           "broadcastStatus": "showing"
@@ -13889,7 +14625,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -14038,9 +14774,17 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "浦和vsC大阪 （19:30）",
+          "match_en": "Urawa vs Cerezo Osaka",
           "broadcastStatus": "showing"
         },
         {
@@ -14054,7 +14798,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -14065,6 +14809,14 @@
           "sport": "Rugby",
           "match": "イングランドvs.日本 (01:10)",
           "match_en": "England vs Japan",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "C大阪vs浦和 （15:00）",
+          "match_en": "C Osaka vs Urawa",
           "broadcastStatus": "showing"
         }
       ]
@@ -14163,7 +14915,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F大阪vs.熊本 (00:00)",
           "match_en": "F Osaka vs. Kumamoto",
           "broadcastStatus": "showing"
@@ -14171,7 +14923,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "藤枝vs.磐田 (14:00)",
           "match_en": "Fujieda vs. Iwata",
           "broadcastStatus": "showing"
@@ -14187,7 +14939,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
           "broadcastStatus": "showing"
@@ -14198,6 +14950,14 @@
           "sport": "Horse Racing",
           "match": "アルゼンチン共和国杯 (15:00)",
           "match_en": "Argentine Republic Cup",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "浦和vsC大阪 （19:30）",
+          "match_en": "Urawa vs Cerezo Osaka",
           "broadcastStatus": "showing"
         },
         {
@@ -14227,7 +14987,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -14238,6 +14998,14 @@
           "sport": "Horse Racing",
           "match": "エリザベス女王杯 (15:00)",
           "match_en": "Queen Elizabeth II Cup",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "C大阪vs浦和 （15:00）",
+          "match_en": "C Osaka vs Urawa",
           "broadcastStatus": "showing"
         }
       ]
@@ -14344,7 +15112,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.広島 (14:00)",
           "match_en": "Machida vs. Hiroshima",
           "broadcastStatus": "showing"
@@ -14368,7 +15136,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -14517,7 +15285,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "Manchester City vs Brighton & Hove Albion",
           "broadcastStatus": "showing"
@@ -14533,7 +15301,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -14573,7 +15341,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -14695,7 +15463,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.福岡 (14:00)",
           "match_en": "Chiba vs. Fukuoka",
           "broadcastStatus": "showing"
@@ -14711,7 +15479,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "宮崎vs.栃木Ｃ (14:00)",
           "match_en": "Miyazaki vs. Tochigi C",
           "broadcastStatus": "showing"
@@ -14719,7 +15487,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "福岡vs.長崎 (15:00)",
           "match_en": "Fukuoka vs. Nagasaki",
           "broadcastStatus": "showing"
@@ -14751,7 +15519,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -14804,7 +15572,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.福岡 (14:00)",
           "match_en": "Chiba vs. Fukuoka",
           "broadcastStatus": "showing"
@@ -14812,7 +15580,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -14889,7 +15657,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -14897,7 +15665,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "名古屋vs.京都 (14:00)",
           "match_en": "Nagoya vs Kyoto",
           "broadcastStatus": "showing"
@@ -14905,7 +15673,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
           "broadcastStatus": "showing"
@@ -14937,7 +15705,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -15006,7 +15774,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "Manchester City vs Brighton & Hove Albion",
           "broadcastStatus": "showing"
@@ -15014,7 +15782,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -15123,7 +15891,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -15232,7 +16000,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -15240,7 +16008,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "名古屋vs.京都 (14:00)",
           "match_en": "Nagoya vs Kyoto",
           "broadcastStatus": "showing"
@@ -15264,7 +16032,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -15437,7 +16205,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ハル・シティvs.イプスウィッチ・タウン (00:00)",
           "match_en": "Hull City vs. Ipswich Town",
           "broadcastStatus": "showing"
@@ -15445,7 +16213,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "Manchester City vs Brighton & Hove Albion",
           "broadcastStatus": "showing"
@@ -15453,7 +16221,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "長崎vs.東京V (14:00)",
           "match_en": "Nagasaki vs Tokyo Verdy",
           "broadcastStatus": "showing"
@@ -15461,7 +16229,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.G大阪 (16:00)",
           "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
@@ -15469,7 +16237,7 @@
         {
           "date": "2026-11-02",
           "display_date": "11月2日（月）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "リヴァプールvs.アーセナル (01:30)",
           "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
@@ -15509,7 +16277,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -15626,7 +16394,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "名古屋vs.京都 (14:00)",
           "match_en": "Nagoya vs Kyoto",
           "broadcastStatus": "showing"
@@ -15650,7 +16418,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -15735,7 +16503,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
           "broadcastStatus": "showing"
@@ -15743,7 +16511,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -15868,7 +16636,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.川崎 (13:00)",
           "match_en": "Yokohama FM vs. Kawasaki",
           "broadcastStatus": "showing"
@@ -15884,7 +16652,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "宮崎vs.栃木Ｃ (14:00)",
           "match_en": "Miyazaki vs. Tochigi C",
           "broadcastStatus": "showing"
@@ -15892,7 +16660,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -15900,7 +16668,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -15908,7 +16676,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -15916,7 +16684,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.岡山 (14:00)",
           "match_en": "Yokohama FM vs. Okayama",
           "broadcastStatus": "showing"
@@ -15924,7 +16692,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "徳島vs.宮崎 (14:00)",
           "match_en": "Tokushima vs. Miyazaki",
           "broadcastStatus": "showing"
@@ -15932,7 +16700,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.川崎 (16:00)",
           "match_en": "Kashiwa vs Kawasaki",
           "broadcastStatus": "showing"
@@ -15940,7 +16708,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
           "broadcastStatus": "showing"
@@ -15972,7 +16740,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "新潟vs.宮崎 (14:00)",
           "match_en": "Niigata vs Miyazaki",
           "broadcastStatus": "showing"
@@ -15988,7 +16756,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -16105,7 +16873,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "富山vs.仙台 (13:55)",
           "match_en": "Toyama vs. Sendai",
           "broadcastStatus": "showing"
@@ -16113,7 +16881,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -16121,7 +16889,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "名古屋vs.京都 (14:00)",
           "match_en": "Nagoya vs Kyoto",
           "broadcastStatus": "showing"
@@ -16137,7 +16905,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "熊本vs.山口 (13:00)",
           "match_en": "Kumamoto vs. Yamaguchi",
           "broadcastStatus": "showing"
@@ -16153,7 +16921,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
           "broadcastStatus": "showing"
@@ -16185,7 +16953,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -16270,7 +17038,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.G大阪 (16:00)",
           "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
@@ -16278,7 +17046,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -16286,7 +17054,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
           "broadcastStatus": "showing"
@@ -16363,7 +17131,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "柏vs.大田 (19:00)",
           "match_en": "Kashiwa vs. Ota",
           "broadcastStatus": "showing"
@@ -16371,7 +17139,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -16379,7 +17147,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -16387,9 +17155,17 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "浦和vsC大阪 （19:30）",
+          "match_en": "Urawa vs Cerezo Osaka",
           "broadcastStatus": "showing"
         },
         {
@@ -16403,9 +17179,17 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "C大阪vs浦和 （15:00）",
+          "match_en": "C Osaka vs Urawa",
           "broadcastStatus": "showing"
         }
       ]
@@ -16480,7 +17264,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "横浜FMvs.川崎 (13:00)",
           "match_en": "Yokohama FM vs. Kawasaki",
           "broadcastStatus": "showing"
@@ -16496,7 +17280,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -16504,7 +17288,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -16512,7 +17296,7 @@
         {
           "date": "2026-11-05",
           "display_date": "11月5日（木）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "町田vs.上海申花 (19:00)",
           "match_en": "Machida vs. Shanghai Shenhua",
           "broadcastStatus": "showing"
@@ -16520,7 +17304,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "F東京vs.鹿島 (15:00)",
           "match_en": "FC Tokyo vs Kashima",
           "broadcastStatus": "showing"
@@ -16528,7 +17312,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
           "broadcastStatus": "showing"
@@ -16552,7 +17336,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -16669,7 +17453,7 @@
         {
           "date": "2026-11-01",
           "display_date": "11月1日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ハル・シティvs.イプスウィッチ・タウン (00:00)",
           "match_en": "Hull City vs. Ipswich Town",
           "broadcastStatus": "showing"
@@ -16685,7 +17469,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "神戸vs.ラーチャブリー (19:00)",
           "match_en": "Kobe vs Ratchaburi",
           "broadcastStatus": "showing"
@@ -16693,7 +17477,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "コンアン・ハノイFCvs.京都 (21:15)",
           "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
@@ -16701,7 +17485,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "浦項Svs.G大阪 (19:00)",
           "match_en": "Pohang S vs. G Osaka",
           "broadcastStatus": "showing"
@@ -16709,7 +17493,7 @@
         {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "ブリーラムvs.鹿島 (21:15)",
           "match_en": "Buriram vs Kashima",
           "broadcastStatus": "showing"
@@ -16717,7 +17501,7 @@
         {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "清水vs.東京V (13:00)",
           "match_en": "Shimizu vs. Tokyo V",
           "broadcastStatus": "showing"
@@ -16741,7 +17525,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "G大阪vs.C大阪 (15:00)",
           "match_en": "G Osaka vs. C Osaka",
           "broadcastStatus": "showing"
@@ -16773,7 +17557,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -16882,7 +17666,7 @@
         {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "今治vs.札幌 (14:50)",
           "match_en": "Imabari vs Sapporo",
           "broadcastStatus": "showing"
@@ -16890,7 +17674,7 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "八戸vs.札幌 (13:00)",
           "match_en": "Hachinohe vs. Sapporo",
           "broadcastStatus": "showing"
@@ -16914,7 +17698,7 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
@@ -16922,7 +17706,7 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
-          "sport": "Football",
+          "sport": "Soccer",
           "match": "札幌vs.鳥栖 (13:00)",
           "match_en": "Sapporo vs. Tosu",
           "broadcastStatus": "showing"
