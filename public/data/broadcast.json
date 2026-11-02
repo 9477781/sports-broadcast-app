@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T06:31:48.411Z",
+  "updatedAt": "2026-11-02T09:16:54.393Z",
   "data": [
     {
       "id": "5506",
@@ -5042,6 +5042,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "川崎vs柏 （19:00）",
+          "match_en": "Kawasaki vs. Kashiwa",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-14",
           "display_date": "11月14日(土)",
           "sport": "Football",
@@ -5063,6 +5071,14 @@
           "sport": "Horse Racing",
           "match": "エリザベス女王杯 (15:00)",
           "match_en": "エリザベス女王杯 (15:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "柏vs川崎 （17:00）",
+          "match_en": "Kashiwa vs. Kawasaki",
           "broadcastStatus": "showing"
         }
       ]
@@ -7663,6 +7679,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "横浜FMvs鹿島 （19:00）",
+          "match_en": "YK-FM vs. Kashima",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-13",
           "display_date": "11月13日(金)",
           "sport": "Baseball",
@@ -7708,6 +7732,14 @@
           "sport": "Baseball",
           "match": "決勝戦※日本出場時のみ放送 (19:00)",
           "match_en": "決勝戦※日本出場時のみ放送 (19:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "鹿島vs横浜FM （15:00）",
+          "match_en": "Kashima vs. YK-FM",
           "broadcastStatus": "showing"
         }
       ]
