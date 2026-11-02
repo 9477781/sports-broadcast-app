@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T23:44:39.245Z",
+  "updatedAt": "2026-11-02T06:31:48.411Z",
   "data": [
     {
       "id": "5506",
@@ -1048,6 +1048,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-01",
+          "display_date": "11月1日(日)",
+          "sport": "Basketball",
+          "match": "千葉vs富山 （14:05）",
+          "match_en": "Chiba vs Toyama",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-08",
           "display_date": "11月8日(日)",
           "sport": "Soccer",
@@ -1077,14 +1085,6 @@
           "sport": "Horse Racing",
           "match": "エリザベス女王杯 (15:00)",
           "match_en": "エリザベス女王杯 (15:00)",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日(日)",
-          "sport": "Basketball",
-          "match": "千葉vs富山 （14:05）",
-          "match_en": "Chiba vs Toyama",
           "broadcastStatus": "showing"
         }
       ]
@@ -1473,14 +1473,6 @@
           "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-10-29",
-          "display_date": "10月29日(木)",
-          "sport": "Baseball",
-          "match": "レイズvsブルワーズ （09:00）",
-          "match_en": "Rays vs Brewers",
           "broadcastStatus": "showing"
         },
         {
@@ -2643,14 +2635,6 @@
           "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-10-29",
-          "display_date": "10月29日(木)",
-          "sport": "Baseball",
-          "match": "レイズvsブルワーズ （09:00）",
-          "match_en": "Rays vs Brewers",
           "broadcastStatus": "showing"
         },
         {
@@ -6183,6 +6167,30 @@
           "sport": "Baseball",
           "match": "決勝戦※日本出場時のみ放送 (19:00)",
           "match_en": "決勝戦※日本出場時のみ放送 (19:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-06",
+          "display_date": "11月6日(金)",
+          "sport": "Basketball",
+          "match": "仙台vsA東京 （19:05）",
+          "match_en": "Sendai vs. A Tokyo",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-09",
+          "display_date": "11月9日(月)",
+          "sport": "Basketball",
+          "match": "長崎vs仙台 （19:05）",
+          "match_en": "Nagasaki vs. Sendai",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Basketball",
+          "match": "広島vs仙台 （19:05）",
+          "match_en": "Hiroshima vs. Sendai",
           "broadcastStatus": "showing"
         }
       ]
@@ -10200,6 +10208,14 @@
           "date": "2026-11-03",
           "display_date": "11月3日(火)",
           "sport": "Football",
+          "match": "藤枝vs.磐田 (14:00)",
+          "match_en": "藤枝vs.磐田 (14:00)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-03",
+          "display_date": "11月3日(火)",
+          "sport": "Football",
           "match": "柏vs.大田 (19:00)",
           "match_en": "柏vs.大田 (19:00)",
           "broadcastStatus": "showing"
@@ -11629,6 +11645,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-01",
+          "display_date": "11月1日(日)",
+          "sport": "Basketball",
+          "match": "千葉vs富山 （14:05）",
+          "match_en": "Chiba vs Toyama",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-03",
           "display_date": "11月3日(火)",
           "sport": "Football",
@@ -11698,14 +11722,6 @@
           "sport": "Horse Racing",
           "match": "エリザベス女王杯 (15:00)",
           "match_en": "エリザベス女王杯 (15:00)",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日(日)",
-          "sport": "Basketball",
-          "match": "千葉vs富山 （14:05）",
-          "match_en": "Chiba vs Toyama",
           "broadcastStatus": "showing"
         }
       ]
