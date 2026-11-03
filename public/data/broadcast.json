@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T04:11:00.355Z",
+  "updatedAt": "2026-11-03T04:14:09.630Z",
   "data": [
     {
       "id": "5506",
@@ -1540,6 +1540,14 @@
           "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Baseball",
+          "match": "東京六大学選抜 vs ヤクルト(13:00)",
+          "match_en": "Tokyo Big Six University All-Stars vs. Yakult Swallows",
           "broadcastStatus": "showing"
         },
         {
