@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T04:14:09.630Z",
+  "updatedAt": "2026-11-03T04:19:30.119Z",
   "data": [
     {
       "id": "5506",
@@ -66,14 +66,6 @@
           "sport": "Soccer",
           "match": "チェルシーvsマンチェスター・ユナイテッド （21:30）",
           "match_en": "Chelsea vs Manchester United",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "千葉vs.福岡 (14:00)",
-          "match_en": "Chiba vs. Fukuoka",
           "broadcastStatus": "showing"
         },
         {
@@ -255,14 +247,6 @@
           "sport": "Soccer",
           "match": "チェルシーvsマンチェスター・ユナイテッド （21:30）",
           "match_en": "Chelsea vs Manchester United",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -681,22 +665,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "町田vs.G大阪 (16:00)",
-          "match_en": "Machida vs. Gamba Osaka",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-02",
-          "display_date": "11月2日（月）",
-          "sport": "Soccer",
-          "match": "リヴァプールvs.アーセナル (01:30)",
-          "match_en": "Liverpool vs Arsenal",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -883,14 +851,6 @@
           "sport": "Soccer",
           "match": "岡山vsF東京 （14:00）",
           "match_en": "Okayama vs FC Tokyo",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -1109,22 +1069,6 @@
           "sport": "Soccer",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "Manchester City vs Brighton & Hove Albion",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日(日)",
-          "sport": "Basketball",
-          "match": "千葉vs富山 （14:05）",
-          "match_en": "Chiba vs Toyama",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -1455,22 +1399,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "長崎vs.東京V (14:00)",
-          "match_en": "Nagasaki vs Tokyo Verdy",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
           "sport": "Soccer",
@@ -1537,17 +1465,17 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Soccer",
-          "match": "日本vs.ブラジル (19:15)",
-          "match_en": "Japan vs Brazil",
+          "sport": "Baseball",
+          "match": "東京六大学選抜 vs ヤクルト(13:00)",
+          "match_en": "Tokyo Big Six University All-Stars vs. Yakult Swallows",
           "broadcastStatus": "showing"
         },
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
-          "sport": "Baseball",
-          "match": "東京六大学選抜 vs ヤクルト(13:00)",
-          "match_en": "Tokyo Big Six University All-Stars vs. Yakult Swallows",
+          "sport": "Soccer",
+          "match": "日本vs.ブラジル (19:15)",
+          "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
         },
         {
@@ -1641,14 +1569,6 @@
           "sport": "Horse Racing",
           "match": "ファンタジーS （15:00）",
           "match_en": "Fantasy S",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -1955,22 +1875,6 @@
           "sport": "Horse Racing",
           "match": "ファンタジーS （15:00）",
           "match_en": "Fantasy S",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "千葉vs.福岡 (14:00)",
-          "match_en": "Chiba vs. Fukuoka",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -2511,22 +2415,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "町田vs.G大阪 (16:00)",
-          "match_en": "Machida vs. Gamba Osaka",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -2822,14 +2710,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
           "sport": "Horse Racing",
@@ -3045,14 +2925,6 @@
           "sport": "Soccer",
           "match": "水戸vs広島 （14:00）",
           "match_en": "Mito vs Hiroshima",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "町田vs.G大阪 (16:00)",
-          "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
         },
         {
@@ -3322,14 +3194,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "町田vs.G大阪 (16:00)",
-          "match_en": "Machida vs. Gamba Osaka",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-04",
           "display_date": "11月4日（水）",
           "sport": "Soccer",
@@ -3513,14 +3377,6 @@
           "sport": "Soccer",
           "match": "岡山vsF東京 （14:00）",
           "match_en": "Okayama vs FC Tokyo",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -3811,38 +3667,6 @@
           "sport": "Soccer",
           "match": "ボーンマスvsリーズ・ユナイテッド （00:00）",
           "match_en": "Bournemouth vs Leeds United",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "長崎vs.東京V (14:00)",
-          "match_en": "Nagasaki vs Tokyo Verdy",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "(再)トッテナム・ホットスパーvs.クリスタル・パレス (19:00)",
-          "match_en": "Tottenham Hotspur vs. Crystal Palace",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-02",
-          "display_date": "11月2日（月）",
-          "sport": "Soccer",
-          "match": "リヴァプールvs.アーセナル (01:30)",
-          "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
         },
         {
@@ -4234,14 +4058,6 @@
           "sport": "Soccer",
           "match": "チェルシーvsマンチェスター・ユナイテッド （21:30）",
           "match_en": "Chelsea vs Manchester United",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-02",
-          "display_date": "11月2日（月）",
-          "sport": "Soccer",
-          "match": "リヴァプールvs.アーセナル (01:30)",
-          "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
         },
         {
@@ -5173,22 +4989,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "町田vs.G大阪 (16:00)",
-          "match_en": "Machida vs. Gamba Osaka",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-02",
-          "display_date": "11月2日（月）",
-          "sport": "Soccer",
-          "match": "リヴァプールvs.アーセナル (01:30)",
-          "match_en": "Liverpool vs Arsenal",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -5383,14 +5183,6 @@
           "sport": "Soccer",
           "match": "横浜FMvs.川崎 (13:00)",
           "match_en": "Yokohama FM vs. Kawasaki",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -5710,14 +5502,6 @@
           "sport": "Soccer",
           "match": "チェルシーvsマンチェスター・ユナイテッド （21:30）",
           "match_en": "Chelsea vs Manchester United",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-02",
-          "display_date": "11月2日（月）",
-          "sport": "Soccer",
-          "match": "リヴァプールvs.アーセナル (01:30)",
-          "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
         },
         {
@@ -6048,14 +5832,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
           "sport": "Horse Racing",
@@ -6242,22 +6018,6 @@
           "sport": "Soccer",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "Manchester City vs Brighton & Hove Albion",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-02",
-          "display_date": "11月2日（月）",
-          "sport": "Soccer",
-          "match": "リヴァプールvs.アーセナル (01:30)",
-          "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
         },
         {
@@ -6490,14 +6250,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-02",
-          "display_date": "11月2日（月）",
-          "sport": "Soccer",
-          "match": "(再)リヴァプールvs.アーセナル (19:00)",
-          "match_en": "Liverpool vs Arsenal",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -6716,14 +6468,6 @@
           "sport": "Soccer",
           "match": "鹿島vsC大阪 （15:00）",
           "match_en": "Kashima vs Cerezo Osaka",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "千葉vs.福岡 (14:00)",
-          "match_en": "Chiba vs. Fukuoka",
           "broadcastStatus": "showing"
         },
         {
@@ -6969,14 +6713,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -7174,22 +6910,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "千葉vs.福岡 (14:00)",
-          "match_en": "Chiba vs. Fukuoka",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
           "sport": "Rugby",
@@ -7344,22 +7064,6 @@
           "sport": "Soccer",
           "match": "チェルシーvsマンチェスター・ユナイテッド （21:30）",
           "match_en": "Chelsea vs Manchester United",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "千葉vs.福岡 (14:00)",
-          "match_en": "Chiba vs. Fukuoka",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "長崎vs.東京V (14:00)",
-          "match_en": "Nagasaki vs Tokyo Verdy",
           "broadcastStatus": "showing"
         },
         {
@@ -7565,22 +7269,6 @@
           "sport": "Horse Racing",
           "match": "ファンタジーS （15:00）",
           "match_en": "Fantasy S",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "千葉vs.福岡 (14:00)",
-          "match_en": "Chiba vs. Fukuoka",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -7797,14 +7485,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "千葉vs.福岡 (14:00)",
-          "match_en": "Chiba vs. Fukuoka",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -7994,14 +7674,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "千葉vs.福岡 (14:00)",
-          "match_en": "Chiba vs. Fukuoka",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
           "sport": "Soccer",
@@ -8132,14 +7804,6 @@
           "sport": "Soccer",
           "match": "鹿島vsC大阪 （15:00）",
           "match_en": "Kashima vs Cerezo Osaka",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -8308,14 +7972,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
           "sport": "Soccer",
@@ -8470,14 +8126,6 @@
           "sport": "Soccer",
           "match": "チェルシーvsマンチェスター・ユナイテッド （21:30）",
           "match_en": "Chelsea vs Manchester United",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "長崎vs.東京V (14:00)",
-          "match_en": "Nagasaki vs Tokyo Verdy",
           "broadcastStatus": "showing"
         },
         {
@@ -8747,22 +8395,6 @@
           "sport": "Soccer",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "Manchester City vs Brighton & Hove Albion",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-02",
-          "display_date": "11月2日（月）",
-          "sport": "Soccer",
-          "match": "(再)リヴァプールvs.アーセナル (19:00)",
-          "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
         },
         {
@@ -9080,14 +8712,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -9234,22 +8858,6 @@
           "sport": "Soccer",
           "match": "横浜FMvs.川崎 (13:00)",
           "match_en": "Yokohama FM vs. Kawasaki",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "町田vs.G大阪 (16:00)",
-          "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
         },
         {
@@ -9567,14 +9175,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "町田vs.G大阪 (16:00)",
-          "match_en": "Machida vs. Gamba Osaka",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -9729,14 +9329,6 @@
           "sport": "Soccer",
           "match": "チェルシーvsマンチェスター・ユナイテッド （21:30）",
           "match_en": "Chelsea vs Manchester United",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "町田vs.G大阪 (16:00)",
-          "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
         },
         {
@@ -9910,22 +9502,6 @@
           "sport": "Soccer",
           "match": "新潟vs富山 （14:00）",
           "match_en": "Niigata vs Toyama",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "千葉vs.福岡 (14:00)",
-          "match_en": "Chiba vs. Fukuoka",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -10190,30 +9766,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "町田vs.G大阪 (16:00)",
-          "match_en": "Machida vs. Gamba Osaka",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "U-21FC東京vs.U-21G大阪 (19:00)",
-          "match_en": "U-21FC Tokyo vs. U-21G Osaka",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -10427,14 +9979,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
           "sport": "Soccer",
@@ -10589,38 +10133,6 @@
           "sport": "Soccer",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "Manchester City vs Brighton & Hove Albion",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "長崎vs.東京V (14:00)",
-          "match_en": "Nagasaki vs Tokyo Verdy",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "町田vs.G大阪 (16:00)",
-          "match_en": "Machida vs. Gamba Osaka",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-02",
-          "display_date": "11月2日（月）",
-          "sport": "Soccer",
-          "match": "リヴァプールvs.アーセナル (01:30)",
-          "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
         },
         {
@@ -10914,30 +10426,6 @@
           "sport": "Soccer",
           "match": "マンチェスター・シティvs.ブライトン&ホーヴ・アルビオン (00:00)",
           "match_en": "Manchester City vs Brighton & Hove Albion",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "町田vs.G大阪 (16:00)",
-          "match_en": "Machida vs. Gamba Osaka",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-02",
-          "display_date": "11月2日（月）",
-          "sport": "Soccer",
-          "match": "(再)リヴァプールvs.アーセナル (19:00)",
-          "match_en": "Liverpool vs Arsenal",
           "broadcastStatus": "showing"
         },
         {
@@ -11239,38 +10727,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "長崎vs.東京V (14:00)",
-          "match_en": "Nagasaki vs Tokyo Verdy",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "町田vs.G大阪 (16:00)",
-          "match_en": "Machida vs. Gamba Osaka",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "U-21FC東京vs.U-21G大阪 (19:00)",
-          "match_en": "U-21FC Tokyo vs. U-21G Osaka",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -11468,14 +10924,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
           "sport": "Horse Racing",
@@ -11662,14 +11110,6 @@
           "sport": "Horse Racing",
           "match": "ファンタジーS （15:00）",
           "match_en": "Fantasy S",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -11878,22 +11318,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-02",
-          "display_date": "11月2日（月）",
-          "sport": "Soccer",
-          "match": "(再)リヴァプールvs.アーセナル (19:00)",
-          "match_en": "Liverpool vs Arsenal",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -12072,14 +11496,6 @@
           "sport": "Soccer",
           "match": "柏vs浦和 （16:00）",
           "match_en": "Kashiwa vs Urawa",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -12264,22 +11680,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "長崎vs.東京V (14:00)",
-          "match_en": "Nagasaki vs Tokyo Verdy",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -12445,22 +11845,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日(日)",
-          "sport": "Basketball",
-          "match": "千葉vs富山 （14:05）",
-          "match_en": "Chiba vs Toyama",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -12615,22 +11999,6 @@
           "sport": "Soccer",
           "match": "チェルシーvsマンチェスター・ユナイテッド （21:30）",
           "match_en": "Chelsea vs Manchester United",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "長崎vs.東京V (14:00)",
-          "match_en": "Nagasaki vs Tokyo Verdy",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -12820,14 +12188,6 @@
           "sport": "Horse Racing",
           "match": "ファンタジーS （15:00）",
           "match_en": "Fantasy S",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -13100,19 +12460,11 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
+          "date": "2026-11-03",
+          "display_date": "11月3日（火）",
           "sport": "Soccer",
-          "match": "町田vs.G大阪 (16:00)",
-          "match_en": "Machida vs. Gamba Osaka",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "U-21FC東京vs.U-21G大阪 (19:00)",
-          "match_en": "U-21FC Tokyo vs. U-21G Osaka",
+          "match": "横浜FCvs.秋田 (14:00)",
+          "match_en": "Yokohama FC vs. Akita",
           "broadcastStatus": "showing"
         },
         {
@@ -13286,14 +12638,6 @@
           "sport": "Soccer",
           "match": "磐田vs鳥栖 （14:00）",
           "match_en": "Iwata vs Tosu",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -13515,14 +12859,6 @@
           "sport": "Soccer",
           "match": "チェルシーvsマンチェスター・ユナイテッド （21:30）",
           "match_en": "Chelsea vs Manchester United",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -13984,22 +13320,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "町田vs.G大阪 (16:00)",
-          "match_en": "Machida vs. Gamba Osaka",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -14205,22 +13525,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "町田vs.G大阪 (16:00)",
-          "match_en": "Machida vs. Gamba Osaka",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -14410,14 +13714,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -14580,22 +13876,6 @@
           "sport": "Soccer",
           "match": "G大阪vsブリーラム （19:00）",
           "match_en": "Gamba Osaka vs Buriram",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "町田vs.G大阪 (16:00)",
-          "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
         },
         {
@@ -14913,27 +14193,19 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-03",
-          "display_date": "11月3日（火）",
-          "sport": "Soccer",
-          "match": "F大阪vs.熊本 (00:00)",
-          "match_en": "F Osaka vs. Kumamoto",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
           "match": "藤枝vs.磐田 (14:00)",
           "match_en": "Fujieda vs. Iwata",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-04",
+          "display_date": "11月4日（水）",
+          "sport": "Soccer",
+          "match": "F大阪vs.熊本 (14:00)",
+          "match_en": "F Osaka vs. Kumamoto",
           "broadcastStatus": "showing"
         },
         {
@@ -15099,14 +14371,6 @@
           "sport": "Soccer",
           "match": "水戸vs広島 （14:00）",
           "match_en": "Mito vs Hiroshima",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -15299,14 +14563,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -15469,22 +14725,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "千葉vs.福岡 (14:00)",
-          "match_en": "Chiba vs. Fukuoka",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -15578,14 +14818,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "千葉vs.福岡 (14:00)",
-          "match_en": "Chiba vs. Fukuoka",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
           "sport": "Soccer",
@@ -15652,14 +14884,6 @@
           "sport": "Soccer",
           "match": "京都vs清水 （14:00）",
           "match_en": "Kyoto vs Shimizu",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -15854,14 +15078,6 @@
           "sport": "Baseball",
           "match": "ソフトバンクvsDeNA （18:00）",
           "match_en": "SoftBank vs DeNA",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -16227,30 +15443,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "長崎vs.東京V (14:00)",
-          "match_en": "Nagasaki vs Tokyo Verdy",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "町田vs.G大阪 (16:00)",
-          "match_en": "Machida vs. Gamba Osaka",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-02",
-          "display_date": "11月2日（月）",
-          "sport": "Soccer",
-          "match": "リヴァプールvs.アーセナル (01:30)",
-          "match_en": "Liverpool vs Arsenal",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
           "sport": "Rugby",
@@ -16389,14 +15581,6 @@
           "sport": "Soccer",
           "match": "神戸vs名古屋 （15:00）",
           "match_en": "Kobe vs Nagoya",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -16706,14 +15890,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -16927,14 +16103,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -17097,14 +16265,6 @@
           "sport": "Soccer",
           "match": "チェルシーvsマンチェスター・ユナイテッド （21:30）",
           "match_en": "Chelsea vs Manchester United",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Soccer",
-          "match": "町田vs.G大阪 (16:00)",
-          "match_en": "Machida vs. Gamba Osaka",
           "broadcastStatus": "showing"
         },
         {
@@ -17334,14 +16494,6 @@
           "broadcastStatus": "showing"
         },
         {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
-          "broadcastStatus": "showing"
-        },
-        {
           "date": "2026-11-03",
           "display_date": "11月3日（火）",
           "sport": "Soccer",
@@ -17520,14 +16672,6 @@
           "sport": "Soccer",
           "match": "ハル・シティvs.イプスウィッチ・タウン (00:00)",
           "match_en": "Hull City vs. Ipswich Town",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
@@ -17717,14 +16861,6 @@
           "sport": "Soccer",
           "match": "札幌vs湘南 （13:00）",
           "match_en": "Sapporo vs Shonan",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-01",
-          "display_date": "11月1日（日）",
-          "sport": "Horse Racing",
-          "match": "天皇賞(秋) (15:00)",
-          "match_en": "Emperor's Prize",
           "broadcastStatus": "showing"
         },
         {
