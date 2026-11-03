@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T01:33:56.242Z",
+  "updatedAt": "2026-11-03T04:11:00.355Z",
   "data": [
     {
       "id": "5506",
@@ -6580,6 +6580,14 @@
         {
           "date": "2026-11-11",
           "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "横浜FMvs鹿島 （19:00）",
+          "match_en": "Yokohama FM vs Kashima",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
           "sport": "Basketball",
           "match": "広島vs仙台 （19:05）",
           "match_en": "Hiroshima vs Sendai",
@@ -6607,6 +6615,14 @@
           "sport": "Soccer",
           "match": "日本vs.ブラジル (19:15)",
           "match_en": "Japan vs Brazil",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "鹿島vs横浜FM （15:00）",
+          "match_en": "Kashima vs Yokohama FM",
           "broadcastStatus": "showing"
         },
         {
@@ -7565,6 +7581,14 @@
           "sport": "Soccer",
           "match": "柏vs.大田 (19:00)",
           "match_en": "Kashiwa vs. Ota",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-03",
+          "display_date": "11月3日（火）",
+          "sport": "Soccer",
+          "match": "コンアン・ハノイFCvs.京都 (21:15)",
+          "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
         },
         {
@@ -13081,22 +13105,6 @@
           "sport": "Soccer",
           "match": "U-21FC東京vs.U-21G大阪 (19:00)",
           "match_en": "U-21FC Tokyo vs. U-21G Osaka",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-03",
-          "display_date": "11月3日（火）",
-          "sport": "Soccer",
-          "match": "柏vs.大田 (19:00)",
-          "match_en": "Kashiwa vs. Ota",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-03",
-          "display_date": "11月3日（火）",
-          "sport": "Soccer",
-          "match": "コンアン・ハノイFCvs.京都 (21:15)",
-          "match_en": "Cong An Hanoi FC vs. Kyoto",
           "broadcastStatus": "showing"
         },
         {
