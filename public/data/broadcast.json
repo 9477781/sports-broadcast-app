@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T23:45:02.693Z",
+  "updatedAt": "2026-11-06T01:56:26.973Z",
   "data": [
     {
       "id": "5506",
@@ -1540,6 +1540,78 @@
           "sport": "Baseball",
           "match": "決勝戦※日本出場時のみ放送 (19:00)",
           "match_en": "Final match *Broadcast only when Japan is competing",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-06",
+          "display_date": "11月6日（金）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-07",
+          "display_date": "11月7日（土）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日（日）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-09",
+          "display_date": "11月9日（月）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-10",
+          "display_date": "11月10日（火）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日（水）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-13",
+          "display_date": "11月13日（金）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
           "broadcastStatus": "showing"
         }
       ]
@@ -17108,6 +17180,78 @@
           "sport": "Horse Racing",
           "match": "エリザベス女王杯 (15:00)",
           "match_en": "Queen Elizabeth II Cup",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-06",
+          "display_date": "11月6日（金）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-07",
+          "display_date": "11月7日（土）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日（日）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-09",
+          "display_date": "11月9日（月）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-10",
+          "display_date": "11月10日（火）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日（水）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-13",
+          "display_date": "11月13日（金）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
           "broadcastStatus": "showing"
         }
       ]
