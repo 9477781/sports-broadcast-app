@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T23:44:39.864Z",
+  "updatedAt": "2026-11-10T23:44:38.410Z",
   "data": [
     {
       "id": "5506",
@@ -1262,6 +1262,14 @@
           "match": "エリザベス女王杯 (15:00)",
           "match_en": "Queen Elizabeth II Cup",
           "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-17",
+          "display_date": "11月17日（火）",
+          "sport": "Soccer",
+          "match": "日本 vs. パラグアイ(22:10)",
+          "match_en": "Japan vs Paraguay",
+          "broadcastStatus": "showing"
         }
       ]
     },
@@ -1999,6 +2007,14 @@
           "match": "町田vs神戸 （14:00）",
           "match_en": "Machida vs Kobe",
           "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-17",
+          "display_date": "11月17日（火）",
+          "sport": "Soccer",
+          "match": "日本 vs. パラグアイ(22:10)",
+          "match_en": "Japan vs Paraguay",
+          "broadcastStatus": "showing"
         }
       ]
     },
@@ -2349,6 +2365,14 @@
           "sport": "Baseball",
           "match": "日本vs.韓国 (19:00)",
           "match_en": "Japan vs. Korea",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Soccer",
+          "match": "日本vs.ブラジル (19:15)",
+          "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
         },
         {
@@ -2820,6 +2844,14 @@
           "sport": "Baseball",
           "match": "決勝戦※日本出場時のみ放送 (19:00)",
           "match_en": "Final match *Broadcast only when Japan is competing",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-17",
+          "display_date": "11月17日（火）",
+          "sport": "Soccer",
+          "match": "日本 vs. パラグアイ(22:10)",
+          "match_en": "Japan vs Paraguay",
           "broadcastStatus": "showing"
         }
       ]
@@ -9864,6 +9896,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-13",
+          "display_date": "11月13日（金）",
+          "sport": "Baseball",
+          "match": "日本vs.韓国 (19:00)",
+          "match_en": "Japan vs. Korea",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
           "sport": "Soccer",
@@ -10633,6 +10673,22 @@
           "sport": "Soccer",
           "match": "町田vs神戸 （14:00）",
           "match_en": "Machida vs Kobe",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Baseball",
+          "match": "決勝戦※日本出場時のみ放送 (19:00)",
+          "match_en": "Final match *Broadcast only when Japan is competing",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-17",
+          "display_date": "11月17日（火）",
+          "sport": "Soccer",
+          "match": "日本 vs. パラグアイ(22:10)",
+          "match_en": "Japan vs Paraguay",
           "broadcastStatus": "showing"
         }
       ]
@@ -13271,6 +13327,14 @@
         {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
+          "sport": "Baseball",
+          "match": "日本vs.オーストラリア (12:00)",
+          "match_en": "Japan vs Australia",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
           "sport": "Horse Racing",
           "match": "デイリー杯2歳S (15:00)",
           "match_en": "Daily Hai 2-Year-Old Stakes",
@@ -13306,6 +13370,14 @@
           "sport": "Horse Racing",
           "match": "エリザベス女王杯 (15:00)",
           "match_en": "Queen Elizabeth II Cup",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-17",
+          "display_date": "11月17日（火）",
+          "sport": "Soccer",
+          "match": "日本 vs. パラグアイ(22:10)",
+          "match_en": "Japan vs Paraguay",
           "broadcastStatus": "showing"
         }
       ]
@@ -13463,6 +13535,14 @@
           "sport": "Baseball",
           "match": "決勝戦※日本出場時のみ放送 (19:00)",
           "match_en": "Final match *Broadcast only when Japan is competing",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-17",
+          "display_date": "11月17日（火）",
+          "sport": "Soccer",
+          "match": "日本 vs. パラグアイ(22:10)",
+          "match_en": "Japan vs Paraguay",
           "broadcastStatus": "showing"
         }
       ]
@@ -15061,6 +15141,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "横浜FMvs鹿島 （19:00）",
+          "match_en": "Yokohama FM vs Kashima",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
           "sport": "Baseball",
@@ -15086,10 +15174,26 @@
         },
         {
           "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "鹿島vs横浜FM （15:00）",
+          "match_en": "Kashima vs Yokohama FM",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
           "display_date": "11月15日（日）",
           "sport": "Baseball",
           "match": "決勝戦※日本出場時のみ放送 (19:00)",
           "match_en": "Final match *Broadcast only when Japan is competing",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-17",
+          "display_date": "11月17日（火）",
+          "sport": "Soccer",
+          "match": "日本 vs. パラグアイ(22:10)",
+          "match_en": "Japan vs Paraguay",
           "broadcastStatus": "showing"
         }
       ]
@@ -16375,6 +16479,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-07",
+          "display_date": "11月7日(土)",
+          "sport": "Soccer",
+          "match": "リーズ・ユナイテッドvsトッテナム・ホットスパー （21:30）",
+          "match_en": "Leeds United vs Tottenham Hotspur",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
           "sport": "Soccer",
@@ -16388,6 +16500,14 @@
           "sport": "Horse Racing",
           "match": "アルゼンチン共和国杯 (15:00)",
           "match_en": "Argentine Republic Cup",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "浦和vsC大阪 （19:30）",
+          "match_en": "Urawa vs Cerezo Osaka",
           "broadcastStatus": "showing"
         },
         {
@@ -16417,9 +16537,41 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
+          "sport": "Baseball",
+          "match": "3位決定戦※日本出場時のみ放送 (11:00)",
+          "match_en": "Third-place match (broadcast only when Japan is competing)",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
           "sport": "Horse Racing",
           "match": "エリザベス女王杯 (15:00)",
           "match_en": "Queen Elizabeth II Cup",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "C大阪vs浦和 （15:00）",
+          "match_en": "C Osaka vs Urawa",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Baseball",
+          "match": "決勝戦※日本出場時のみ放送 (19:00)",
+          "match_en": "Final match *Broadcast only when Japan is competing",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-17",
+          "display_date": "11月17日（火）",
+          "sport": "Soccer",
+          "match": "日本 vs. パラグアイ(22:10)",
+          "match_en": "Japan vs Paraguay",
           "broadcastStatus": "showing"
         }
       ]
@@ -17320,6 +17472,14 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-15",
+          "display_date": "11月15日(日)",
+          "sport": "Soccer",
+          "match": "柏vs川崎 （17:00）",
+          "match_en": "Kashiwa vs Kawasaki",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-17",
           "display_date": "11月17日（火）",
           "sport": "Soccer",
@@ -17695,6 +17855,14 @@
           "sport": "Baseball",
           "match": "決勝戦※日本出場時のみ放送 (19:00)",
           "match_en": "Final match *Broadcast only when Japan is competing",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-17",
+          "display_date": "11月17日（火）",
+          "sport": "Soccer",
+          "match": "日本 vs. パラグアイ(22:10)",
+          "match_en": "Japan vs Paraguay",
           "broadcastStatus": "showing"
         }
       ]
