@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T23:44:38.410Z",
+  "updatedAt": "2026-11-11T00:58:42.520Z",
   "data": [
     {
       "id": "5506",
@@ -8759,6 +8759,14 @@
           "sport": "Baseball",
           "match": "決勝戦※日本出場時のみ放送 (19:00)",
           "match_en": "Final match *Broadcast only when Japan is competing",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-18",
+          "display_date": "11月18日（水）",
+          "sport": "Soccer",
+          "match": "ジェフＬ vs. 長野",
+          "match_en": "JEF United Ladies vs. Nagano",
           "broadcastStatus": "showing"
         }
       ]
