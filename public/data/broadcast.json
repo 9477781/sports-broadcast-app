@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T00:58:42.520Z",
+  "updatedAt": "2026-11-11T01:23:47.759Z",
   "data": [
     {
       "id": "5506",
@@ -1527,6 +1527,22 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-06",
+          "display_date": "11月6日（金）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-07",
+          "display_date": "11月7日（土）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
           "sport": "Soccer",
@@ -1553,6 +1569,14 @@
         {
           "date": "2026-11-08",
           "display_date": "11月8日（日）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日（日）",
           "sport": "Soccer",
           "match": "神戸vs.浦和 (14:00)",
           "match_en": "Kobe vs Urawa",
@@ -1572,78 +1596,6 @@
           "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-13",
-          "display_date": "11月13日（金）",
-          "sport": "Baseball",
-          "match": "日本vs.韓国 (19:00)",
-          "match_en": "Japan vs. Korea",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-14",
-          "display_date": "11月14日（土）",
-          "sport": "Baseball",
-          "match": "日本vs.オーストラリア (12:00)",
-          "match_en": "Japan vs Australia",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-14",
-          "display_date": "11月14日（土）",
-          "sport": "Baseball",
-          "match": "東京六大学選抜 vs ヤクルト(13:00)",
-          "match_en": "Tokyo Big Six University All-Stars vs. Yakult Swallows",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-14",
-          "display_date": "11月14日（土）",
-          "sport": "Soccer",
-          "match": "日本vs.ブラジル (19:15)",
-          "match_en": "Japan vs Brazil",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-15",
-          "display_date": "11月15日（日）",
-          "sport": "Horse Racing",
-          "match": "エリザベス女王杯 (15:00)",
-          "match_en": "Queen Elizabeth II Cup",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-15",
-          "display_date": "11月15日（日）",
-          "sport": "Baseball",
-          "match": "決勝戦※日本出場時のみ放送 (19:00)",
-          "match_en": "Final match *Broadcast only when Japan is competing",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-06",
-          "display_date": "11月6日（金）",
-          "sport": "Sports Event",
-          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
-          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-07",
-          "display_date": "11月7日（土）",
-          "sport": "Sports Event",
-          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
-          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-08",
-          "display_date": "11月8日（日）",
-          "sport": "Sports Event",
-          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
-          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
           "broadcastStatus": "showing"
         },
         {
@@ -1679,6 +1631,22 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-13",
+          "display_date": "11月13日（金）",
+          "sport": "Baseball",
+          "match": "日本vs.韓国 (19:00)",
+          "match_en": "Japan vs. Korea",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Baseball",
+          "match": "日本vs.オーストラリア (12:00)",
+          "match_en": "Japan vs Australia",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
           "sport": "Sports Event",
@@ -1687,11 +1655,43 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Baseball",
+          "match": "東京六大学選抜 vs ヤクルト(13:00)",
+          "match_en": "Tokyo Big Six University All-Stars vs. Yakult Swallows",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Soccer",
+          "match": "日本vs.ブラジル (19:15)",
+          "match_en": "Japan vs Brazil",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
           "sport": "Sports Event",
           "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
           "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Horse Racing",
+          "match": "エリザベス女王杯 (15:00)",
+          "match_en": "Queen Elizabeth II Cup",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Baseball",
+          "match": "決勝戦※日本出場時のみ放送 (19:00)",
+          "match_en": "Final match *Broadcast only when Japan is competing",
           "broadcastStatus": "showing"
         }
       ]
@@ -17967,11 +17967,35 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-06",
+          "display_date": "11月6日（金）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-07",
+          "display_date": "11月7日（土）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-07",
           "display_date": "11月7日（土）",
           "sport": "Horse Racing",
           "match": "京王杯2歳S (15:00)",
           "match_en": "Keio Hai 2-year-old Stakes",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-08",
+          "display_date": "11月8日（日）",
+          "sport": "Sports Event",
+          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
+          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
           "broadcastStatus": "showing"
         },
         {
@@ -17996,70 +18020,6 @@
           "sport": "Soccer",
           "match": "千葉vs.水戸 (17:00)",
           "match_en": "Chiba vs Mito",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-13",
-          "display_date": "11月13日（金）",
-          "sport": "Baseball",
-          "match": "日本vs.韓国 (19:00)",
-          "match_en": "Japan vs. Korea",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-14",
-          "display_date": "11月14日（土）",
-          "sport": "Baseball",
-          "match": "日本vs.オーストラリア (12:00)",
-          "match_en": "Japan vs Australia",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-14",
-          "display_date": "11月14日（土）",
-          "sport": "Horse Racing",
-          "match": "デイリー杯2歳S (15:00)",
-          "match_en": "Daily Hai 2-Year-Old Stakes",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-14",
-          "display_date": "11月14日（土）",
-          "sport": "Soccer",
-          "match": "日本vs.ブラジル (19:15)",
-          "match_en": "Japan vs Brazil",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-15",
-          "display_date": "11月15日（日）",
-          "sport": "Horse Racing",
-          "match": "エリザベス女王杯 (15:00)",
-          "match_en": "Queen Elizabeth II Cup",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-06",
-          "display_date": "11月6日（金）",
-          "sport": "Sports Event",
-          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
-          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-07",
-          "display_date": "11月7日（土）",
-          "sport": "Sports Event",
-          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
-          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-08",
-          "display_date": "11月8日（日）",
-          "sport": "Sports Event",
-          "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
-          "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
           "broadcastStatus": "showing"
         },
         {
@@ -18095,6 +18055,22 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-13",
+          "display_date": "11月13日（金）",
+          "sport": "Baseball",
+          "match": "日本vs.韓国 (19:00)",
+          "match_en": "Japan vs. Korea",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Baseball",
+          "match": "日本vs.オーストラリア (12:00)",
+          "match_en": "Japan vs Australia",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-14",
           "display_date": "11月14日（土）",
           "sport": "Sports Event",
@@ -18103,11 +18079,35 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Horse Racing",
+          "match": "デイリー杯2歳S (15:00)",
+          "match_en": "Daily Hai 2-Year-Old Stakes",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Soccer",
+          "match": "日本vs.ブラジル (19:15)",
+          "match_en": "Japan vs Brazil",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
           "sport": "Sports Event",
           "match": "RAINBOW 6 SIEGE  OSAKA MAJOR (12:00)",
           "match_en": "RAINBOW 6 SIEGE OSAKA MAJOR",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Horse Racing",
+          "match": "エリザベス女王杯 (15:00)",
+          "match_en": "Queen Elizabeth II Cup",
           "broadcastStatus": "showing"
         }
       ]
