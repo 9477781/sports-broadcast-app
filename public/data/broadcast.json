@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T09:29:42.598Z",
+  "updatedAt": "2026-11-11T09:39:04.464Z",
   "data": [
     {
       "id": "5506",
@@ -10617,6 +10617,14 @@
           "sport": "Soccer",
           "match": "神戸vs町田 （19:00）",
           "match_en": "Kobe vs Machida",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-11",
+          "display_date": "11月11日(水)",
+          "sport": "Soccer",
+          "match": "浦和vsC大阪 （19:30）",
+          "match_en": "Urawa vs Cerezo Osaka",
           "broadcastStatus": "showing"
         },
         {
