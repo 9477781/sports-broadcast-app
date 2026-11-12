@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T23:44:52.163Z",
+  "updatedAt": "2026-11-12T23:44:39.198Z",
   "data": [
     {
       "id": "5506",
@@ -1175,6 +1175,14 @@
           "sport": "Baseball",
           "match": "日本vs.韓国 (19:00)",
           "match_en": "Japan vs. Korea",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Soccer",
+          "match": "福島vs.相模原 (14:00)",
+          "match_en": "Fukushima vs. Sagamihara",
           "broadcastStatus": "showing"
         },
         {
@@ -2939,14 +2947,6 @@
           "match": "決勝戦※日本出場時のみ放送 (19:00)",
           "match_en": "Final match *Broadcast only when Japan is competing",
           "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-17",
-          "display_date": "11月17日（火）",
-          "sport": "Soccer",
-          "match": "日本 vs. パラグアイ(22:10)",
-          "match_en": "Japan vs Paraguay",
-          "broadcastStatus": "showing"
         }
       ]
     },
@@ -4485,6 +4485,14 @@
           "sport": "Baseball",
           "match": "日本vs.韓国 (19:00)",
           "match_en": "Japan vs. Korea",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Baseball",
+          "match": "日本vs.オーストラリア (12:00)",
+          "match_en": "Japan vs Australia",
           "broadcastStatus": "showing"
         },
         {
@@ -7668,6 +7676,14 @@
         },
         {
           "date": "2026-11-15",
+          "display_date": "11月15日（日）",
+          "sport": "Horse Racing",
+          "match": "エリザベス女王杯 (15:00)",
+          "match_en": "Queen Elizabeth II Cup",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-15",
           "display_date": "11月15日(日)",
           "sport": "Soccer",
           "match": "鹿島vs横浜FM （15:00）",
@@ -7975,14 +7991,6 @@
         {
           "date": "2026-11-15",
           "display_date": "11月15日（日）",
-          "sport": "Soccer",
-          "match": "仙台vs.秋田 (13:00)",
-          "match_en": "Sendai vs. Akita",
-          "broadcastStatus": "showing"
-        },
-        {
-          "date": "2026-11-15",
-          "display_date": "11月15日（日）",
           "sport": "Horse Racing",
           "match": "エリザベス女王杯 (15:00)",
           "match_en": "Queen Elizabeth II Cup",
@@ -7994,6 +8002,14 @@
           "sport": "Soccer",
           "match": "鹿島vs横浜FM （15:00）",
           "match_en": "Kashima vs Yokohama FM",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-17",
+          "display_date": "11月17日（火）",
+          "sport": "Soccer",
+          "match": "日本 vs. パラグアイ(22:10)",
+          "match_en": "Japan vs Paraguay",
           "broadcastStatus": "showing"
         }
       ]
@@ -11124,6 +11140,14 @@
           "match": "決勝戦※日本出場時のみ放送 (19:00)",
           "match_en": "Final match *Broadcast only when Japan is competing",
           "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-17",
+          "display_date": "11月17日（火）",
+          "sport": "Soccer",
+          "match": "日本 vs. パラグアイ(22:10)",
+          "match_en": "Japan vs Paraguay",
+          "broadcastStatus": "showing"
         }
       ]
     },
@@ -13937,6 +13961,14 @@
           "sport": "Soccer",
           "match": "チェルシーvsマンチェスター・ユナイテッド （21:30）",
           "match_en": "Chelsea vs Manchester United",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-13",
+          "display_date": "11月13日（金）",
+          "sport": "Baseball",
+          "match": "日本vs.韓国 (19:00)",
+          "match_en": "Japan vs. Korea",
           "broadcastStatus": "showing"
         },
         {
