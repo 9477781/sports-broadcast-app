@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T11:16:40.492Z",
+  "updatedAt": "2026-11-13T11:45:33.609Z",
   "data": [
     {
       "id": "5506",
@@ -10410,6 +10410,14 @@
           "sport": "Basketball",
           "match": "三河vs富山 （15:05）",
           "match_en": "Mikawa vs Toyama",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-14",
+          "display_date": "11月14日（土）",
+          "sport": "Soccer",
+          "match": "日本vs.ブラジル (19:15)",
+          "match_en": "Japan vs Brazil",
           "broadcastStatus": "showing"
         },
         {
