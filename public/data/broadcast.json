@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T23:44:38.263Z",
+  "updatedAt": "2026-11-16T23:44:40.497Z",
   "data": [
     {
       "id": "5506",
@@ -2165,11 +2165,27 @@
           "broadcastStatus": "showing"
         },
         {
+          "date": "2026-11-16",
+          "display_date": "11月16日(月)",
+          "sport": "Basketball",
+          "match": "琉球vs富山 （19:35）",
+          "match_en": "Ryukyu vs Toyama",
+          "broadcastStatus": "showing"
+        },
+        {
           "date": "2026-11-17",
           "display_date": "11月17日（火）",
           "sport": "Soccer",
           "match": "日本 vs. パラグアイ(22:10)",
           "match_en": "Japan vs Paraguay",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-18",
+          "display_date": "11月18日(水)",
+          "sport": "Basketball",
+          "match": "名古屋DDvs琉球 （19:05）",
+          "match_en": "Nagoya DD vs Ryukyu",
           "broadcastStatus": "showing"
         }
       ]
@@ -2760,6 +2776,14 @@
           "sport": "Soccer",
           "match": "鹿島vs横浜FM （15:00）",
           "match_en": "Kashima vs Yokohama FM",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-17",
+          "display_date": "11月17日（火）",
+          "sport": "Soccer",
+          "match": "日本 vs. パラグアイ(22:10)",
+          "match_en": "Japan vs Paraguay",
           "broadcastStatus": "showing"
         }
       ]
@@ -10397,6 +10421,14 @@
           "sport": "Soccer",
           "match": "鹿島vs横浜FM （15:00）",
           "match_en": "Kashima vs Yokohama FM",
+          "broadcastStatus": "showing"
+        },
+        {
+          "date": "2026-11-17",
+          "display_date": "11月17日（火）",
+          "sport": "Soccer",
+          "match": "日本 vs. パラグアイ(22:10)",
+          "match_en": "Japan vs Paraguay",
           "broadcastStatus": "showing"
         }
       ]
